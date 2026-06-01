@@ -53,6 +53,8 @@ model Outfit {
   savesCount           Int      @default(0)
   trendVelocity        Float    @default(0.0)
   engagementScore      Float    @default(0.0)
+  budgetTier           String   @default("mid-range") // budget | mid-range | premium | luxury
+  gender               String   @default("unisex")    // male | female | unisex
   createdAt            DateTime @default(now())
 }
 

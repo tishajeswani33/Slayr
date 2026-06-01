@@ -9,6 +9,7 @@ import outfitsRouter from './routes/outfits.js';
 import feedRouter from './routes/feed.js';
 import trendsRouter from './routes/trends.js';
 import moodboardsRouter from './routes/moodboards.js';
+import stylistRouter from './routes/stylist.js';
 
 const app = express();
 
@@ -38,6 +39,7 @@ app.use('/api/outfits', outfitsRouter);
 app.use('/api/feed', feedRouter);
 app.use('/api/trends', trendsRouter);
 app.use('/api/moodboards', moodboardsRouter);
+app.use('/api/stylist', stylistRouter);
 
 app.get('/health', (_req, res) => {
   res.status(200).json({

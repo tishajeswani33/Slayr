@@ -35,5 +35,8 @@
     "rimraf": "^5.0.7",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.5"
+  },
+  "prisma": {
+    "seed": "node --loader ts-node/esm prisma/seed.ts"
   }
 }
