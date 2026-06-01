@@ -1,0 +1,99 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id                String       @id
+  email             String       @unique
+  username          String       @unique
+  displayName       String
+  bio               String?
+  avatarUrl         String?
+  dominantAesthetic String?
+  followersCount    Int          @default(0)
+  followingCount    Int          @default(0)
+  savedCount        Int          @default(0)
+  joinedAt          DateTime     @default(now())
+  stylePreferences  StyleDNA?
+  outfits           Outfit[]
+  moodboards        Moodboard[]
+}
+
+model StyleDNA {
+  id                      String   @id @default(uuid())
+  userId                  String   @unique
+  user                    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  radarDimensions         Json     // Array of { dimension: string, value: number }
+  aestheticPercentages    Json     // Array of { aesthetic: string, percentage: number }
+  colorAffinities         Json     // Array of { color: string, affinity: number }
+  fashionPersonalityScore Int      @default(50)
+  trendCompatibility      Int      @default(50)
+  updatedAt               DateTime @updatedAt
+}
+
+model Outfit {
+  id                   String   @id @default(uuid())
+  userId               String
+  user                 User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  imageUrl             String
+  score                Int
+  aesthetic            String
+  vibe                 String
+  clothingItems        Json     // Array of { type: string, color: string, description: string }
+  colorPalette         Json     // Array of { hex: string, name: string, dominance: number }
+  recommendations      Json     // Array of { category: string, suggestion: string, reasoning: string }
+  suggestedAccessories String[]
+  fashionTags          String[]
+  likesCount           Int      @default(0)
+  savesCount           Int      @default(0)
+  trendVelocity        Float    @default(0.0)
+  engagementScore      Float    @default(0.0)
+  createdAt            DateTime @default(now())
+}
+
+model Moodboard {
+  id                String   @id @default(uuid())
+  userId            String
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title             String
+  imageUrl          String
+  aesthetic         String
+  vibe              String
+  colorPalette      String[]
+  tags              String[]
+  savedCount        Int      @default(0)
+  relatedAesthetics String[]
+  createdAt         DateTime @default(now())
+}
+
+model TrendSignal {
+  id              String   @id @default(uuid())
+  aesthetic       String   @unique
+  currentVelocity Float
+  weeklyGrowth    Float
+  monthlyGrowth   Float
+  status          String   // emerging | trending | peak | declining
+  viralScore      Float
+  engagementAvg   Float
+  saveRateAvg     Float
+  trendingColors  String[]
+  relatedStyles   String[]
+  updatedAt       DateTime @updatedAt
+}
+
+model Creator {
+  id          String  @id @default(uuid())
+  name        String
+  username    String  @unique
+  avatarUrl   String
+  aesthetic   String
+  followers   Int     @default(0)
+  outfitCount Int     @default(0)
+  vibeScore   Float   @default(0.0)
+  isVerified  Boolean @default(false)
+}
