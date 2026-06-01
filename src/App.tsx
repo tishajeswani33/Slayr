@@ -28,9 +28,11 @@ export default function App() {
   const { isAnalyzing, error, clearAnalysis } = useOutfitStore();
   const { isAuthenticated, login } = useAuthStore();
 
-  const handleLogin = (data: LoginFormData) => {
-    login(data.email, 'User'); // In production, get from Firebase
-    setCurrentScreen('feed');
+  const handleLogin = async (data: LoginFormData) => {
+    const success = await login(data.email, data.password);
+    if (success) {
+      setCurrentScreen('feed');
+    }
   };
 
   const handleAnalysisComplete = () => {

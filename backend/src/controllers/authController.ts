@@ -5,6 +5,7 @@ import { AuthenticatedRequest } from '../middleware/authMiddleware.js';
 import { AppError } from '../middleware/errorHandler.js';
 import { loginSchema, signupSchema, profileSchema } from '../validation/authSchemas.js';
 import { recalculateStyleDNA } from '../services/recommendationService.js';
+import { verifyFirebaseIdToken } from '../services/firebaseService.js';
 
 const jwtSecret = process.env.JWT_SECRET || 'slayr-secret-jwt-key-2026';
 
@@ -199,6 +200,83 @@ export async function getStyleDNA(req: AuthenticatedRequest, res: Response, next
     res.status(200).json({
       status: 'success',
       data: { dna },
+    });
+  } catch (error) {
+    next(error);
+  }
+}
+
+export async function firebaseLogin(req: AuthenticatedRequest, res: Response, next: NextFunction) {
+  try {
+    const { token } = req.body;
+    if (!token) {
+      return next(new AppError('Firebase ID token is required', 400));
+    }
+
+    const firebaseProjectId = process.env.FIREBASE_PROJECT_ID || 'slayr-demo';
+    
+    // 1. Verify the ID token using our public certificate service
+    const firebaseUser = await verifyFirebaseIdToken(token, firebaseProjectId);
+
+    // 2. Fetch or create the user in our PostgreSQL database
+    let user = await prisma.user.findUnique({
+      where: { id: firebaseUser.uid },
+    });
+
+    if (!user && firebaseUser.email) {
+      // Fallback search to check if a mock user or old email already exists, then link them
+      user = await prisma.user.findUnique({
+        where: { email: firebaseUser.email },
+      });
+
+      if (user) {
+        user = await prisma.user.update({
+          where: { email: firebaseUser.email },
+          data: { id: firebaseUser.uid },
+        });
+      }
+    }
+
+    if (!user) {
+      // Create user on-the-fly
+      const email = firebaseUser.email || `${firebaseUser.uid}@slayr.app`;
+      const baseUsername = email.split('@')[0].replace(/[^a-zA-Z0-9]/g, '');
+      const username = `${baseUsername}${Math.floor(100 + Math.random() * 900)}`;
+      const displayName = firebaseUser.name || baseUsername.charAt(0).toUpperCase() + baseUsername.slice(1);
+
+      user = await prisma.user.create({
+        data: {
+          id: firebaseUser.uid,
+          email,
+          username,
+          displayName,
+          avatarUrl: firebaseUser.picture || null,
+          dominantAesthetic: 'Minimal Luxury',
+        },
+      });
+
+      // Create default StyleDNA
+      await prisma.styleDNA.create({
+        data: {
+          userId: user.id,
+          radarDimensions: [
+            { dimension: 'Minimal', value: 70 },
+            { dimension: 'Bold', value: 50 },
+            { dimension: 'Classic', value: 65 },
+            { dimension: 'Trendy', value: 60 },
+            { dimension: 'Edgy', value: 40 },
+            { dimension: 'Romantic', value: 55 },
+          ],
+          aestheticPercentages: [{ aesthetic: 'Minimal Luxury', percentage: 100 }],
+          colorAffinities: [{ color: '#000000', affinity: 8 }, { color: '#FFFFFF', affinity: 7 }],
+        },
+      });
+    }
+
+    res.status(200).json({
+      status: 'success',
+      token,
+      data: { user },
     });
   } catch (error) {
     next(error);

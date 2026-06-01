@@ -27,7 +27,7 @@ export default function SavedCollectionsScreen({
     try {
       const promises = savedMoodboards.map((id) => getMoodboardById(id));
       const results = await Promise.all(promises);
-      setMoodboards(results.filter((m) => m !== null) as Moodboard[]);
+      setMoodboards(results.filter((m: Moodboard | null): m is Moodboard => m !== null));
     } catch (error) {
       console.error('Error loading saved moodboards:', error);
     } finally {

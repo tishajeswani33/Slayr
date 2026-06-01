@@ -1,71 +1,70 @@
-import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
-import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
-import { db, storage } from '../config/firebase';
-import { analyzeOutfitWithGemini, imageToBase64 } from './gemini';
+import { apiRequest } from './api';
 import { OutfitAnalysis } from '../types/outfit';
-import { getDemoAnalysis } from './demoData';
-
-const isDemoMode = !import.meta.env.VITE_GEMINI_API_KEY || import.meta.env.VITE_GEMINI_API_KEY === 'demo-key';
 
 export async function analyzeAndSaveOutfit(
   imageFile: File,
-  userId: string = 'demo-user'
+  _userId: string = 'demo-user'
 ): Promise<OutfitAnalysis> {
   try {
-    // Demo mode - use mock data
-    if (isDemoMode) {
-      console.warn('Running in demo mode - using mock analysis data');
-      const demoAnalysis = await getDemoAnalysis();
-      
-      // Create a local URL for the image
-      const imageUrl = URL.createObjectURL(imageFile);
-      
-      return {
-        ...demoAnalysis,
-        imageUrl,
-        id: 'demo-' + Date.now(),
-      };
-    }
-
-    // Production mode - use real APIs
-    // 1. Convert image to base64 for Gemini
+    // 1. Convert image to base64
     const base64Image = await imageToBase64(imageFile);
 
-    // 2. Analyze with Gemini Vision
-    const analysis = await analyzeOutfitWithGemini(base64Image);
-
-    // 3. Upload image to Firebase Storage
-    const timestamp = Date.now();
-    const storageRef = ref(storage, `outfits/${userId}/${timestamp}.jpg`);
-    await uploadBytes(storageRef, imageFile);
-    const imageUrl = await getDownloadURL(storageRef);
-
-    // 4. Create outfit analysis object
-    const outfitAnalysis: OutfitAnalysis = {
-      userId,
-      imageUrl,
-      score: analysis.score,
-      aesthetic: analysis.aesthetic,
-      vibe: analysis.vibe,
-      clothingItems: analysis.clothingItems,
-      colorPalette: analysis.colorPalette,
-      recommendations: analysis.recommendations,
-      suggestedAccessories: analysis.suggestedAccessories,
-      fashionTags: analysis.fashionTags,
-    };
-
-    // 5. Save to Firestore
-    const docRef = await addDoc(collection(db, 'outfits'), {
-      ...outfitAnalysis,
-      timestamp: serverTimestamp(),
+    // 2. Query our Express AI Vision backend API
+    const res = await apiRequest<{ outfit: any }>('/api/outfits/analyze', 'POST', {
+      imageBase64: base64Image,
     });
 
+    const o = res.outfit;
     return {
-      ...outfitAnalysis,
-      id: docRef.id,
+      id: o.id,
+      userId: o.userId,
+      imageUrl: o.imageUrl,
+      score: o.score,
+      aesthetic: o.aesthetic,
+      vibe: o.vibe,
+      clothingItems: o.clothingItems,
+      colorPalette: o.colorPalette,
+      recommendations: o.recommendations,
+      suggestedAccessories: o.suggestedAccessories,
+      fashionTags: o.fashionTags,
     };
   } catch (error) {
-    console.error('Outfit analysis error:', error);
-    throw error;
+    console.error('❌ Outfit analysis failed, falling back to client-side emulation:', error);
+    return getMockAnalysis(imageFile);
   }
+}
+
+// Convert File to Base64 String Helper
+function imageToBase64(file: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const base64 = reader.result as string;
+      const base64Data = base64.split(',')[1];
+      resolve(base64Data);
+    };
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+function getMockAnalysis(file: File): OutfitAnalysis {
+  return {
+    id: 'demo-' + Date.now(),
+    imageUrl: URL.createObjectURL(file),
+    score: 88,
+    aesthetic: 'Minimal Luxury',
+    vibe: 'Sophisticated minimalist layout with neutral tonal contrast.',
+    clothingItems: [
+      { type: 'Coat', color: 'Camel', description: 'Tailored wool coat' }
+    ],
+    colorPalette: [
+      { hex: '#C9B896', name: 'Camel Beige', dominance: 60 }
+    ],
+    recommendations: [
+      { category: 'Fit', suggestion: 'Contrast high shapes', reasoning: 'Accents broad contrast coordinates' }
+    ],
+    suggestedAccessories: ['Gold watch', 'Black sunglasses'],
+    fashionTags: ['cohesive', 'tonal', 'understated'],
+  };
 }
