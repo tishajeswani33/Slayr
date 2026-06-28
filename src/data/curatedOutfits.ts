@@ -1,3 +1,9 @@
+// ============================================================================
+// Slayr — Curated Outfits Database
+// 100 hand-curated outfits across 10 categories (10 per category)
+// All prices in Indian Rupees (₹)
+// ============================================================================
+
 export interface CuratedOutfit {
   id: string;
   title: string;
@@ -16,4817 +22,2376 @@ export interface CuratedOutfit {
 }
 
 export const CURATED_OUTFITS: CuratedOutfit[] = [
-  {
-    "id": "curated-1",
-    "title": "Traditional Wedding Look 1",
-    "category": "Traditional Wedding",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?indian,wedding,lehenga,sherwani&sig=1001",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1300,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1700
-    },
-    "totalPrice": 3900,
-    "budgetTier": "budget",
-    "events": [
-      "wedding",
-      "formal"
-    ],
-    "aesthetic": "Indian Traditional",
-    "stylingTip": "Style this Indian Traditional look with confidence for your next wedding event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-2",
-    "title": "Traditional Wedding Look 2",
-    "category": "Traditional Wedding",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?indian,wedding,lehenga,sherwani&sig=1002",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1000,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 500
-    },
-    "totalPrice": 3100,
-    "budgetTier": "budget",
-    "events": [
-      "wedding",
-      "formal"
-    ],
-    "aesthetic": "Indian Traditional",
-    "stylingTip": "Style this Indian Traditional look with confidence for your next wedding event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-3",
-    "title": "Traditional Wedding Look 3",
-    "category": "Traditional Wedding",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?indian,wedding,lehenga,sherwani&sig=1003",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 700,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1200
-    },
-    "totalPrice": 2900,
-    "budgetTier": "budget",
-    "events": [
-      "wedding",
-      "formal"
-    ],
-    "aesthetic": "Indian Traditional",
-    "stylingTip": "Style this Indian Traditional look with confidence for your next wedding event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-4",
-    "title": "Traditional Wedding Look 4",
-    "category": "Traditional Wedding",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?indian,wedding,lehenga,sherwani&sig=1004",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3900,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 900
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 3700
-    },
-    "totalPrice": 13800,
-    "budgetTier": "mid-range",
-    "events": [
-      "wedding",
-      "formal"
-    ],
-    "aesthetic": "Indian Traditional",
-    "stylingTip": "Style this Indian Traditional look with confidence for your next wedding event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-5",
-    "title": "Traditional Wedding Look 5",
-    "category": "Traditional Wedding",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?indian,wedding,lehenga,sherwani&sig=1005",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2600,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1800,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 900
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 800
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1900
-    },
-    "totalPrice": 8000,
-    "budgetTier": "mid-range",
-    "events": [
-      "wedding",
-      "formal"
-    ],
-    "aesthetic": "Indian Traditional",
-    "stylingTip": "Style this Indian Traditional look with confidence for your next wedding event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-6",
-    "title": "Traditional Wedding Look 6",
-    "category": "Traditional Wedding",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?indian,wedding,lehenga,sherwani&sig=1006",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 800
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 3700
-    },
-    "totalPrice": 11800,
-    "budgetTier": "mid-range",
-    "events": [
-      "wedding",
-      "formal"
-    ],
-    "aesthetic": "Indian Traditional",
-    "stylingTip": "Style this Indian Traditional look with confidence for your next wedding event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-7",
-    "title": "Traditional Wedding Look 7",
-    "category": "Traditional Wedding",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?indian,wedding,lehenga,sherwani&sig=1007",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 9100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 7600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 2300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 16500
-    },
-    "totalPrice": 36900,
-    "budgetTier": "premium",
-    "events": [
-      "wedding",
-      "formal"
-    ],
-    "aesthetic": "Indian Traditional",
-    "stylingTip": "Style this Indian Traditional look with confidence for your next wedding event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-8",
-    "title": "Traditional Wedding Look 8",
-    "category": "Traditional Wedding",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?indian,wedding,lehenga,sherwani&sig=1008",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 8900,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 8200,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 17000
-    },
-    "totalPrice": 38700,
-    "budgetTier": "premium",
-    "events": [
-      "wedding",
-      "formal"
-    ],
-    "aesthetic": "Indian Traditional",
-    "stylingTip": "Style this Indian Traditional look with confidence for your next wedding event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-9",
-    "title": "Traditional Wedding Look 9",
-    "category": "Traditional Wedding",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?indian,wedding,lehenga,sherwani&sig=1009",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 11700,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 10500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 4400
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 9100
-    },
-    "totalPrice": 36900,
-    "budgetTier": "premium",
-    "events": [
-      "wedding",
-      "formal"
-    ],
-    "aesthetic": "Indian Traditional",
-    "stylingTip": "Style this Indian Traditional look with confidence for your next wedding event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-10",
-    "title": "Traditional Wedding Look 10",
-    "category": "Traditional Wedding",
-    "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/featured/?indian,wedding,lehenga,sherwani&sig=1010",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 42500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 16300,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 11300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 4800
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 16800
-    },
-    "totalPrice": 91700,
-    "budgetTier": "luxury",
-    "events": [
-      "wedding",
-      "formal"
-    ],
-    "aesthetic": "Indian Traditional",
-    "stylingTip": "Style this Indian Traditional look with confidence for your next wedding event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-11",
-    "title": "Sangeet & Mehendi Look 1",
-    "category": "Sangeet & Mehendi",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?sangeet,mehendi,sharara,ethnic&sig=1011",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1000
-    },
-    "totalPrice": 3900,
-    "budgetTier": "budget",
-    "events": [
-      "sangeet",
-      "mehendi"
-    ],
-    "aesthetic": "Sangeet Wear",
-    "stylingTip": "Style this Sangeet Wear look with confidence for your next sangeet event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-12",
-    "title": "Sangeet & Mehendi Look 2",
-    "category": "Sangeet & Mehendi",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?sangeet,mehendi,sharara,ethnic&sig=1012",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1000,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1000,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1200
-    },
-    "totalPrice": 3500,
-    "budgetTier": "budget",
-    "events": [
-      "sangeet",
-      "mehendi"
-    ],
-    "aesthetic": "Sangeet Wear",
-    "stylingTip": "Style this Sangeet Wear look with confidence for your next sangeet event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-13",
-    "title": "Sangeet & Mehendi Look 3",
-    "category": "Sangeet & Mehendi",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?sangeet,mehendi,sharara,ethnic&sig=1013",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1300,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1300
-    },
-    "totalPrice": 3500,
-    "budgetTier": "budget",
-    "events": [
-      "sangeet",
-      "mehendi"
-    ],
-    "aesthetic": "Sangeet Wear",
-    "stylingTip": "Style this Sangeet Wear look with confidence for your next sangeet event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-14",
-    "title": "Sangeet & Mehendi Look 4",
-    "category": "Sangeet & Mehendi",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?sangeet,mehendi,sharara,ethnic&sig=1014",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2700,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3900,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 700
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 700
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 5900
-    },
-    "totalPrice": 13900,
-    "budgetTier": "mid-range",
-    "events": [
-      "sangeet",
-      "mehendi"
-    ],
-    "aesthetic": "Sangeet Wear",
-    "stylingTip": "Style this Sangeet Wear look with confidence for your next sangeet event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-15",
-    "title": "Sangeet & Mehendi Look 5",
-    "category": "Sangeet & Mehendi",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?sangeet,mehendi,sharara,ethnic&sig=1015",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2900,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1900,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 900
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 3700
-    },
-    "totalPrice": 10500,
-    "budgetTier": "mid-range",
-    "events": [
-      "sangeet",
-      "mehendi"
-    ],
-    "aesthetic": "Sangeet Wear",
-    "stylingTip": "Style this Sangeet Wear look with confidence for your next sangeet event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-16",
-    "title": "Sangeet & Mehendi Look 6",
-    "category": "Sangeet & Mehendi",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?sangeet,mehendi,sharara,ethnic&sig=1016",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 3500
-    },
-    "totalPrice": 12000,
-    "budgetTier": "mid-range",
-    "events": [
-      "sangeet",
-      "mehendi"
-    ],
-    "aesthetic": "Sangeet Wear",
-    "stylingTip": "Style this Sangeet Wear look with confidence for your next sangeet event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-17",
-    "title": "Sangeet & Mehendi Look 7",
-    "category": "Sangeet & Mehendi",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?sangeet,mehendi,sharara,ethnic&sig=1017",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 13600,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 6400,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 2900
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2000
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 6100
-    },
-    "totalPrice": 31000,
-    "budgetTier": "premium",
-    "events": [
-      "sangeet",
-      "mehendi"
-    ],
-    "aesthetic": "Sangeet Wear",
-    "stylingTip": "Style this Sangeet Wear look with confidence for your next sangeet event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-18",
-    "title": "Sangeet & Mehendi Look 8",
-    "category": "Sangeet & Mehendi",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?sangeet,mehendi,sharara,ethnic&sig=1018",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 7800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 8800,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 4400
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1700
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 12200
-    },
-    "totalPrice": 34900,
-    "budgetTier": "premium",
-    "events": [
-      "sangeet",
-      "mehendi"
-    ],
-    "aesthetic": "Sangeet Wear",
-    "stylingTip": "Style this Sangeet Wear look with confidence for your next sangeet event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-19",
-    "title": "Sangeet & Mehendi Look 9",
-    "category": "Sangeet & Mehendi",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?sangeet,mehendi,sharara,ethnic&sig=1019",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 10500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 9600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1600
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 17100
-    },
-    "totalPrice": 42100,
-    "budgetTier": "premium",
-    "events": [
-      "sangeet",
-      "mehendi"
-    ],
-    "aesthetic": "Sangeet Wear",
-    "stylingTip": "Style this Sangeet Wear look with confidence for your next sangeet event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-20",
-    "title": "Sangeet & Mehendi Look 10",
-    "category": "Sangeet & Mehendi",
-    "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/featured/?sangeet,mehendi,sharara,ethnic&sig=1020",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 38900,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 19100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 14900
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 9500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 18300
-    },
-    "totalPrice": 100700,
-    "budgetTier": "luxury",
-    "events": [
-      "sangeet",
-      "mehendi"
-    ],
-    "aesthetic": "Sangeet Wear",
-    "stylingTip": "Style this Sangeet Wear look with confidence for your next sangeet event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-21",
-    "title": "Festive & Diwali Look 1",
-    "category": "Festive & Diwali",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?festive,diwali,silk,kurta&sig=1021",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1200,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1300
-    },
-    "totalPrice": 4100,
-    "budgetTier": "budget",
-    "events": [
-      "festival",
-      "party"
-    ],
-    "aesthetic": "Indian Festive",
-    "stylingTip": "Style this Indian Festive look with confidence for your next festival event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-22",
-    "title": "Festive & Diwali Look 2",
-    "category": "Festive & Diwali",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?festive,diwali,silk,kurta&sig=1022",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1000
-    },
-    "totalPrice": 2200,
-    "budgetTier": "budget",
-    "events": [
-      "festival",
-      "party"
-    ],
-    "aesthetic": "Indian Festive",
-    "stylingTip": "Style this Indian Festive look with confidence for your next festival event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-23",
-    "title": "Festive & Diwali Look 3",
-    "category": "Festive & Diwali",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?festive,diwali,silk,kurta&sig=1023",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 800,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 700
-    },
-    "totalPrice": 3000,
-    "budgetTier": "budget",
-    "events": [
-      "festival",
-      "party"
-    ],
-    "aesthetic": "Indian Festive",
-    "stylingTip": "Style this Indian Festive look with confidence for your next festival event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-24",
-    "title": "Festive & Diwali Look 4",
-    "category": "Festive & Diwali",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?festive,diwali,silk,kurta&sig=1024",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1700,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 900
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 5300
-    },
-    "totalPrice": 13900,
-    "budgetTier": "mid-range",
-    "events": [
-      "festival",
-      "party"
-    ],
-    "aesthetic": "Indian Festive",
-    "stylingTip": "Style this Indian Festive look with confidence for your next festival event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-25",
-    "title": "Festive & Diwali Look 5",
-    "category": "Festive & Diwali",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?festive,diwali,silk,kurta&sig=1025",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 3800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 600
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 4900
-    },
-    "totalPrice": 14200,
-    "budgetTier": "mid-range",
-    "events": [
-      "festival",
-      "party"
-    ],
-    "aesthetic": "Indian Festive",
-    "stylingTip": "Style this Indian Festive look with confidence for your next festival event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-26",
-    "title": "Festive & Diwali Look 6",
-    "category": "Festive & Diwali",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?festive,diwali,silk,kurta&sig=1026",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2800,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 600
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1800
-    },
-    "totalPrice": 8600,
-    "budgetTier": "mid-range",
-    "events": [
-      "festival",
-      "party"
-    ],
-    "aesthetic": "Indian Festive",
-    "stylingTip": "Style this Indian Festive look with confidence for your next festival event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-27",
-    "title": "Festive & Diwali Look 7",
-    "category": "Festive & Diwali",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?festive,diwali,silk,kurta&sig=1027",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 12500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 6700,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 4000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2600
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 8400
-    },
-    "totalPrice": 34200,
-    "budgetTier": "premium",
-    "events": [
-      "festival",
-      "party"
-    ],
-    "aesthetic": "Indian Festive",
-    "stylingTip": "Style this Indian Festive look with confidence for your next festival event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-28",
-    "title": "Festive & Diwali Look 8",
-    "category": "Festive & Diwali",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?festive,diwali,silk,kurta&sig=1028",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 14700,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 10000,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 2400
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1600
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 17600
-    },
-    "totalPrice": 46300,
-    "budgetTier": "premium",
-    "events": [
-      "festival",
-      "party"
-    ],
-    "aesthetic": "Indian Festive",
-    "stylingTip": "Style this Indian Festive look with confidence for your next festival event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-29",
-    "title": "Festive & Diwali Look 9",
-    "category": "Festive & Diwali",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?festive,diwali,silk,kurta&sig=1029",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 8600,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 7400,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3800
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 7800
-    },
-    "totalPrice": 28800,
-    "budgetTier": "premium",
-    "events": [
-      "festival",
-      "party"
-    ],
-    "aesthetic": "Indian Festive",
-    "stylingTip": "Style this Indian Festive look with confidence for your next festival event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-30",
-    "title": "Festive & Diwali Look 10",
-    "category": "Festive & Diwali",
-    "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/featured/?festive,diwali,silk,kurta&sig=1030",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 26200,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 18500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 11400
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 8500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 29300
-    },
-    "totalPrice": 93900,
-    "budgetTier": "luxury",
-    "events": [
-      "festival",
-      "party"
-    ],
-    "aesthetic": "Indian Festive",
-    "stylingTip": "Style this Indian Festive look with confidence for your next festival event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-31",
-    "title": "Party & Clubwear Look 1",
-    "category": "Party & Clubwear",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?party,club,sequin,nightlife&sig=1031",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1000,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 700,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 900
-    },
-    "totalPrice": 3100,
-    "budgetTier": "budget",
-    "events": [
-      "party",
-      "club",
-      "concert"
-    ],
-    "aesthetic": "Party Wear",
-    "stylingTip": "Style this Party Wear look with confidence for your next party event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-32",
-    "title": "Party & Clubwear Look 2",
-    "category": "Party & Clubwear",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?party,club,sequin,nightlife&sig=1032",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1200,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 400
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1100
-    },
-    "totalPrice": 3400,
-    "budgetTier": "budget",
-    "events": [
-      "party",
-      "club",
-      "concert"
-    ],
-    "aesthetic": "Party Wear",
-    "stylingTip": "Style this Party Wear look with confidence for your next party event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-33",
-    "title": "Party & Clubwear Look 3",
-    "category": "Party & Clubwear",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?party,club,sequin,nightlife&sig=1033",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 900,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1200
-    },
-    "totalPrice": 3600,
-    "budgetTier": "budget",
-    "events": [
-      "party",
-      "club",
-      "concert"
-    ],
-    "aesthetic": "Party Wear",
-    "stylingTip": "Style this Party Wear look with confidence for your next party event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-34",
-    "title": "Party & Clubwear Look 4",
-    "category": "Party & Clubwear",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?party,club,sequin,nightlife&sig=1034",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2200,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 800
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 700
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 2600
-    },
-    "totalPrice": 10800,
-    "budgetTier": "mid-range",
-    "events": [
-      "party",
-      "club",
-      "concert"
-    ],
-    "aesthetic": "Party Wear",
-    "stylingTip": "Style this Party Wear look with confidence for your next party event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-35",
-    "title": "Party & Clubwear Look 5",
-    "category": "Party & Clubwear",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?party,club,sequin,nightlife&sig=1035",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 3300,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 4700
-    },
-    "totalPrice": 13300,
-    "budgetTier": "mid-range",
-    "events": [
-      "party",
-      "club",
-      "concert"
-    ],
-    "aesthetic": "Party Wear",
-    "stylingTip": "Style this Party Wear look with confidence for your next party event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-36",
-    "title": "Party & Clubwear Look 6",
-    "category": "Party & Clubwear",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?party,club,sequin,nightlife&sig=1036",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 600
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 600
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 5800
-    },
-    "totalPrice": 14200,
-    "budgetTier": "mid-range",
-    "events": [
-      "party",
-      "club",
-      "concert"
-    ],
-    "aesthetic": "Party Wear",
-    "stylingTip": "Style this Party Wear look with confidence for your next party event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-37",
-    "title": "Party & Clubwear Look 7",
-    "category": "Party & Clubwear",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?party,club,sequin,nightlife&sig=1037",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 10100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 6500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 8500
-    },
-    "totalPrice": 30400,
-    "budgetTier": "premium",
-    "events": [
-      "party",
-      "club",
-      "concert"
-    ],
-    "aesthetic": "Party Wear",
-    "stylingTip": "Style this Party Wear look with confidence for your next party event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-38",
-    "title": "Party & Clubwear Look 8",
-    "category": "Party & Clubwear",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?party,club,sequin,nightlife&sig=1038",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 6900,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 8900,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3900
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1800
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 11500
-    },
-    "totalPrice": 33000,
-    "budgetTier": "premium",
-    "events": [
-      "party",
-      "club",
-      "concert"
-    ],
-    "aesthetic": "Party Wear",
-    "stylingTip": "Style this Party Wear look with confidence for your next party event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-39",
-    "title": "Party & Clubwear Look 9",
-    "category": "Party & Clubwear",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?party,club,sequin,nightlife&sig=1039",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 10800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 5200,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3900
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 7000
-    },
-    "totalPrice": 29300,
-    "budgetTier": "premium",
-    "events": [
-      "party",
-      "club",
-      "concert"
-    ],
-    "aesthetic": "Party Wear",
-    "stylingTip": "Style this Party Wear look with confidence for your next party event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-40",
-    "title": "Party & Clubwear Look 10",
-    "category": "Party & Clubwear",
-    "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/featured/?party,club,sequin,nightlife&sig=1040",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 42300,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 27300,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 14200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 8500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 39800
-    },
-    "totalPrice": 132100,
-    "budgetTier": "luxury",
-    "events": [
-      "party",
-      "club",
-      "concert"
-    ],
-    "aesthetic": "Party Wear",
-    "stylingTip": "Style this Party Wear look with confidence for your next party event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-41",
-    "title": "Office & Corporate Look 1",
-    "category": "Office & Corporate",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?office,corporate,formal,suit&sig=1041",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 400
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1300
-    },
-    "totalPrice": 3200,
-    "budgetTier": "budget",
-    "events": [
-      "office",
-      "work"
-    ],
-    "aesthetic": "Scandinavian Minimal",
-    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-42",
-    "title": "Office & Corporate Look 2",
-    "category": "Office & Corporate",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?office,corporate,formal,suit&sig=1042",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 400
-    },
-    "totalPrice": 2800,
-    "budgetTier": "budget",
-    "events": [
-      "office",
-      "work"
-    ],
-    "aesthetic": "Scandinavian Minimal",
-    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-43",
-    "title": "Office & Corporate Look 3",
-    "category": "Office & Corporate",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?office,corporate,formal,suit&sig=1043",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1000
-    },
-    "totalPrice": 3700,
-    "budgetTier": "budget",
-    "events": [
-      "office",
-      "work"
-    ],
-    "aesthetic": "Scandinavian Minimal",
-    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-44",
-    "title": "Office & Corporate Look 4",
-    "category": "Office & Corporate",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?office,corporate,formal,suit&sig=1044",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 3400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3800,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1400
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 600
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 3000
-    },
-    "totalPrice": 12200,
-    "budgetTier": "mid-range",
-    "events": [
-      "office",
-      "work"
-    ],
-    "aesthetic": "Scandinavian Minimal",
-    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-45",
-    "title": "Office & Corporate Look 5",
-    "category": "Office & Corporate",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?office,corporate,formal,suit&sig=1045",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 700
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 5700
-    },
-    "totalPrice": 14200,
-    "budgetTier": "mid-range",
-    "events": [
-      "office",
-      "work"
-    ],
-    "aesthetic": "Scandinavian Minimal",
-    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-46",
-    "title": "Office & Corporate Look 6",
-    "category": "Office & Corporate",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?office,corporate,formal,suit&sig=1046",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3300,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 900
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 800
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 4800
-    },
-    "totalPrice": 12300,
-    "budgetTier": "mid-range",
-    "events": [
-      "office",
-      "work"
-    ],
-    "aesthetic": "Scandinavian Minimal",
-    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-47",
-    "title": "Office & Corporate Look 7",
-    "category": "Office & Corporate",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?office,corporate,formal,suit&sig=1047",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 12800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 11700,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1800
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 16300
-    },
-    "totalPrice": 45600,
-    "budgetTier": "premium",
-    "events": [
-      "office",
-      "work"
-    ],
-    "aesthetic": "Scandinavian Minimal",
-    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-48",
-    "title": "Office & Corporate Look 8",
-    "category": "Office & Corporate",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?office,corporate,formal,suit&sig=1048",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 7700,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 6500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 4100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 17600
-    },
-    "totalPrice": 38300,
-    "budgetTier": "premium",
-    "events": [
-      "office",
-      "work"
-    ],
-    "aesthetic": "Scandinavian Minimal",
-    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-49",
-    "title": "Office & Corporate Look 9",
-    "category": "Office & Corporate",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?office,corporate,formal,suit&sig=1049",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 9200,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 8200,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3500
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 10700
-    },
-    "totalPrice": 34000,
-    "budgetTier": "premium",
-    "events": [
-      "office",
-      "work"
-    ],
-    "aesthetic": "Scandinavian Minimal",
-    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-50",
-    "title": "Office & Corporate Look 10",
-    "category": "Office & Corporate",
-    "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/featured/?office,corporate,formal,suit&sig=1050",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 20100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 31300,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 12600
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 4600
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 48600
-    },
-    "totalPrice": 117200,
-    "budgetTier": "luxury",
-    "events": [
-      "office",
-      "work"
-    ],
-    "aesthetic": "Scandinavian Minimal",
-    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-51",
-    "title": "College & Casual Look 1",
-    "category": "College & Casual",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?casual,streetwear,denim,sneaker&sig=1051",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 900,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 900,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1600
-    },
-    "totalPrice": 3600,
-    "budgetTier": "budget",
-    "events": [
-      "casual",
-      "college-fest"
-    ],
-    "aesthetic": "Streetwear",
-    "stylingTip": "Style this Streetwear look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-52",
-    "title": "College & Casual Look 2",
-    "category": "College & Casual",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?casual,streetwear,denim,sneaker&sig=1052",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 600,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1600
-    },
-    "totalPrice": 3000,
-    "budgetTier": "budget",
-    "events": [
-      "casual",
-      "college-fest"
-    ],
-    "aesthetic": "Streetwear",
-    "stylingTip": "Style this Streetwear look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-53",
-    "title": "College & Casual Look 3",
-    "category": "College & Casual",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?casual,streetwear,denim,sneaker&sig=1053",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 700,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 500
-    },
-    "totalPrice": 1900,
-    "budgetTier": "budget",
-    "events": [
-      "casual",
-      "college-fest"
-    ],
-    "aesthetic": "Streetwear",
-    "stylingTip": "Style this Streetwear look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-54",
-    "title": "College & Casual Look 4",
-    "category": "College & Casual",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?casual,streetwear,denim,sneaker&sig=1054",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 3200,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 900
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1900
-    },
-    "totalPrice": 10500,
-    "budgetTier": "mid-range",
-    "events": [
-      "casual",
-      "college-fest"
-    ],
-    "aesthetic": "Streetwear",
-    "stylingTip": "Style this Streetwear look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-55",
-    "title": "College & Casual Look 5",
-    "category": "College & Casual",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?casual,streetwear,denim,sneaker&sig=1055",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3300,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 900
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 900
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 3600
-    },
-    "totalPrice": 11100,
-    "budgetTier": "mid-range",
-    "events": [
-      "casual",
-      "college-fest"
-    ],
-    "aesthetic": "Streetwear",
-    "stylingTip": "Style this Streetwear look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-56",
-    "title": "College & Casual Look 6",
-    "category": "College & Casual",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?casual,streetwear,denim,sneaker&sig=1056",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4900,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3900,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 800
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 5600
-    },
-    "totalPrice": 16500,
-    "budgetTier": "premium",
-    "events": [
-      "casual",
-      "college-fest"
-    ],
-    "aesthetic": "Streetwear",
-    "stylingTip": "Style this Streetwear look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-57",
-    "title": "College & Casual Look 7",
-    "category": "College & Casual",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?casual,streetwear,denim,sneaker&sig=1057",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 8500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 5300,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3600
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 14200
-    },
-    "totalPrice": 32800,
-    "budgetTier": "premium",
-    "events": [
-      "casual",
-      "college-fest"
-    ],
-    "aesthetic": "Streetwear",
-    "stylingTip": "Style this Streetwear look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-58",
-    "title": "College & Casual Look 8",
-    "category": "College & Casual",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?casual,streetwear,denim,sneaker&sig=1058",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 9100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 6100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 2400
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 5000
-    },
-    "totalPrice": 23800,
-    "budgetTier": "premium",
-    "events": [
-      "casual",
-      "college-fest"
-    ],
-    "aesthetic": "Streetwear",
-    "stylingTip": "Style this Streetwear look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-59",
-    "title": "College & Casual Look 9",
-    "category": "College & Casual",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?casual,streetwear,denim,sneaker&sig=1059",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 11100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 11100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 2500
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2800
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 11600
-    },
-    "totalPrice": 39100,
-    "budgetTier": "premium",
-    "events": [
-      "casual",
-      "college-fest"
-    ],
-    "aesthetic": "Streetwear",
-    "stylingTip": "Style this Streetwear look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-60",
-    "title": "College & Casual Look 10",
-    "category": "College & Casual",
-    "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/featured/?casual,streetwear,denim,sneaker&sig=1060",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 48000,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 24500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 9600
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 5100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 45500
-    },
-    "totalPrice": 132700,
-    "budgetTier": "luxury",
-    "events": [
-      "casual",
-      "college-fest"
-    ],
-    "aesthetic": "Streetwear",
-    "stylingTip": "Style this Streetwear look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-61",
-    "title": "Date Night Look 1",
-    "category": "Date Night",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?date,romantic,evening,elegant&sig=1061",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 700,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 800,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 600
-    },
-    "totalPrice": 2600,
-    "budgetTier": "budget",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-62",
-    "title": "Date Night Look 2",
-    "category": "Date Night",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?date,romantic,evening,elegant&sig=1062",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 400,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1700
-    },
-    "totalPrice": 3800,
-    "budgetTier": "budget",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-63",
-    "title": "Date Night Look 3",
-    "category": "Date Night",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?date,romantic,evening,elegant&sig=1063",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1000,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 400
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 800
-    },
-    "totalPrice": 2800,
-    "budgetTier": "budget",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-64",
-    "title": "Date Night Look 4",
-    "category": "Date Night",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?date,romantic,evening,elegant&sig=1064",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2200,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3900,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 700
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 800
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1700
-    },
-    "totalPrice": 9300,
-    "budgetTier": "mid-range",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-65",
-    "title": "Date Night Look 5",
-    "category": "Date Night",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?date,romantic,evening,elegant&sig=1065",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 900
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 4700
-    },
-    "totalPrice": 13900,
-    "budgetTier": "mid-range",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-66",
-    "title": "Date Night Look 6",
-    "category": "Date Night",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?date,romantic,evening,elegant&sig=1066",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2000,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 900
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 5100
-    },
-    "totalPrice": 12100,
-    "budgetTier": "mid-range",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-67",
-    "title": "Date Night Look 7",
-    "category": "Date Night",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?date,romantic,evening,elegant&sig=1067",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 9800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 6100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 4200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 9900
-    },
-    "totalPrice": 31400,
-    "budgetTier": "premium",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-68",
-    "title": "Date Night Look 8",
-    "category": "Date Night",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?date,romantic,evening,elegant&sig=1068",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 11600,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 8300,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3800
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 8300
-    },
-    "totalPrice": 34500,
-    "budgetTier": "premium",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-69",
-    "title": "Date Night Look 9",
-    "category": "Date Night",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?date,romantic,evening,elegant&sig=1069",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 9300,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 10600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 14700
-    },
-    "totalPrice": 40400,
-    "budgetTier": "premium",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-70",
-    "title": "Date Night Look 10",
-    "category": "Date Night",
-    "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/featured/?date,romantic,evening,elegant&sig=1070",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 27600,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 37000,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 8200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 9900
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 22300
-    },
-    "totalPrice": 105000,
-    "budgetTier": "luxury",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-71",
-    "title": "Brunch & Weekend Look 1",
-    "category": "Brunch & Weekend",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?brunch,summer,linen,casual,chic&sig=1071",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 600,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 700,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 600
-    },
-    "totalPrice": 2400,
-    "budgetTier": "budget",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-72",
-    "title": "Brunch & Weekend Look 2",
-    "category": "Brunch & Weekend",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?brunch,summer,linen,casual,chic&sig=1072",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1200,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 400,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1100
-    },
-    "totalPrice": 3100,
-    "budgetTier": "budget",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-73",
-    "title": "Brunch & Weekend Look 3",
-    "category": "Brunch & Weekend",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?brunch,summer,linen,casual,chic&sig=1073",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1600
-    },
-    "totalPrice": 3900,
-    "budgetTier": "budget",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-74",
-    "title": "Brunch & Weekend Look 4",
-    "category": "Brunch & Weekend",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?brunch,summer,linen,casual,chic&sig=1074",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 3400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1700,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1600
-    },
-    "totalPrice": 8200,
-    "budgetTier": "mid-range",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-75",
-    "title": "Brunch & Weekend Look 5",
-    "category": "Brunch & Weekend",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?brunch,summer,linen,casual,chic&sig=1075",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4300,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 3600
-    },
-    "totalPrice": 12100,
-    "budgetTier": "mid-range",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-76",
-    "title": "Brunch & Weekend Look 6",
-    "category": "Brunch & Weekend",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?brunch,summer,linen,casual,chic&sig=1076",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4900,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 600
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 3500
-    },
-    "totalPrice": 12600,
-    "budgetTier": "mid-range",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-77",
-    "title": "Brunch & Weekend Look 7",
-    "category": "Brunch & Weekend",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?brunch,summer,linen,casual,chic&sig=1077",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 12000,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 8300,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3700
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 14000
-    },
-    "totalPrice": 40100,
-    "budgetTier": "premium",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-78",
-    "title": "Brunch & Weekend Look 8",
-    "category": "Brunch & Weekend",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?brunch,summer,linen,casual,chic&sig=1078",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 9100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 7600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 5900
-    },
-    "totalPrice": 27200,
-    "budgetTier": "premium",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-79",
-    "title": "Brunch & Weekend Look 9",
-    "category": "Brunch & Weekend",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?brunch,summer,linen,casual,chic&sig=1079",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 14900,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 6800,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 2000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 5700
-    },
-    "totalPrice": 30800,
-    "budgetTier": "premium",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-80",
-    "title": "Brunch & Weekend Look 10",
-    "category": "Brunch & Weekend",
-    "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/featured/?brunch,summer,linen,casual,chic&sig=1080",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 42600,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 22700,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 7800
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 8000
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 53400
-    },
-    "totalPrice": 134500,
-    "budgetTier": "luxury",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-81",
-    "title": "Korean & Minimal Look 1",
-    "category": "Korean & Minimal",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?korean,minimal,aesthetic,fashion&sig=1081",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 700,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1700
-    },
-    "totalPrice": 3300,
-    "budgetTier": "budget",
-    "events": [
-      "casual",
-      "date-night"
-    ],
-    "aesthetic": "Korean Casual",
-    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-82",
-    "title": "Korean & Minimal Look 2",
-    "category": "Korean & Minimal",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?korean,minimal,aesthetic,fashion&sig=1082",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 400,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1300
-    },
-    "totalPrice": 3100,
-    "budgetTier": "budget",
-    "events": [
-      "casual",
-      "date-night"
-    ],
-    "aesthetic": "Korean Casual",
-    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-83",
-    "title": "Korean & Minimal Look 3",
-    "category": "Korean & Minimal",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?korean,minimal,aesthetic,fashion&sig=1083",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1300,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1100
-    },
-    "totalPrice": 3500,
-    "budgetTier": "budget",
-    "events": [
-      "casual",
-      "date-night"
-    ],
-    "aesthetic": "Korean Casual",
-    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-84",
-    "title": "Korean & Minimal Look 4",
-    "category": "Korean & Minimal",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?korean,minimal,aesthetic,fashion&sig=1084",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2800,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 600
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 2100
-    },
-    "totalPrice": 10700,
-    "budgetTier": "mid-range",
-    "events": [
-      "casual",
-      "date-night"
-    ],
-    "aesthetic": "Korean Casual",
-    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-85",
-    "title": "Korean & Minimal Look 5",
-    "category": "Korean & Minimal",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?korean,minimal,aesthetic,fashion&sig=1085",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 800
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 2700
-    },
-    "totalPrice": 11300,
-    "budgetTier": "mid-range",
-    "events": [
-      "casual",
-      "date-night"
-    ],
-    "aesthetic": "Korean Casual",
-    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-86",
-    "title": "Korean & Minimal Look 6",
-    "category": "Korean & Minimal",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?korean,minimal,aesthetic,fashion&sig=1086",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3600,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 4400
-    },
-    "totalPrice": 14300,
-    "budgetTier": "mid-range",
-    "events": [
-      "casual",
-      "date-night"
-    ],
-    "aesthetic": "Korean Casual",
-    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-87",
-    "title": "Korean & Minimal Look 7",
-    "category": "Korean & Minimal",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?korean,minimal,aesthetic,fashion&sig=1087",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 13300,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 6100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 2600
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 6900
-    },
-    "totalPrice": 31400,
-    "budgetTier": "premium",
-    "events": [
-      "casual",
-      "date-night"
-    ],
-    "aesthetic": "Korean Casual",
-    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-88",
-    "title": "Korean & Minimal Look 8",
-    "category": "Korean & Minimal",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?korean,minimal,aesthetic,fashion&sig=1088",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 7600,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 8200,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 15300
-    },
-    "totalPrice": 35500,
-    "budgetTier": "premium",
-    "events": [
-      "casual",
-      "date-night"
-    ],
-    "aesthetic": "Korean Casual",
-    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-89",
-    "title": "Korean & Minimal Look 9",
-    "category": "Korean & Minimal",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?korean,minimal,aesthetic,fashion&sig=1089",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 12800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 10800,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 3000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1400
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 15700
-    },
-    "totalPrice": 43700,
-    "budgetTier": "premium",
-    "events": [
-      "casual",
-      "date-night"
-    ],
-    "aesthetic": "Korean Casual",
-    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-90",
-    "title": "Korean & Minimal Look 10",
-    "category": "Korean & Minimal",
-    "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/featured/?korean,minimal,aesthetic,fashion&sig=1090",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 48500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 17800,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 14100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 4700
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 41900
-    },
-    "totalPrice": 127000,
-    "budgetTier": "luxury",
-    "events": [
-      "casual",
-      "date-night"
-    ],
-    "aesthetic": "Korean Casual",
-    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-91",
-    "title": "Luxury Editorial Look 1",
-    "category": "Luxury Editorial",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?luxury,editorial,runway,fashion&sig=1091",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 400,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1600
-    },
-    "totalPrice": 3700,
-    "budgetTier": "budget",
-    "events": [
-      "photoshoot",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Futuristic Editorial",
-    "stylingTip": "Style this Futuristic Editorial look with confidence for your next photoshoot event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-92",
-    "title": "Luxury Editorial Look 2",
-    "category": "Luxury Editorial",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?luxury,editorial,runway,fashion&sig=1092",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1000,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 900,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1200
-    },
-    "totalPrice": 3500,
-    "budgetTier": "budget",
-    "events": [
-      "photoshoot",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Futuristic Editorial",
-    "stylingTip": "Style this Futuristic Editorial look with confidence for your next photoshoot event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-93",
-    "title": "Luxury Editorial Look 3",
-    "category": "Luxury Editorial",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?luxury,editorial,runway,fashion&sig=1093",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1100
-    },
-    "totalPrice": 2800,
-    "budgetTier": "budget",
-    "events": [
-      "photoshoot",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Futuristic Editorial",
-    "stylingTip": "Style this Futuristic Editorial look with confidence for your next photoshoot event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-94",
-    "title": "Luxury Editorial Look 4",
-    "category": "Luxury Editorial",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?luxury,editorial,runway,fashion&sig=1094",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2900,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3300,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 600
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 800
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 5300
-    },
-    "totalPrice": 12900,
-    "budgetTier": "mid-range",
-    "events": [
-      "photoshoot",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Futuristic Editorial",
-    "stylingTip": "Style this Futuristic Editorial look with confidence for your next photoshoot event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-95",
-    "title": "Luxury Editorial Look 5",
-    "category": "Luxury Editorial",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?luxury,editorial,runway,fashion&sig=1095",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 3200,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 700
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 900
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 4300
-    },
-    "totalPrice": 11600,
-    "budgetTier": "mid-range",
-    "events": [
-      "photoshoot",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Futuristic Editorial",
-    "stylingTip": "Style this Futuristic Editorial look with confidence for your next photoshoot event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-96",
-    "title": "Luxury Editorial Look 6",
-    "category": "Luxury Editorial",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?luxury,editorial,runway,fashion&sig=1096",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 4000,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 3700,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 900
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 700
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 3600
-    },
-    "totalPrice": 12900,
-    "budgetTier": "mid-range",
-    "events": [
-      "photoshoot",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Futuristic Editorial",
-    "stylingTip": "Style this Futuristic Editorial look with confidence for your next photoshoot event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-97",
-    "title": "Luxury Editorial Look 7",
-    "category": "Luxury Editorial",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?luxury,editorial,runway,fashion&sig=1097",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 13600,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 9200,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 2400
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2900
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 14100
-    },
-    "totalPrice": 42200,
-    "budgetTier": "premium",
-    "events": [
-      "photoshoot",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Futuristic Editorial",
-    "stylingTip": "Style this Futuristic Editorial look with confidence for your next photoshoot event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-98",
-    "title": "Luxury Editorial Look 8",
-    "category": "Luxury Editorial",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/featured/?luxury,editorial,runway,fashion&sig=1098",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 6800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 8400,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 2900
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 2500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 17900
-    },
-    "totalPrice": 38500,
-    "budgetTier": "premium",
-    "events": [
-      "photoshoot",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Futuristic Editorial",
-    "stylingTip": "Style this Futuristic Editorial look with confidence for your next photoshoot event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-99",
-    "title": "Luxury Editorial Look 9",
-    "category": "Luxury Editorial",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/featured/?luxury,editorial,runway,fashion&sig=1099",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 14800,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 6400,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 4300
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1900
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 10600
-    },
-    "totalPrice": 38000,
-    "budgetTier": "premium",
-    "events": [
-      "photoshoot",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Futuristic Editorial",
-    "stylingTip": "Style this Futuristic Editorial look with confidence for your next photoshoot event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-100",
-    "title": "Luxury Editorial Look 10",
-    "category": "Luxury Editorial",
-    "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/featured/?luxury,editorial,runway,fashion&sig=1100",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 27400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 19200,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 9000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 4600
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 36800
-    },
-    "totalPrice": 97000,
-    "budgetTier": "luxury",
-    "events": [
-      "photoshoot",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Futuristic Editorial",
-    "stylingTip": "Style this Futuristic Editorial look with confidence for your next photoshoot event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  }
+  // ==========================================================================
+  // CATEGORY 1: Traditional Wedding (tw-001 → tw-010, sigs 1001–1010)
+  // ==========================================================================
+  {
+    id: 'tw-001',
+    title: 'Royal Maroon Velvet Sherwani Set',
+    category: 'Traditional Wedding',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?indian,wedding,sherwani,groom&sig=1001',
+    items: [
+      { name: 'Velvet Sherwani', type: 'Top', price: 18500, color: 'Maroon' },
+      { name: 'Silk Churidar', type: 'Bottom', price: 3200, color: 'Gold' },
+      { name: 'Embroidered Stole', type: 'Dupatta', price: 2800, color: 'Gold Zari' },
+    ],
+    accessories: [
+      { name: 'Brooch with Kundan stones', price: 1500 },
+      { name: 'Pearl Kilangi (sarpech)', price: 2200 },
+      { name: 'Silk Pocket Square', price: 450 },
+    ],
+    shoes: { name: 'Gold Mojari Juttis', price: 2800 },
+    totalPrice: 31450,
+    budgetTier: 'premium',
+    events: ['wedding', 'sangeet', 'formal'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Layer the stole asymmetrically over one shoulder. Add a fresh rose boutonnière for traditional elegance.',
+    colors: ['#800020', '#FFD700', '#FFFFFF'],
+  },
+  {
+    id: 'tw-002',
+    title: 'Crimson Bridal Lehenga with Zardozi Work',
+    category: 'Traditional Wedding',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?indian,wedding,lehenga,bride&sig=1002',
+    items: [
+      { name: 'Zardozi Embroidered Lehenga Skirt', type: 'Bottom', price: 35000, color: 'Crimson Red' },
+      { name: 'Velvet Choli Blouse', type: 'Top', price: 12000, color: 'Deep Red' },
+      { name: 'Net Dupatta with Gold Border', type: 'Dupatta', price: 8500, color: 'Red & Gold' },
+    ],
+    accessories: [
+      { name: 'Kundan Bridal Necklace Set', price: 15000 },
+      { name: 'Gold Maang Tikka', price: 4500 },
+      { name: 'Lac Bangle Set (12 pcs)', price: 2800 },
+      { name: 'Embroidered Bridal Potli', price: 3200 },
+    ],
+    shoes: { name: 'Gold Embellished Wedges', price: 4500 },
+    totalPrice: 85500,
+    budgetTier: 'luxury',
+    events: ['wedding', 'formal', 'photoshoot'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Drape the dupatta in a double-drape style — one over the head and the other pinned at the shoulder for maximum regal impact.',
+    colors: ['#DC143C', '#FFD700', '#8B0000'],
+  },
+  {
+    id: 'tw-003',
+    title: 'Magenta Banarasi Silk Saree Ensemble',
+    category: 'Traditional Wedding',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?indian,wedding,saree,silk&sig=1003',
+    items: [
+      { name: 'Pure Banarasi Silk Saree', type: 'Top', price: 14000, color: 'Magenta' },
+      { name: 'Contrast Silk Blouse', type: 'Innerwear', price: 2800, color: 'Gold' },
+      { name: 'Satin Petticoat', type: 'Bottom', price: 750, color: 'Magenta' },
+    ],
+    accessories: [
+      { name: 'Temple Gold Necklace', price: 3800 },
+      { name: 'Gold Jhumka Earrings', price: 2200 },
+      { name: 'Kamarbandh (Waist Chain)', price: 2500 },
+    ],
+    shoes: { name: 'Embroidered Kolhapuri Heels', price: 2200 },
+    totalPrice: 28250,
+    budgetTier: 'premium',
+    events: ['wedding', 'formal', 'festival'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Pin the pallu with a vintage brooch at the shoulder. Add fresh jasmine gajra in a low bun for an authentic South Indian bridal look.',
+    colors: ['#FF00FF', '#FFD700', '#800080'],
+  },
+  {
+    id: 'tw-004',
+    title: 'Ivory Silk Kurta with Navy Nehru Jacket',
+    category: 'Traditional Wedding',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?indian,wedding,kurta,nehru&sig=1004',
+    items: [
+      { name: 'Raw Silk Kurta', type: 'Top', price: 3500, color: 'Ivory' },
+      { name: 'Silk Churidar Pajama', type: 'Bottom', price: 1800, color: 'Ivory' },
+      { name: 'Brocade Nehru Jacket', type: 'Outerwear', price: 4200, color: 'Navy Blue' },
+    ],
+    accessories: [
+      { name: 'Pearl Brooch', price: 850 },
+      { name: 'Silk Pocket Square', price: 380 },
+    ],
+    shoes: { name: 'Tan Leather Mojaris', price: 1900 },
+    totalPrice: 12630,
+    budgetTier: 'mid-range',
+    events: ['wedding', 'sangeet', 'festival'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Keep the Nehru jacket buttons open at the top for a relaxed wedding-guest look. Match the pocket square to the jacket fabric.',
+    colors: ['#FFFFF0', '#000080', '#D4AF37'],
+  },
+  {
+    id: 'tw-005',
+    title: 'Blush Pink Anarkali Gown with Mirror Work',
+    category: 'Traditional Wedding',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?indian,wedding,anarkali,pink&sig=1005',
+    items: [
+      { name: 'Georgette Anarkali Gown', type: 'Top', price: 28000, color: 'Blush Pink' },
+      { name: 'Organza Dupatta with Mirror Border', type: 'Dupatta', price: 6500, color: 'Ivory' },
+      { name: 'Silk Underskirt', type: 'Bottom', price: 3200, color: 'Blush' },
+    ],
+    accessories: [
+      { name: 'Polki Diamond Choker', price: 18000 },
+      { name: 'Pearl Jhumka Earrings', price: 5200 },
+      { name: 'Embroidered Potli Bag', price: 3800 },
+      { name: 'Pearl Hair Accessory', price: 2500 },
+    ],
+    shoes: { name: 'Crystal Embellished Stiletto Heels', price: 5800 },
+    totalPrice: 73000,
+    budgetTier: 'luxury',
+    events: ['wedding', 'sangeet', 'photoshoot'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Pin the dupatta at one shoulder with the Polki brooch, letting it flow behind. Opt for soft pink glam makeup to complement the blush palette.',
+    colors: ['#FFB6C1', '#FFFFF0', '#E8CCD7'],
+  },
+  {
+    id: 'tw-006',
+    title: 'Classic White Cotton Kurta Pajama Set',
+    category: 'Traditional Wedding',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?indian,wedding,kurta,white&sig=1006',
+    items: [
+      { name: 'Hand-spun Cotton Kurta', type: 'Top', price: 1200, color: 'White' },
+      { name: 'Cotton Pajama', type: 'Bottom', price: 800, color: 'White' },
+      { name: 'Khadi Dupatta Stole', type: 'Dupatta', price: 550, color: 'Beige' },
+    ],
+    accessories: [
+      { name: 'Rudraksha Mala', price: 350 },
+      { name: 'Wooden Button Cufflinks', price: 250 },
+    ],
+    shoes: { name: 'Kolhapuri Leather Chappals', price: 700 },
+    totalPrice: 3850,
+    budgetTier: 'budget',
+    events: ['wedding', 'festival', 'formal'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Roll up the sleeves twice for a relaxed look. Add a single marigold on the kurta pocket for a pop of festive color.',
+    colors: ['#FFFFFF', '#F5F5DC', '#8B4513'],
+  },
+  {
+    id: 'tw-007',
+    title: 'Teal Handloom Silk Kurta with Dhoti Pants',
+    category: 'Traditional Wedding',
+    gender: 'unisex',
+    imageUrl: 'https://images.unsplash.com/featured/?indian,wedding,handloom,ethnic&sig=1007',
+    items: [
+      { name: 'Handloom Silk Kurta', type: 'Top', price: 3800, color: 'Teal' },
+      { name: 'Dhoti-style Pants', type: 'Bottom', price: 2200, color: 'Cream' },
+      { name: 'Block-Print Stole', type: 'Dupatta', price: 1500, color: 'Teal & Cream' },
+    ],
+    accessories: [
+      { name: 'Oxidised Silver Cuff Bracelet', price: 850 },
+      { name: 'Statement Silver Ring', price: 600 },
+      { name: 'Jute Sling Bag', price: 1200 },
+    ],
+    shoes: { name: 'Leather Juttis with Thread Work', price: 1900 },
+    totalPrice: 12050,
+    budgetTier: 'mid-range',
+    events: ['wedding', 'festival', 'mehendi'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Drape the stole loosely around both shoulders for a gender-neutral look. Add kohl-lined eyes for effortless Indian wedding charm.',
+    colors: ['#008080', '#FFFDD0', '#C0C0C0'],
+  },
+  {
+    id: 'tw-008',
+    title: 'Peach Georgette Sharara with Peplum Top',
+    category: 'Traditional Wedding',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?indian,wedding,sharara,peach&sig=1008',
+    items: [
+      { name: 'Embroidered Peplum Top', type: 'Top', price: 3200, color: 'Peach' },
+      { name: 'Georgette Sharara', type: 'Bottom', price: 3800, color: 'Peach' },
+      { name: 'Net Dupatta with Sequin Border', type: 'Dupatta', price: 1400, color: 'Gold' },
+    ],
+    accessories: [
+      { name: 'Pearl Choker Necklace', price: 1600 },
+      { name: 'Kundan Drop Earrings', price: 900 },
+      { name: 'Beaded Clutch', price: 1100 },
+    ],
+    shoes: { name: 'Rose Gold Block Heel Sandals', price: 1800 },
+    totalPrice: 13800,
+    budgetTier: 'mid-range',
+    events: ['wedding', 'sangeet', 'mehendi'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Let the dupatta hang loosely from both arms for a relaxed, modern drape. Keep lip color nude and let the peach tones take center stage.',
+    colors: ['#FFDAB9', '#FFD700', '#E8A090'],
+  },
+  {
+    id: 'tw-009',
+    title: 'Midnight Navy Silk Achkan with Silver Embroidery',
+    category: 'Traditional Wedding',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?indian,wedding,achkan,groom&sig=1009',
+    items: [
+      { name: 'Silk Achkan with Silver Threadwork', type: 'Top', price: 16000, color: 'Navy Blue' },
+      { name: 'Silk Slim Trousers', type: 'Bottom', price: 4500, color: 'Navy' },
+      { name: 'Silver Brocade Stole', type: 'Dupatta', price: 3200, color: 'Silver' },
+    ],
+    accessories: [
+      { name: 'Safa Turban with Kalgi', price: 3500 },
+      { name: 'Sapphire Brooch', price: 2800 },
+      { name: 'Pearl Button Cufflinks', price: 1200 },
+    ],
+    shoes: { name: 'Silver Embroidered Nagra Shoes', price: 3300 },
+    totalPrice: 34500,
+    budgetTier: 'premium',
+    events: ['wedding', 'formal', 'photoshoot'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Pin the kalgi slightly tilted on the safa for a regal Rajputana look. Choose a single statement ring to balance the silver embroidery.',
+    colors: ['#000080', '#C0C0C0', '#191970'],
+  },
+  {
+    id: 'tw-010',
+    title: 'Sunshine Yellow Cotton Silk Saree',
+    category: 'Traditional Wedding',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?indian,wedding,saree,yellow&sig=1010',
+    items: [
+      { name: 'Cotton Silk Saree', type: 'Top', price: 1800, color: 'Yellow' },
+      { name: 'Readymade Blouse', type: 'Innerwear', price: 650, color: 'Contrast Red' },
+      { name: 'Cotton Petticoat', type: 'Bottom', price: 350, color: 'Yellow' },
+    ],
+    accessories: [
+      { name: 'Glass Bangle Set (8 pcs)', price: 200 },
+      { name: 'Oxidised Jhumka Earrings', price: 380 },
+      { name: 'Beaded Bindi Pack', price: 50 },
+    ],
+    shoes: { name: 'Flat Kolhapuri Sandals', price: 650 },
+    totalPrice: 4080,
+    budgetTier: 'budget',
+    events: ['wedding', 'festival', 'formal'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Drape in a classic Nivi style with a neatly pleated pallu. Stack the glass bangles on one wrist only for a modern twist on tradition.',
+    colors: ['#FFD700', '#FF0000', '#FFA500'],
+  },
+
+  // ==========================================================================
+  // CATEGORY 2: Sangeet & Mehendi (sm-001 → sm-010, sigs 2001–2010)
+  // ==========================================================================
+  {
+    id: 'sm-001',
+    title: 'Emerald Green Sequin Lehenga for Sangeet',
+    category: 'Sangeet & Mehendi',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?sangeet,mehendi,sharara,ethnic&sig=2001',
+    items: [
+      { name: 'Sequin Lehenga Skirt', type: 'Bottom', price: 12000, color: 'Emerald Green' },
+      { name: 'Off-Shoulder Crop Blouse', type: 'Top', price: 4500, color: 'Gold' },
+      { name: 'Tulle Dupatta', type: 'Dupatta', price: 2800, color: 'Emerald' },
+    ],
+    accessories: [
+      { name: 'Chandbali Earrings', price: 2200 },
+      { name: 'Layered Gold Chain Necklace', price: 3500 },
+      { name: 'Mirror Work Potli', price: 1800 },
+    ],
+    shoes: { name: 'Gold Strappy Block Heels', price: 2600 },
+    totalPrice: 29400,
+    budgetTier: 'premium',
+    events: ['sangeet', 'party', 'wedding'],
+    aesthetic: 'Sangeet Wear',
+    stylingTip: 'Skip the dupatta for the dance floor and drape it only for photos. Use a bold red lip to contrast the emerald palette.',
+    colors: ['#50C878', '#FFD700', '#006400'],
+  },
+  {
+    id: 'sm-002',
+    title: 'Printed Nehru Jacket over Pastel Kurta',
+    category: 'Sangeet & Mehendi',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?sangeet,ethnic,nehru,jacket&sig=2002',
+    items: [
+      { name: 'Pastel Linen Kurta', type: 'Top', price: 2200, color: 'Lavender' },
+      { name: 'White Cotton Pants', type: 'Bottom', price: 1400, color: 'White' },
+      { name: 'Printed Nehru Jacket', type: 'Outerwear', price: 3500, color: 'Multi-print' },
+    ],
+    accessories: [
+      { name: 'Enamel Lapel Pin', price: 450 },
+      { name: 'Beaded Bracelet', price: 350 },
+    ],
+    shoes: { name: 'Tan Leather Loafers', price: 2200 },
+    totalPrice: 10100,
+    budgetTier: 'mid-range',
+    events: ['sangeet', 'mehendi', 'festival'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Leave the Nehru jacket unbuttoned and roll the kurta sleeves over it for a casual sangeet vibe. Add aviator sunglasses for outdoor events.',
+    colors: ['#E6E6FA', '#FFFFFF', '#8B4513'],
+  },
+  {
+    id: 'sm-003',
+    title: 'Mirror-Work Sharara Set in Coral',
+    category: 'Sangeet & Mehendi',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?sangeet,mehendi,sharara,coral&sig=2003',
+    items: [
+      { name: 'Mirror-Work Kurti', type: 'Top', price: 2800, color: 'Coral' },
+      { name: 'Sharara Pants', type: 'Bottom', price: 2200, color: 'Coral' },
+      { name: 'Bandhani Dupatta', type: 'Dupatta', price: 1200, color: 'Orange-Red' },
+    ],
+    accessories: [
+      { name: 'Silver Oxidised Choker', price: 800 },
+      { name: 'Lac Bangles Set', price: 400 },
+      { name: 'Embroidered Sling Bag', price: 900 },
+    ],
+    shoes: { name: 'Kolhapuri Heel Sandals', price: 1400 },
+    totalPrice: 9700,
+    budgetTier: 'mid-range',
+    events: ['mehendi', 'sangeet', 'festival'],
+    aesthetic: 'Sangeet Wear',
+    stylingTip: 'Tie the dupatta at the waist like a belt for hands-free dancing. Stack lac bangles generously on both wrists for that authentic mehendi vibe.',
+    colors: ['#FF7F50', '#FF4500', '#CD853F'],
+  },
+  {
+    id: 'sm-004',
+    title: 'Mustard Yellow Pathani Suit',
+    category: 'Sangeet & Mehendi',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?sangeet,ethnic,pathani,yellow&sig=2004',
+    items: [
+      { name: 'Mustard Pathani Kurta', type: 'Top', price: 1400, color: 'Mustard' },
+      { name: 'Straight-Fit Salwar', type: 'Bottom', price: 900, color: 'Mustard' },
+      { name: 'Cotton Stole', type: 'Dupatta', price: 400, color: 'Beige' },
+    ],
+    accessories: [
+      { name: 'Thread Bracelet Set', price: 150 },
+      { name: 'Metal Collar Pin', price: 200 },
+    ],
+    shoes: { name: 'Tan Mojari Juttis', price: 800 },
+    totalPrice: 3850,
+    budgetTier: 'budget',
+    events: ['mehendi', 'sangeet', 'casual'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Roll up the kurta sleeves to elbow length for a laidback mehendi look. Add a marigold garland around the neck for photo ops.',
+    colors: ['#FFDB58', '#F5F5DC', '#DAA520'],
+  },
+  {
+    id: 'sm-005',
+    title: 'Royal Purple Anarkali with Gold Gota Patti',
+    category: 'Sangeet & Mehendi',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?sangeet,mehendi,anarkali,purple&sig=2005',
+    items: [
+      { name: 'Silk Anarkali with Gota Patti', type: 'Top', price: 22000, color: 'Royal Purple' },
+      { name: 'Churidar Leggings', type: 'Bottom', price: 1800, color: 'Gold' },
+      { name: 'Organza Dupatta', type: 'Dupatta', price: 4500, color: 'Purple & Gold' },
+    ],
+    accessories: [
+      { name: 'Polki Kundan Necklace', price: 12000 },
+      { name: 'Jhumka Earrings with Pearls', price: 4200 },
+      { name: 'Gold Haath Phool (Hand Chain)', price: 3500 },
+      { name: 'Zardozi Clutch', price: 3800 },
+    ],
+    shoes: { name: 'Embellished Pencil Heels', price: 4200 },
+    totalPrice: 56000,
+    budgetTier: 'luxury',
+    events: ['sangeet', 'wedding', 'photoshoot'],
+    aesthetic: 'Sangeet Wear',
+    stylingTip: 'Let the Anarkali flare speak — pair with a sleek low bun adorned with fresh orchids. Apply bold purple-toned smoky eyes for drama.',
+    colors: ['#7851A9', '#FFD700', '#4B0082'],
+  },
+  {
+    id: 'sm-006',
+    title: 'Mint Green Jacquard Kurta with Dhoti',
+    category: 'Sangeet & Mehendi',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?sangeet,ethnic,kurta,green&sig=2006',
+    items: [
+      { name: 'Jacquard Silk Kurta', type: 'Top', price: 3200, color: 'Mint Green' },
+      { name: 'Dhoti Pants', type: 'Bottom', price: 1800, color: 'White' },
+      { name: 'Silk Dupatta', type: 'Dupatta', price: 1200, color: 'Green & Silver' },
+    ],
+    accessories: [
+      { name: 'Silver Kada Bracelet', price: 1100 },
+      { name: 'Pearl Stud Buttons Set', price: 650 },
+    ],
+    shoes: { name: 'White Leather Kolhapuris', price: 1600 },
+    totalPrice: 9550,
+    budgetTier: 'mid-range',
+    events: ['sangeet', 'mehendi', 'festival'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Fold the dhoti pants neatly with a visible pleat line. Wear the dupatta crossed across the chest for a royal Mughal-inspired silhouette.',
+    colors: ['#98FF98', '#FFFFFF', '#C0C0C0'],
+  },
+  {
+    id: 'sm-007',
+    title: 'Hot Pink Palazzo Kurti with Phulkari Dupatta',
+    category: 'Sangeet & Mehendi',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?sangeet,mehendi,phulkari,pink&sig=2007',
+    items: [
+      { name: 'Chanderi Silk Kurti', type: 'Top', price: 4500, color: 'Hot Pink' },
+      { name: 'Wide-Leg Palazzo', type: 'Bottom', price: 2200, color: 'Ivory' },
+      { name: 'Phulkari Embroidered Dupatta', type: 'Dupatta', price: 3500, color: 'Multi-color' },
+    ],
+    accessories: [
+      { name: 'Oxidised Silver Jhumkas', price: 1200 },
+      { name: 'Statement Finger Ring', price: 800 },
+      { name: 'Mirror-Work Tote', price: 1500 },
+    ],
+    shoes: { name: 'Embroidered Juttis', price: 1300 },
+    totalPrice: 15000,
+    budgetTier: 'mid-range',
+    events: ['mehendi', 'sangeet', 'festival'],
+    aesthetic: 'Sangeet Wear',
+    stylingTip: 'Drape the Phulkari dupatta as a cape tied at the front for a fusion look. Braid flowers into your hair for a rustic Punjabi vibe.',
+    colors: ['#FF69B4', '#FFFFF0', '#FF1493'],
+  },
+  {
+    id: 'sm-008',
+    title: 'Indigo Block-Print Kurta with Palazzos',
+    category: 'Sangeet & Mehendi',
+    gender: 'unisex',
+    imageUrl: 'https://images.unsplash.com/featured/?sangeet,ethnic,blockprint,indigo&sig=2008',
+    items: [
+      { name: 'Indigo Block-Print Kurta', type: 'Top', price: 1100, color: 'Indigo' },
+      { name: 'White Cotton Palazzos', type: 'Bottom', price: 800, color: 'White' },
+      { name: 'Dabu Print Stole', type: 'Dupatta', price: 500, color: 'Blue & White' },
+    ],
+    accessories: [
+      { name: 'Silver Toe Rings Set', price: 200 },
+      { name: 'Fabric Wrist Band', price: 100 },
+    ],
+    shoes: { name: 'Leather Kohlapuri Flats', price: 600 },
+    totalPrice: 3300,
+    budgetTier: 'budget',
+    events: ['mehendi', 'casual', 'festival'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Wear this relaxed combo barefoot for actual mehendi application, then slip on the Kolhapuris for the party. Use the stole as a headband for a bohemian twist.',
+    colors: ['#4B0082', '#FFFFFF', '#1E3A5F'],
+  },
+  {
+    id: 'sm-009',
+    title: 'Copper Silk Bandhgala with Jodhpuri Trousers',
+    category: 'Sangeet & Mehendi',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?sangeet,ethnic,bandhgala,copper&sig=2009',
+    items: [
+      { name: 'Copper Silk Bandhgala', type: 'Top', price: 6500, color: 'Copper' },
+      { name: 'Jodhpuri Trousers', type: 'Bottom', price: 2800, color: 'Black' },
+      { name: 'Paisley Print Pocket Square', type: 'Dupatta', price: 600, color: 'Copper & Black' },
+    ],
+    accessories: [
+      { name: 'Antique Cufflinks', price: 1200 },
+      { name: 'Slim Leather Belt', price: 900 },
+    ],
+    shoes: { name: 'Black Patent Leather Slip-ons', price: 2800 },
+    totalPrice: 14800,
+    budgetTier: 'mid-range',
+    events: ['sangeet', 'party', 'formal'],
+    aesthetic: 'Indian Traditional',
+    stylingTip: 'Button the Bandhgala all the way up for sharpness. Skip the dupatta-style stole and let the copper fabric be the sole statement piece.',
+    colors: ['#B87333', '#000000', '#2F4F4F'],
+  },
+  {
+    id: 'sm-010',
+    title: 'Lime Green Tiered Gharara Set',
+    category: 'Sangeet & Mehendi',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?sangeet,mehendi,gharara,green&sig=2010',
+    items: [
+      { name: 'Embroidered Short Kurti', type: 'Top', price: 2400, color: 'Lime Green' },
+      { name: 'Tiered Gharara Pants', type: 'Bottom', price: 3200, color: 'Lime Green' },
+      { name: 'Gota Border Dupatta', type: 'Dupatta', price: 1600, color: 'Gold & Green' },
+    ],
+    accessories: [
+      { name: 'Floral Maang Tikka', price: 600 },
+      { name: 'Thread Jhumkas', price: 350 },
+      { name: 'Beaded Potli Bag', price: 750 },
+    ],
+    shoes: { name: 'Green Embroidered Mules', price: 1100 },
+    totalPrice: 10000,
+    budgetTier: 'mid-range',
+    events: ['mehendi', 'sangeet', 'festival'],
+    aesthetic: 'Sangeet Wear',
+    stylingTip: 'Tie the dupatta at the back waist for a hands-free dance look. Add floral jewellery for an authentic mehendi aesthetic.',
+    colors: ['#32CD32', '#FFD700', '#228B22'],
+  },
+
+  // ==========================================================================
+  // CATEGORY 3: Festive & Diwali (fd-001 → fd-010, sigs 3001–3010)
+  // ==========================================================================
+  {
+    id: 'fd-001',
+    title: 'Gold Tissue Saree with Temple Jewellery',
+    category: 'Festive & Diwali',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?festive,diwali,silk,saree&sig=3001',
+    items: [
+      { name: 'Gold Tissue Silk Saree', type: 'Top', price: 8500, color: 'Gold' },
+      { name: 'Sequin Blouse', type: 'Innerwear', price: 2200, color: 'Maroon' },
+      { name: 'Shimmer Petticoat', type: 'Bottom', price: 600, color: 'Gold' },
+    ],
+    accessories: [
+      { name: 'Temple Jewellery Necklace', price: 2800 },
+      { name: 'Gold Jhumka Earrings', price: 1500 },
+      { name: 'Silk Potli Bag', price: 900 },
+    ],
+    shoes: { name: 'Gold Kitten Heel Sandals', price: 1800 },
+    totalPrice: 18300,
+    budgetTier: 'premium',
+    events: ['festival', 'formal', 'wedding'],
+    aesthetic: 'Indian Festive',
+    stylingTip: 'Drape the pallu in a seedha style to showcase the tissue shimmer. Light a diya backdrop for stunning Diwali photos.',
+    colors: ['#FFD700', '#800020', '#DAA520'],
+  },
+  {
+    id: 'fd-002',
+    title: 'Maroon Silk Kurta with Zari Churidar',
+    category: 'Festive & Diwali',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?festive,diwali,kurta,maroon&sig=3002',
+    items: [
+      { name: 'Maroon Silk Kurta', type: 'Top', price: 3200, color: 'Maroon' },
+      { name: 'Zari-Weave Churidar', type: 'Bottom', price: 1800, color: 'Gold' },
+      { name: 'Pashmina Stole', type: 'Dupatta', price: 2500, color: 'Cream' },
+    ],
+    accessories: [
+      { name: 'Gold-Plated Bracelet', price: 1200 },
+      { name: 'Crystal Brooch', price: 800 },
+    ],
+    shoes: { name: 'Embroidered Mojaris', price: 1500 },
+    totalPrice: 11000,
+    budgetTier: 'mid-range',
+    events: ['festival', 'formal', 'sangeet'],
+    aesthetic: 'Indian Festive',
+    stylingTip: 'Wrap the Pashmina stole casually across one shoulder. A dab of attar perfume on the wrists adds an authentic festive touch.',
+    colors: ['#800020', '#FFD700', '#FFFDD0'],
+  },
+  {
+    id: 'fd-003',
+    title: 'Orange Bandhani Saree with Oxidised Jewellery',
+    category: 'Festive & Diwali',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?festive,diwali,bandhani,orange&sig=3003',
+    items: [
+      { name: 'Pure Bandhani Saree', type: 'Top', price: 2200, color: 'Orange' },
+      { name: 'Contrast Blouse', type: 'Innerwear', price: 800, color: 'Green' },
+      { name: 'Cotton Petticoat', type: 'Bottom', price: 350, color: 'Orange' },
+    ],
+    accessories: [
+      { name: 'Oxidised Silver Necklace', price: 650 },
+      { name: 'Silver Jhumka Earrings', price: 450 },
+      { name: 'Glass Bangles Set', price: 200 },
+    ],
+    shoes: { name: 'Flat Mojari Juttis', price: 700 },
+    totalPrice: 5350,
+    budgetTier: 'mid-range',
+    events: ['festival', 'casual', 'mehendi'],
+    aesthetic: 'Indian Festive',
+    stylingTip: 'Pleat the pallu wide for a Gujarati-style drape. Stack green and orange glass bangles alternately for a playful Diwali palette.',
+    colors: ['#FF8C00', '#228B22', '#CD853F'],
+  },
+  {
+    id: 'fd-004',
+    title: 'Black & Gold Brocade Kurta Set',
+    category: 'Festive & Diwali',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?festive,diwali,kurta,black&sig=3004',
+    items: [
+      { name: 'Black Brocade Kurta', type: 'Top', price: 4800, color: 'Black & Gold' },
+      { name: 'Black Slim-Fit Trousers', type: 'Bottom', price: 2200, color: 'Black' },
+      { name: 'Gold Stole', type: 'Dupatta', price: 1500, color: 'Gold' },
+    ],
+    accessories: [
+      { name: 'Gold Chain Bracelet', price: 1800 },
+      { name: 'Onyx Ring', price: 1200 },
+      { name: 'Leather Card Holder', price: 800 },
+    ],
+    shoes: { name: 'Black Velvet Loafers', price: 2500 },
+    totalPrice: 14800,
+    budgetTier: 'mid-range',
+    events: ['festival', 'party', 'formal'],
+    aesthetic: 'Indian Festive',
+    stylingTip: 'Button the kurta to the collar for a sleek, modern look. The gold stole draped around the neck adds just enough festive shimmer without overdoing it.',
+    colors: ['#000000', '#FFD700', '#1C1C1C'],
+  },
+  {
+    id: 'fd-005',
+    title: 'Rani Pink Chanderi Anarkali',
+    category: 'Festive & Diwali',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?festive,diwali,anarkali,pink&sig=3005',
+    items: [
+      { name: 'Chanderi Silk Anarkali', type: 'Top', price: 5500, color: 'Rani Pink' },
+      { name: 'Churidar Leggings', type: 'Bottom', price: 1200, color: 'Gold' },
+      { name: 'Sequin Net Dupatta', type: 'Dupatta', price: 1800, color: 'Pink & Gold' },
+    ],
+    accessories: [
+      { name: 'Kundan Choker', price: 2800 },
+      { name: 'Matching Jhumkas', price: 1200 },
+      { name: 'Velvet Clutch', price: 1500 },
+    ],
+    shoes: { name: 'Pink Block Heels', price: 1800 },
+    totalPrice: 15800,
+    budgetTier: 'premium',
+    events: ['festival', 'wedding', 'formal'],
+    aesthetic: 'Indian Festive',
+    stylingTip: 'Pin the dupatta at both shoulders to frame your face. Go for a dewy makeup look with pink-toned highlighter on the cheekbones.',
+    colors: ['#E91E63', '#FFD700', '#C71585'],
+  },
+  {
+    id: 'fd-006',
+    title: 'Sage Green Linen Kurta for Casual Diwali',
+    category: 'Festive & Diwali',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?festive,diwali,kurta,green&sig=3006',
+    items: [
+      { name: 'Linen Kurta', type: 'Top', price: 1400, color: 'Sage Green' },
+      { name: 'White Cotton Pyjama', type: 'Bottom', price: 700, color: 'White' },
+      { name: 'Block-Print Scarf', type: 'Dupatta', price: 450, color: 'Green & White' },
+    ],
+    accessories: [
+      { name: 'Leather Strap Watch', price: 1200 },
+      { name: 'Thread Bracelet', price: 150 },
+    ],
+    shoes: { name: 'Canvas Slip-on Shoes', price: 850 },
+    totalPrice: 4750,
+    budgetTier: 'budget',
+    events: ['festival', 'casual', 'brunch'],
+    aesthetic: 'Indian Festive',
+    stylingTip: 'Cuff the pyjama once at the ankle for a clean silhouette. Wear the scarf open around the neck — perfect for a relaxed family Diwali dinner.',
+    colors: ['#9CAF88', '#FFFFFF', '#6B8E23'],
+  },
+  {
+    id: 'fd-007',
+    title: 'Electric Blue Silk Crop Top Lehenga',
+    category: 'Festive & Diwali',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?festive,diwali,lehenga,blue&sig=3007',
+    items: [
+      { name: 'Silk Crop Top', type: 'Top', price: 2800, color: 'Electric Blue' },
+      { name: 'Pleated Lehenga Skirt', type: 'Bottom', price: 4500, color: 'Royal Blue' },
+      { name: 'Organza Dupatta', type: 'Dupatta', price: 1500, color: 'Silver Blue' },
+    ],
+    accessories: [
+      { name: 'Crystal Choker Necklace', price: 1600 },
+      { name: 'Oxidised Silver Earrings', price: 800 },
+      { name: 'Beaded Clutch', price: 1000 },
+    ],
+    shoes: { name: 'Silver Strappy Heels', price: 2200 },
+    totalPrice: 14400,
+    budgetTier: 'mid-range',
+    events: ['festival', 'party', 'sangeet'],
+    aesthetic: 'Indian Festive',
+    stylingTip: 'Tie the dupatta at the waist to show off the crop top. Apply electric blue eyeliner to match the outfit for a cohesive, bold festive look.',
+    colors: ['#007FFF', '#4169E1', '#C0C0C0'],
+  },
+  {
+    id: 'fd-008',
+    title: 'Olive Khadi Kurta with Ikat Jacket',
+    category: 'Festive & Diwali',
+    gender: 'unisex',
+    imageUrl: 'https://images.unsplash.com/featured/?festive,diwali,kurta,ikat&sig=3008',
+    items: [
+      { name: 'Khadi Cotton Kurta', type: 'Top', price: 950, color: 'Olive' },
+      { name: 'Cotton Pyjama', type: 'Bottom', price: 650, color: 'Off-White' },
+      { name: 'Ikat Handloom Jacket', type: 'Outerwear', price: 1800, color: 'Multi-color Ikat' },
+    ],
+    accessories: [
+      { name: 'Clay Bead Necklace', price: 300 },
+      { name: 'Cotton Jhola Bag', price: 450 },
+    ],
+    shoes: { name: 'Vegan Leather Sandals', price: 550 },
+    totalPrice: 4700,
+    budgetTier: 'budget',
+    events: ['festival', 'casual', 'college-fest'],
+    aesthetic: 'Indian Festive',
+    stylingTip: 'Layer the Ikat jacket open over the kurta for artisanal flair. This sustainable look works for eco-conscious celebrations.',
+    colors: ['#808000', '#FFF8E7', '#C04000'],
+  },
+  {
+    id: 'fd-009',
+    title: 'Rose Gold Sequin Saree Gown',
+    category: 'Festive & Diwali',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?festive,diwali,saree,gown&sig=3009',
+    items: [
+      { name: 'Pre-stitched Saree Gown', type: 'Top', price: 18000, color: 'Rose Gold' },
+      { name: 'Structured Corset Blouse', type: 'Innerwear', price: 5500, color: 'Rose Gold' },
+      { name: 'Embellished Belt', type: 'Bottom', price: 2200, color: 'Gold' },
+    ],
+    accessories: [
+      { name: 'Diamond-Look Studs', price: 3200 },
+      { name: 'Crystal Cuff Bracelet', price: 2800 },
+      { name: 'Metallic Box Clutch', price: 3500 },
+    ],
+    shoes: { name: 'Rose Gold Stiletto Pumps', price: 4800 },
+    totalPrice: 40000,
+    budgetTier: 'premium',
+    events: ['festival', 'party', 'luxury-dinner'],
+    aesthetic: 'Indian Festive',
+    stylingTip: 'The pre-stitched format eliminates draping woes. Pair with a bold cat-eye and nude lips for a modern Diwali party queen look.',
+    colors: ['#B76E79', '#FFD700', '#E8CCD7'],
+  },
+  {
+    id: 'fd-010',
+    title: 'Rust Orange Asymmetric Kurta with Dhoti',
+    category: 'Festive & Diwali',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?festive,diwali,kurta,rust&sig=3010',
+    items: [
+      { name: 'Asymmetric Hem Kurta', type: 'Top', price: 2800, color: 'Rust Orange' },
+      { name: 'Pre-stitched Dhoti', type: 'Bottom', price: 1800, color: 'Cream' },
+      { name: 'Silk Pocket Square', type: 'Dupatta', price: 400, color: 'Rust' },
+    ],
+    accessories: [
+      { name: 'Wooden Bead Bracelet', price: 350 },
+      { name: 'Antique Brass Brooch', price: 500 },
+    ],
+    shoes: { name: 'Brown Leather Juttis', price: 1200 },
+    totalPrice: 7050,
+    budgetTier: 'mid-range',
+    events: ['festival', 'casual', 'sangeet'],
+    aesthetic: 'Indian Festive',
+    stylingTip: 'The asymmetric hem adds modern edge to the traditional silhouette. Pair with a trimmed beard and textured hair for a contemporary festive gentleman look.',
+    colors: ['#B7410E', '#FFFDD0', '#8B4513'],
+  },
+
+  // ==========================================================================
+  // CATEGORY 4: Party & Clubwear (pc-001 → pc-010, sigs 4001–4010)
+  // ==========================================================================
+  {
+    id: 'pc-001',
+    title: 'Midnight Sequin Bodycon Ensemble',
+    category: 'Party & Clubwear',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?party,club,sequin,dress&sig=4001',
+    items: [
+      { name: 'Black Sequin Bodycon Dress', type: 'Top', price: 3800, color: 'Black Sequin' },
+      { name: 'Sheer Mesh Shrug', type: 'Outerwear', price: 1200, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Crystal Drop Earrings', price: 850 },
+      { name: 'Metallic Clutch', price: 1600 },
+      { name: 'Stacked Bangle Set', price: 700 },
+    ],
+    shoes: { name: 'Strappy Stiletto Heels', price: 2400 },
+    totalPrice: 10550,
+    budgetTier: 'mid-range',
+    events: ['party', 'club', 'concert'],
+    aesthetic: 'Party Wear',
+    stylingTip: 'Go bold with a smoky eye and slicked-back hair. Let the sequins do the talking — keep other elements minimal.',
+    colors: ['#000000', '#C0C0C0', '#FFD700'],
+  },
+  {
+    id: 'pc-002',
+    title: 'All-Black Leather Jacket Party Look',
+    category: 'Party & Clubwear',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?party,club,leather,jacket&sig=4002',
+    items: [
+      { name: 'Slim-Fit Black Shirt', type: 'Top', price: 1800, color: 'Black' },
+      { name: 'Black Skinny Jeans', type: 'Bottom', price: 2200, color: 'Black' },
+      { name: 'Faux Leather Biker Jacket', type: 'Outerwear', price: 3500, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Silver Chain Necklace', price: 900 },
+      { name: 'Matte Black Watch', price: 2500 },
+    ],
+    shoes: { name: 'Black Chelsea Boots', price: 3200 },
+    totalPrice: 14100,
+    budgetTier: 'mid-range',
+    events: ['party', 'club', 'concert'],
+    aesthetic: 'Streetwear',
+    stylingTip: 'Unbutton the shirt two buttons down and tuck loosely into the jeans. The leather jacket over the shoulders (not worn) adds rockstar energy.',
+    colors: ['#000000', '#1C1C1C', '#C0C0C0'],
+  },
+  {
+    id: 'pc-003',
+    title: 'Red Satin Slip Dress with Blazer',
+    category: 'Party & Clubwear',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?party,club,satin,red&sig=4003',
+    items: [
+      { name: 'Red Satin Slip Dress', type: 'Top', price: 2800, color: 'Cherry Red' },
+      { name: 'Oversized Black Blazer', type: 'Outerwear', price: 3500, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Gold Hoop Earrings', price: 600 },
+      { name: 'Satin Clutch Bag', price: 1200 },
+      { name: 'Layered Gold Necklaces', price: 1400 },
+    ],
+    shoes: { name: 'Black Pointed-Toe Pumps', price: 2500 },
+    totalPrice: 12000,
+    budgetTier: 'mid-range',
+    events: ['party', 'date-night', 'club'],
+    aesthetic: 'Party Wear',
+    stylingTip: 'Push the blazer sleeves up to three-quarter length. A bold red lip matching the dress creates a head-turning monochromatic moment.',
+    colors: ['#DC143C', '#000000', '#FFD700'],
+  },
+  {
+    id: 'pc-004',
+    title: 'White Linen Shirt Open Club Look',
+    category: 'Party & Clubwear',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?party,nightlife,shirt,club&sig=4004',
+    items: [
+      { name: 'White Cuban-Collar Linen Shirt', type: 'Top', price: 1600, color: 'White' },
+      { name: 'Black Slim Chinos', type: 'Bottom', price: 1800, color: 'Black' },
+      { name: 'Black Vest Undershirt', type: 'Innerwear', price: 400, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Silver Signet Ring', price: 800 },
+      { name: 'Minimalist Leather Wallet', price: 600 },
+    ],
+    shoes: { name: 'White Leather Sneakers', price: 2200 },
+    totalPrice: 7400,
+    budgetTier: 'mid-range',
+    events: ['party', 'club', 'casual'],
+    aesthetic: 'Party Wear',
+    stylingTip: 'Wear the linen shirt completely unbuttoned over the black vest for that effortless Mumbai nightlife energy. Roll sleeves to elbows.',
+    colors: ['#FFFFFF', '#000000', '#C0C0C0'],
+  },
+  {
+    id: 'pc-005',
+    title: 'Emerald Velvet Corset Top with Palazzo',
+    category: 'Party & Clubwear',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?party,club,velvet,emerald&sig=4005',
+    items: [
+      { name: 'Velvet Corset Top', type: 'Top', price: 2200, color: 'Emerald Green' },
+      { name: 'Wide-Leg Satin Palazzo', type: 'Bottom', price: 2800, color: 'Black' },
+      { name: 'Feather Trim Shrug', type: 'Outerwear', price: 1500, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Emerald Drop Earrings', price: 1100 },
+      { name: 'Chain Link Belt', price: 900 },
+      { name: 'Crystal Evening Bag', price: 2200 },
+    ],
+    shoes: { name: 'Platform Stilettos', price: 2800 },
+    totalPrice: 13500,
+    budgetTier: 'mid-range',
+    events: ['party', 'club', 'concert'],
+    aesthetic: 'Party Wear',
+    stylingTip: 'The feather shrug is your entrance piece — wear it for the first hour, then drape it on your chair. Volumized hair completes the diva look.',
+    colors: ['#50C878', '#000000', '#2E8B57'],
+  },
+  {
+    id: 'pc-006',
+    title: 'Neon Graphic Tee with Cargo Pants',
+    category: 'Party & Clubwear',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?party,nightlife,neon,streetwear&sig=4006',
+    items: [
+      { name: 'Neon Graphic Print Tee', type: 'Top', price: 800, color: 'Neon Green' },
+      { name: 'Black Cargo Pants', type: 'Bottom', price: 1400, color: 'Black' },
+      { name: 'Bomber Jacket', type: 'Outerwear', price: 2200, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Glow-in-Dark Bracelet Set', price: 200 },
+      { name: 'Black Bucket Hat', price: 500 },
+    ],
+    shoes: { name: 'Chunky Black Sneakers', price: 1800 },
+    totalPrice: 6900,
+    budgetTier: 'mid-range',
+    events: ['party', 'club', 'concert'],
+    aesthetic: 'Streetwear',
+    stylingTip: 'Zip the bomber only halfway and push up the sleeves. The neon tee needs to glow under club UV lights — mission accomplished.',
+    colors: ['#39FF14', '#000000', '#1C1C1C'],
+  },
+  {
+    id: 'pc-007',
+    title: 'Gold Lamé Mini Dress for NYE',
+    category: 'Party & Clubwear',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?party,club,gold,mini&sig=4007',
+    items: [
+      { name: 'Gold Lamé Mini Dress', type: 'Top', price: 15000, color: 'Gold' },
+      { name: 'Sheer Gold Stockings', type: 'Bottom', price: 800, color: 'Nude Gold' },
+    ],
+    accessories: [
+      { name: 'Diamond Tennis Bracelet (CZ)', price: 8500 },
+      { name: 'Gold Cuff Earrings', price: 3200 },
+      { name: 'Crystal Minaudière Clutch', price: 5500 },
+    ],
+    shoes: { name: 'Gold Metallic Stilettos', price: 6200 },
+    totalPrice: 39200,
+    budgetTier: 'premium',
+    events: ['party', 'club', 'luxury-dinner'],
+    aesthetic: 'Party Wear',
+    stylingTip: 'This is a head-to-toe gold moment — own it. Sleek straight hair with a center part and a champagne-toned highlighter on collarbones.',
+    colors: ['#FFD700', '#F0E68C', '#DAA520'],
+  },
+  {
+    id: 'pc-008',
+    title: 'Velvet Tuxedo Blazer Party Set',
+    category: 'Party & Clubwear',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?party,club,tuxedo,blazer&sig=4008',
+    items: [
+      { name: 'Velvet Tuxedo Blazer', type: 'Outerwear', price: 8500, color: 'Burgundy' },
+      { name: 'Black Silk Shirt', type: 'Top', price: 3200, color: 'Black' },
+      { name: 'Tapered Tuxedo Trousers', type: 'Bottom', price: 3800, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Bow Tie', price: 600 },
+      { name: 'Silver Cufflinks', price: 1500 },
+      { name: 'Leather Cardholder', price: 900 },
+    ],
+    shoes: { name: 'Patent Leather Oxford Shoes', price: 4500 },
+    totalPrice: 23000,
+    budgetTier: 'premium',
+    events: ['party', 'formal', 'luxury-dinner'],
+    aesthetic: 'Party Wear',
+    stylingTip: 'Unbutton the silk shirt at the collar even with the bow tie for a deliberately undone luxe look. Slick back hair with gel for old Hollywood charm.',
+    colors: ['#800020', '#000000', '#C0C0C0'],
+  },
+  {
+    id: 'pc-009',
+    title: 'Holographic Crop Top with Vinyl Skirt',
+    category: 'Party & Clubwear',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?party,club,holographic,vinyl&sig=4009',
+    items: [
+      { name: 'Holographic Crop Top', type: 'Top', price: 1200, color: 'Holographic Silver' },
+      { name: 'Black Vinyl Mini Skirt', type: 'Bottom', price: 1500, color: 'Black' },
+      { name: 'Fishnet Layering Top', type: 'Innerwear', price: 450, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Chunky Chain Choker', price: 600 },
+      { name: 'Holographic Fanny Pack', price: 800 },
+    ],
+    shoes: { name: 'Platform Combat Boots', price: 2800 },
+    totalPrice: 7350,
+    budgetTier: 'mid-range',
+    events: ['party', 'club', 'concert'],
+    aesthetic: 'Y2K',
+    stylingTip: 'Layer the fishnet under the holographic top for texture play. Add glitter on the cheekbones and space buns for full Y2K rave energy.',
+    colors: ['#C0C0C0', '#000000', '#E6E6FA'],
+  },
+  {
+    id: 'pc-010',
+    title: 'Tropical Print Party Shirt with Shorts',
+    category: 'Party & Clubwear',
+    gender: 'unisex',
+    imageUrl: 'https://images.unsplash.com/featured/?party,nightlife,tropical,print&sig=4010',
+    items: [
+      { name: 'Tropical Print Camp-Collar Shirt', type: 'Top', price: 1200, color: 'Multi-Tropical' },
+      { name: 'Black Linen Shorts', type: 'Bottom', price: 900, color: 'Black' },
+      { name: 'White Tank Top', type: 'Innerwear', price: 350, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Shell Necklace', price: 300 },
+      { name: 'Retro Sunglasses', price: 500 },
+    ],
+    shoes: { name: 'White Espadrilles', price: 1100 },
+    totalPrice: 4350,
+    budgetTier: 'budget',
+    events: ['party', 'casual', 'brunch'],
+    aesthetic: 'Streetwear',
+    stylingTip: 'Wear the shirt open over the tank for a Goa beach party look. Slide the sunglasses onto the shirt collar when indoors for effortless cool.',
+    colors: ['#228B22', '#FF6347', '#000000'],
+  },
+
+  // ==========================================================================
+  // CATEGORY 5: Office & Corporate (oc-001 → oc-010, sigs 5001–5010)
+  // ==========================================================================
+  {
+    id: 'oc-001',
+    title: 'Charcoal Power Suit with Crisp White Shirt',
+    category: 'Office & Corporate',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?office,corporate,formal,suit&sig=5001',
+    items: [
+      { name: 'Charcoal Wool-Blend Blazer', type: 'Outerwear', price: 8500, color: 'Charcoal' },
+      { name: 'Matching Slim-Fit Trousers', type: 'Bottom', price: 3800, color: 'Charcoal' },
+      { name: 'White Poplin Dress Shirt', type: 'Top', price: 2200, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Silk Tie', price: 1200 },
+      { name: 'Silver Tie Bar', price: 600 },
+      { name: 'Leather Belt', price: 1500 },
+    ],
+    shoes: { name: 'Black Oxford Brogues', price: 3800 },
+    totalPrice: 21600,
+    budgetTier: 'premium',
+    events: ['office', 'formal', 'work'],
+    aesthetic: 'Old Money',
+    stylingTip: 'The tie bar should sit between the third and fourth shirt buttons. Keep the blazer button fastened when standing, unbuttoned when seated.',
+    colors: ['#36454F', '#FFFFFF', '#C0C0C0'],
+  },
+  {
+    id: 'oc-002',
+    title: 'Navy Pencil Skirt Power Dressing Set',
+    category: 'Office & Corporate',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?office,corporate,pencil,skirt&sig=5002',
+    items: [
+      { name: 'Ivory Silk Blouse', type: 'Top', price: 2800, color: 'Ivory' },
+      { name: 'Navy Pencil Skirt', type: 'Bottom', price: 2200, color: 'Navy Blue' },
+      { name: 'Structured Navy Blazer', type: 'Outerwear', price: 4500, color: 'Navy Blue' },
+    ],
+    accessories: [
+      { name: 'Pearl Stud Earrings', price: 800 },
+      { name: 'Structured Leather Tote', price: 3200 },
+      { name: 'Slim Gold Watch', price: 2500 },
+    ],
+    shoes: { name: 'Nude Patent Leather Pumps', price: 2800 },
+    totalPrice: 18800,
+    budgetTier: 'premium',
+    events: ['office', 'formal', 'work'],
+    aesthetic: 'Old Money',
+    stylingTip: 'Tuck the blouse in smoothly and add a thin belt at the waist for definition. Hair in a low chignon radiates boardroom authority.',
+    colors: ['#000080', '#FFFFF0', '#F5F5DC'],
+  },
+  {
+    id: 'oc-003',
+    title: 'Pastel Blue Shirt with Beige Chinos',
+    category: 'Office & Corporate',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?office,corporate,shirt,chinos&sig=5003',
+    items: [
+      { name: 'Pastel Blue Oxford Shirt', type: 'Top', price: 1600, color: 'Pastel Blue' },
+      { name: 'Beige Slim Chinos', type: 'Bottom', price: 1800, color: 'Beige' },
+      { name: 'Navy Cotton Blazer', type: 'Outerwear', price: 3200, color: 'Navy' },
+    ],
+    accessories: [
+      { name: 'Brown Leather Watch', price: 1800 },
+      { name: 'Woven Leather Belt', price: 900 },
+    ],
+    shoes: { name: 'Brown Suede Loafers', price: 2200 },
+    totalPrice: 11500,
+    budgetTier: 'mid-range',
+    events: ['office', 'work', 'brunch'],
+    aesthetic: 'Scandinavian Minimal',
+    stylingTip: 'Roll the chinos once at the ankle to show off the suede loafers. Tuck the shirt in for meetings, leave it out for casual Fridays.',
+    colors: ['#ADD8E6', '#F5F5DC', '#000080'],
+  },
+  {
+    id: 'oc-004',
+    title: 'Black Sheath Dress with Statement Belt',
+    category: 'Office & Corporate',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?office,corporate,sheath,dress&sig=5004',
+    items: [
+      { name: 'Black Ponte Sheath Dress', type: 'Top', price: 3200, color: 'Black' },
+      { name: 'Camel Wool Coat', type: 'Outerwear', price: 5500, color: 'Camel' },
+    ],
+    accessories: [
+      { name: 'Gold Statement Belt', price: 1200 },
+      { name: 'Structured Black Handbag', price: 2800 },
+      { name: 'Gold Cuff Bracelet', price: 1500 },
+    ],
+    shoes: { name: 'Black Leather Pointed Pumps', price: 2600 },
+    totalPrice: 16800,
+    budgetTier: 'premium',
+    events: ['office', 'formal', 'luxury-dinner'],
+    aesthetic: 'Quiet Luxury',
+    stylingTip: 'Drape the camel coat over your shoulders like a cape for elevator-to-boardroom impact. Keep jewellery to the gold belt and cuff only.',
+    colors: ['#000000', '#C19A6B', '#FFD700'],
+  },
+  {
+    id: 'oc-005',
+    title: 'Budget-Friendly Formals in Grey',
+    category: 'Office & Corporate',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?office,corporate,formal,grey&sig=5005',
+    items: [
+      { name: 'Grey Polyester Blazer', type: 'Outerwear', price: 1800, color: 'Grey' },
+      { name: 'White Poly-Cotton Shirt', type: 'Top', price: 600, color: 'White' },
+      { name: 'Grey Trousers', type: 'Bottom', price: 900, color: 'Grey' },
+    ],
+    accessories: [
+      { name: 'Slim Black Tie', price: 300 },
+      { name: 'Basic Leather Belt', price: 400 },
+    ],
+    shoes: { name: 'Black Formal Derby Shoes', price: 1200 },
+    totalPrice: 5200,
+    budgetTier: 'mid-range',
+    events: ['office', 'work', 'formal'],
+    aesthetic: 'Monochrome Minimal',
+    stylingTip: 'Even on a budget, fit matters most. Get the trousers hemmed properly and the blazer sleeves altered to show half an inch of shirt cuff.',
+    colors: ['#808080', '#FFFFFF', '#000000'],
+  },
+  {
+    id: 'oc-006',
+    title: 'Olive Green Kurti with Formal Trousers',
+    category: 'Office & Corporate',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?office,corporate,kurti,formal&sig=5006',
+    items: [
+      { name: 'Olive Chanderi Kurti', type: 'Top', price: 1800, color: 'Olive Green' },
+      { name: 'Black Straight Trousers', type: 'Bottom', price: 1200, color: 'Black' },
+      { name: 'Pashmina Stole', type: 'Dupatta', price: 1500, color: 'Olive & Black' },
+    ],
+    accessories: [
+      { name: 'Oxidised Silver Studs', price: 350 },
+      { name: 'Laptop Tote Bag', price: 1800 },
+    ],
+    shoes: { name: 'Black Kitten Heel Pumps', price: 1600 },
+    totalPrice: 8250,
+    budgetTier: 'mid-range',
+    events: ['office', 'work', 'casual'],
+    aesthetic: 'Scandinavian Minimal',
+    stylingTip: 'Drape the Pashmina over one shoulder when the AC is blasting. This Indo-western fusion works for both client meetings and team lunches.',
+    colors: ['#808000', '#000000', '#556B2F'],
+  },
+  {
+    id: 'oc-007',
+    title: 'Summer Linen Blazer with Polo Shirt',
+    category: 'Office & Corporate',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?office,corporate,linen,summer&sig=5007',
+    items: [
+      { name: 'Beige Linen Blazer', type: 'Outerwear', price: 4200, color: 'Beige' },
+      { name: 'White Piqué Polo Shirt', type: 'Top', price: 1500, color: 'White' },
+      { name: 'Navy Tailored Shorts', type: 'Bottom', price: 1800, color: 'Navy' },
+    ],
+    accessories: [
+      { name: 'Canvas Strap Watch', price: 1200 },
+      { name: 'Woven Belt', price: 700 },
+    ],
+    shoes: { name: 'Tan Leather Boat Shoes', price: 2400 },
+    totalPrice: 11800,
+    budgetTier: 'mid-range',
+    events: ['office', 'brunch', 'casual'],
+    aesthetic: 'Old Money',
+    stylingTip: 'This smart-casual combo works for creative offices. Push the blazer sleeves up to showcase the watch. Perfect for summer Friday meetings.',
+    colors: ['#F5F5DC', '#FFFFFF', '#000080'],
+  },
+  {
+    id: 'oc-008',
+    title: 'Minimalist White Shirt Dress',
+    category: 'Office & Corporate',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?office,corporate,shirt,dress&sig=5008',
+    items: [
+      { name: 'White Cotton Shirt Dress', type: 'Top', price: 2200, color: 'White' },
+      { name: 'Tan Leather Waist Belt', type: 'Bottom', price: 900, color: 'Tan' },
+    ],
+    accessories: [
+      { name: 'Tortoiseshell Sunglasses', price: 800 },
+      { name: 'Canvas Crossbody Bag', price: 1200 },
+      { name: 'Thin Gold Chain Necklace', price: 600 },
+    ],
+    shoes: { name: 'White Leather Mules', price: 1800 },
+    totalPrice: 7500,
+    budgetTier: 'mid-range',
+    events: ['office', 'brunch', 'casual'],
+    aesthetic: 'Clean Girl',
+    stylingTip: 'Belt the dress at the natural waist for structure. Add sunglasses pushed up on your head for that effortless "just stepped out of a cab" energy.',
+    colors: ['#FFFFFF', '#D2B48C', '#FFD700'],
+  },
+  {
+    id: 'oc-009',
+    title: 'Budget Cotton Formal Shirt and Trousers',
+    category: 'Office & Corporate',
+    gender: 'unisex',
+    imageUrl: 'https://images.unsplash.com/featured/?office,corporate,cotton,formal&sig=5009',
+    items: [
+      { name: 'Light Blue Cotton Shirt', type: 'Top', price: 700, color: 'Light Blue' },
+      { name: 'Black Cotton Trousers', type: 'Bottom', price: 800, color: 'Black' },
+      { name: 'Grey Cotton Vest', type: 'Outerwear', price: 600, color: 'Grey' },
+    ],
+    accessories: [
+      { name: 'Simple Digital Watch', price: 400 },
+      { name: 'Canvas Belt', price: 250 },
+    ],
+    shoes: { name: 'Black Formal Slip-ons', price: 900 },
+    totalPrice: 3650,
+    budgetTier: 'budget',
+    events: ['office', 'work', 'formal'],
+    aesthetic: 'Monochrome Minimal',
+    stylingTip: 'The vest adds layers without bulk — ideal for AC offices. Iron the shirt crisp and tuck it in for a polished look even on a tight budget.',
+    colors: ['#ADD8E6', '#000000', '#808080'],
+  },
+  {
+    id: 'oc-010',
+    title: 'Plum Pantsuit with Gold Accents',
+    category: 'Office & Corporate',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?office,corporate,pantsuit,woman&sig=5010',
+    items: [
+      { name: 'Plum Double-Breasted Blazer', type: 'Outerwear', price: 12000, color: 'Plum' },
+      { name: 'Matching High-Waist Trousers', type: 'Bottom', price: 5500, color: 'Plum' },
+      { name: 'Cream Silk Camisole', type: 'Top', price: 3200, color: 'Cream' },
+    ],
+    accessories: [
+      { name: 'Gold Pendant Necklace', price: 2800 },
+      { name: 'Structured Leather Briefcase', price: 5500 },
+      { name: 'Gold Ear Cuff Set', price: 1200 },
+    ],
+    shoes: { name: 'Nude Pointed Stiletto Pumps', price: 4200 },
+    totalPrice: 34400,
+    budgetTier: 'premium',
+    events: ['office', 'formal', 'luxury-dinner'],
+    aesthetic: 'Quiet Luxury',
+    stylingTip: 'Wear the blazer buttoned with the camisole peeking through. The plum color commands attention in neutral office environments without being flashy.',
+    colors: ['#8E4585', '#FFFDD0', '#FFD700'],
+  },
+
+  // ==========================================================================
+  // CATEGORY 6: College & Casual (cc-001 → cc-010, sigs 6001–6010)
+  // ==========================================================================
+  {
+    id: 'cc-001',
+    title: 'Oversized Graphic Tee with Mom Jeans',
+    category: 'College & Casual',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?casual,streetwear,denim,graphic&sig=6001',
+    items: [
+      { name: 'Vintage Band Graphic Tee', type: 'Top', price: 800, color: 'Washed Black' },
+      { name: 'High-Waist Mom Jeans', type: 'Bottom', price: 1600, color: 'Light Blue Denim' },
+      { name: 'Cropped Denim Jacket', type: 'Outerwear', price: 1800, color: 'Medium Wash' },
+    ],
+    accessories: [
+      { name: 'Canvas Tote Bag', price: 400 },
+      { name: 'Layered Chain Necklace Set', price: 350 },
+      { name: 'Scrunchie Set (3 pcs)', price: 150 },
+    ],
+    shoes: { name: 'White Canvas Sneakers', price: 1200 },
+    totalPrice: 6300,
+    budgetTier: 'mid-range',
+    events: ['casual', 'college-fest', 'travel'],
+    aesthetic: 'Streetwear',
+    stylingTip: 'Front-tuck the tee into the jeans for a relaxed but intentional look. Wear the denim jacket draped over one shoulder when the sun is out.',
+    colors: ['#1C1C1C', '#ADD8E6', '#4682B4'],
+  },
+  {
+    id: 'cc-002',
+    title: 'Relaxed Hoodie with Joggers Combo',
+    category: 'College & Casual',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?casual,streetwear,hoodie,jogger&sig=6002',
+    items: [
+      { name: 'Cotton French Terry Hoodie', type: 'Top', price: 1200, color: 'Heather Grey' },
+      { name: 'Tapered Jogger Pants', type: 'Bottom', price: 900, color: 'Black' },
+      { name: 'White Crew Neck Tee', type: 'Innerwear', price: 400, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Sports Watch', price: 800 },
+      { name: 'Canvas Backpack', price: 1200 },
+    ],
+    shoes: { name: 'Black Running Sneakers', price: 1800 },
+    totalPrice: 6300,
+    budgetTier: 'mid-range',
+    events: ['casual', 'college-fest', 'gym'],
+    aesthetic: 'Streetwear',
+    stylingTip: 'Scrunch the jogger cuffs above the sneaker tongue for a clean break. Push hoodie sleeves to three-quarter for a more styled look.',
+    colors: ['#B0B0B0', '#000000', '#FFFFFF'],
+  },
+  {
+    id: 'cc-003',
+    title: 'Floral Midi Skirt with White Crop Top',
+    category: 'College & Casual',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?casual,streetwear,floral,skirt&sig=6003',
+    items: [
+      { name: 'White Ribbed Crop Top', type: 'Top', price: 500, color: 'White' },
+      { name: 'Floral Print Midi Skirt', type: 'Bottom', price: 1100, color: 'Dusty Rose Floral' },
+      { name: 'Light Denim Jacket', type: 'Outerwear', price: 1400, color: 'Light Blue' },
+    ],
+    accessories: [
+      { name: 'Straw Crossbody Bag', price: 600 },
+      { name: 'Daisy Hair Clips Set', price: 150 },
+    ],
+    shoes: { name: 'White Platform Sneakers', price: 1500 },
+    totalPrice: 5250,
+    budgetTier: 'mid-range',
+    events: ['casual', 'college-fest', 'brunch'],
+    aesthetic: 'Soft Girl',
+    stylingTip: 'Tie the denim jacket around the waist if it gets warm. The sneakers keep it campus-friendly while the skirt adds feminine charm.',
+    colors: ['#FFFFFF', '#BC8F8F', '#ADD8E6'],
+  },
+  {
+    id: 'cc-004',
+    title: 'Kurta over Ripped Jeans Fusion Look',
+    category: 'College & Casual',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?casual,streetwear,kurta,jeans&sig=6004',
+    items: [
+      { name: 'Short Cotton Kurta', type: 'Top', price: 700, color: 'Indigo' },
+      { name: 'Ripped Slim Jeans', type: 'Bottom', price: 1200, color: 'Dark Blue Denim' },
+    ],
+    accessories: [
+      { name: 'Oxidised Silver Bracelet', price: 300 },
+      { name: 'Aviator Sunglasses', price: 500 },
+    ],
+    shoes: { name: 'White Slip-on Vans', price: 1500 },
+    totalPrice: 4200,
+    budgetTier: 'budget',
+    events: ['casual', 'college-fest', 'festival'],
+    aesthetic: 'Streetwear',
+    stylingTip: 'This Indo-western fusion is a college staple. Roll the jeans once above the ankle and push the kurta sleeves up for a careless-cool vibe.',
+    colors: ['#4B0082', '#00008B', '#FFFFFF'],
+  },
+  {
+    id: 'cc-005',
+    title: 'Corduroy Dungaree with Striped Tee',
+    category: 'College & Casual',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?casual,streetwear,dungaree,corduroy&sig=6005',
+    items: [
+      { name: 'Corduroy Dungaree Dress', type: 'Top', price: 1800, color: 'Rust' },
+      { name: 'Striped Long-Sleeve Tee', type: 'Innerwear', price: 600, color: 'Black & White Stripe' },
+      { name: 'Black Tights', type: 'Bottom', price: 400, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Beret Hat', price: 450 },
+      { name: 'Canvas Sling Bag', price: 500 },
+      { name: 'Enamel Pin Set', price: 200 },
+    ],
+    shoes: { name: 'Chunky Lug-Sole Boots', price: 2200 },
+    totalPrice: 6150,
+    budgetTier: 'mid-range',
+    events: ['casual', 'college-fest', 'travel'],
+    aesthetic: 'Dark Academia',
+    stylingTip: 'Leave one dungaree strap unclipped for an artsy, offbeat look. The beret adds Parisian flair to any campus outfit.',
+    colors: ['#B7410E', '#000000', '#FFFFFF'],
+  },
+  {
+    id: 'cc-006',
+    title: 'Plain Polo with Khaki Shorts',
+    category: 'College & Casual',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?casual,streetwear,polo,shorts&sig=6006',
+    items: [
+      { name: 'Olive Green Polo Shirt', type: 'Top', price: 800, color: 'Olive Green' },
+      { name: 'Khaki Cotton Shorts', type: 'Bottom', price: 700, color: 'Khaki' },
+    ],
+    accessories: [
+      { name: 'Woven Fabric Watch', price: 500 },
+      { name: 'Cotton Cap', price: 300 },
+    ],
+    shoes: { name: 'Brown Leather Sandals', price: 800 },
+    totalPrice: 3100,
+    budgetTier: 'budget',
+    events: ['casual', 'travel', 'brunch'],
+    aesthetic: 'Streetwear',
+    stylingTip: 'Keep it clean and unfussy — this is the "I woke up stylish" look. Wear the cap backwards for a sporty edge.',
+    colors: ['#808000', '#C3B091', '#8B4513'],
+  },
+  {
+    id: 'cc-007',
+    title: 'Tie-Dye Sweatshirt with Biker Shorts',
+    category: 'College & Casual',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?casual,streetwear,tiedye,sweatshirt&sig=6007',
+    items: [
+      { name: 'Tie-Dye Oversized Sweatshirt', type: 'Top', price: 1100, color: 'Purple Tie-Dye' },
+      { name: 'Black Biker Shorts', type: 'Bottom', price: 500, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Beaded Friendship Bracelets', price: 150 },
+      { name: 'Mini Backpack', price: 800 },
+    ],
+    shoes: { name: 'Chunky Dad Sneakers', price: 1800 },
+    totalPrice: 4350,
+    budgetTier: 'budget',
+    events: ['casual', 'college-fest', 'gym'],
+    aesthetic: 'TikTok Viral',
+    stylingTip: 'The oversized sweatshirt should hit mid-thigh for the "no pants" illusion. Add a high ponytail with a scrunchie matching the tie-dye palette.',
+    colors: ['#9370DB', '#000000', '#E6E6FA'],
+  },
+  {
+    id: 'cc-008',
+    title: 'Denim-on-Denim Canadian Tuxedo',
+    category: 'College & Casual',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?casual,streetwear,denim,double&sig=6008',
+    items: [
+      { name: 'Medium Wash Denim Jacket', type: 'Outerwear', price: 2200, color: 'Medium Blue' },
+      { name: 'Dark Wash Slim Jeans', type: 'Bottom', price: 1600, color: 'Dark Blue' },
+      { name: 'White Henley Tee', type: 'Top', price: 600, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Leather Strap Watch', price: 1200 },
+      { name: 'Ray-Ban Style Sunglasses', price: 700 },
+    ],
+    shoes: { name: 'Tan Suede Desert Boots', price: 2200 },
+    totalPrice: 8500,
+    budgetTier: 'mid-range',
+    events: ['casual', 'college-fest', 'travel'],
+    aesthetic: 'Streetwear',
+    stylingTip: 'The key to double denim is contrasting washes — never match shades. Roll the jeans above the desert boots and pop the jacket collar.',
+    colors: ['#4682B4', '#00008B', '#FFFFFF'],
+  },
+  {
+    id: 'cc-009',
+    title: 'Athleisure Cropped Hoodie with Leggings',
+    category: 'College & Casual',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?casual,streetwear,athleisure,hoodie&sig=6009',
+    items: [
+      { name: 'Cropped Hoodie', type: 'Top', price: 900, color: 'Sage Green' },
+      { name: 'High-Waist Leggings', type: 'Bottom', price: 800, color: 'Black' },
+      { name: 'Mesh Zip-Up Jacket', type: 'Outerwear', price: 1200, color: 'Sage' },
+    ],
+    accessories: [
+      { name: 'Sports Headband', price: 200 },
+      { name: 'Gym Duffel Bag', price: 900 },
+    ],
+    shoes: { name: 'Grey Running Shoes', price: 2500 },
+    totalPrice: 6500,
+    budgetTier: 'mid-range',
+    events: ['casual', 'gym', 'college-fest'],
+    aesthetic: 'Streetwear',
+    stylingTip: 'This gym-to-lecture hall outfit needs zero thought. Zip the mesh jacket halfway and push the sleeves up for a sporty-chic college look.',
+    colors: ['#9CAF88', '#000000', '#808080'],
+  },
+  {
+    id: 'cc-010',
+    title: 'Pastel Oversized Shirt with Cargo Pants',
+    category: 'College & Casual',
+    gender: 'unisex',
+    imageUrl: 'https://images.unsplash.com/featured/?casual,streetwear,oversized,cargo&sig=6010',
+    items: [
+      { name: 'Pastel Lilac Oversized Shirt', type: 'Top', price: 1000, color: 'Lilac' },
+      { name: 'Beige Cargo Pants', type: 'Bottom', price: 1400, color: 'Beige' },
+      { name: 'White Cotton Tank', type: 'Innerwear', price: 350, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Tote Bag with Print', price: 500 },
+      { name: 'Resin Ring Set', price: 250 },
+    ],
+    shoes: { name: 'Off-White Converse High-Tops', price: 2200 },
+    totalPrice: 5700,
+    budgetTier: 'mid-range',
+    events: ['casual', 'college-fest', 'travel'],
+    aesthetic: 'Korean Casual',
+    stylingTip: 'Wear the shirt unbuttoned over the tank, with one side tucked into the cargo pocket for asymmetric drape. Cuff the pants above the high-tops.',
+    colors: ['#C8A2C8', '#F5F5DC', '#FFFFFF'],
+  },
+
+  // ==========================================================================
+  // CATEGORY 7: Date Night (dn-001 → dn-010, sigs 7001–7010)
+  // ==========================================================================
+  {
+    id: 'dn-001',
+    title: 'Burgundy Wrap Dress with Gold Accessories',
+    category: 'Date Night',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?date,romantic,evening,wrap&sig=7001',
+    items: [
+      { name: 'Burgundy Satin Wrap Dress', type: 'Top', price: 3500, color: 'Burgundy' },
+      { name: 'Sheer Black Tights', type: 'Bottom', price: 400, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Gold Pendant Necklace', price: 1800 },
+      { name: 'Crystal Stud Earrings', price: 900 },
+      { name: 'Black Leather Clutch', price: 1600 },
+    ],
+    shoes: { name: 'Strappy Black Heels', price: 2800 },
+    totalPrice: 11000,
+    budgetTier: 'mid-range',
+    events: ['date-night', 'party', 'luxury-dinner'],
+    aesthetic: 'Coquette',
+    stylingTip: 'The wrap dress is universally flattering — tie the bow to one side for visual interest. Loose curls and a berry-toned lip seal the deal.',
+    colors: ['#800020', '#000000', '#FFD700'],
+  },
+  {
+    id: 'dn-002',
+    title: 'Olive Blazer with Black Turtleneck',
+    category: 'Date Night',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?date,romantic,evening,blazer&sig=7002',
+    items: [
+      { name: 'Olive Green Blazer', type: 'Outerwear', price: 4800, color: 'Olive' },
+      { name: 'Black Merino Turtleneck', type: 'Top', price: 2200, color: 'Black' },
+      { name: 'Dark Slim-Fit Jeans', type: 'Bottom', price: 2000, color: 'Dark Indigo' },
+    ],
+    accessories: [
+      { name: 'Minimalist Silver Watch', price: 3200 },
+      { name: 'Leather Wallet', price: 1200 },
+    ],
+    shoes: { name: 'Dark Brown Chelsea Boots', price: 3500 },
+    totalPrice: 16900,
+    budgetTier: 'premium',
+    events: ['date-night', 'party', 'formal'],
+    aesthetic: 'Dark Academia',
+    stylingTip: 'The turtleneck-under-blazer combo says "intellectually attractive." Keep your cologne subtle — woody or spicy notes work best for evening dates.',
+    colors: ['#808000', '#000000', '#1C1C1C'],
+  },
+  {
+    id: 'dn-003',
+    title: 'Blush Pink Off-Shoulder Top with Skirt',
+    category: 'Date Night',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?date,romantic,evening,blush&sig=7003',
+    items: [
+      { name: 'Blush Off-Shoulder Ruched Top', type: 'Top', price: 1200, color: 'Blush Pink' },
+      { name: 'White A-Line Midi Skirt', type: 'Bottom', price: 1500, color: 'White' },
+      { name: 'Pastel Cardigan', type: 'Outerwear', price: 1000, color: 'Soft Pink' },
+    ],
+    accessories: [
+      { name: 'Dainty Pearl Necklace', price: 700 },
+      { name: 'Rose Gold Watch', price: 1800 },
+      { name: 'Wicker Clutch', price: 600 },
+    ],
+    shoes: { name: 'Blush Strappy Block Heels', price: 1600 },
+    totalPrice: 8400,
+    budgetTier: 'mid-range',
+    events: ['date-night', 'brunch', 'casual'],
+    aesthetic: 'Coquette',
+    stylingTip: 'Drape the cardigan over your shoulders for a soft romantic silhouette. A touch of rose perfume and pink-toned blush complete this date-ready palette.',
+    colors: ['#FFB6C1', '#FFFFFF', '#F4C2C2'],
+  },
+  {
+    id: 'dn-004',
+    title: 'Navy Linen Shirt with Tan Chinos Date Set',
+    category: 'Date Night',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?date,romantic,evening,linen&sig=7004',
+    items: [
+      { name: 'Navy Linen Shirt', type: 'Top', price: 1600, color: 'Navy' },
+      { name: 'Tan Slim Chinos', type: 'Bottom', price: 1400, color: 'Tan' },
+    ],
+    accessories: [
+      { name: 'Brown Leather Watch', price: 1800 },
+      { name: 'Woven Leather Belt', price: 800 },
+    ],
+    shoes: { name: 'White Minimal Leather Sneakers', price: 2500 },
+    totalPrice: 8100,
+    budgetTier: 'mid-range',
+    events: ['date-night', 'casual', 'brunch'],
+    aesthetic: 'Scandinavian Minimal',
+    stylingTip: 'Roll the linen sleeves to the forearm — showing wrists with a nice watch is an underrated date move. Tuck the shirt in for clean lines.',
+    colors: ['#000080', '#D2B48C', '#FFFFFF'],
+  },
+  {
+    id: 'dn-005',
+    title: 'Black Velvet Slip Dress Luxe Date Night',
+    category: 'Date Night',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?date,romantic,evening,velvet&sig=7005',
+    items: [
+      { name: 'Black Velvet Slip Dress', type: 'Top', price: 8500, color: 'Black Velvet' },
+      { name: 'Sheer Lace Bolero', type: 'Outerwear', price: 3200, color: 'Black Lace' },
+    ],
+    accessories: [
+      { name: 'Diamond Pendant Necklace (CZ)', price: 6500 },
+      { name: 'Crystal Drop Earrings', price: 3200 },
+      { name: 'Satin Evening Clutch', price: 4500 },
+      { name: 'Silk Hair Ribbon', price: 800 },
+    ],
+    shoes: { name: 'Black Velvet Stiletto Pumps', price: 5800 },
+    totalPrice: 32500,
+    budgetTier: 'premium',
+    events: ['date-night', 'luxury-dinner', 'party'],
+    aesthetic: 'Quiet Luxury',
+    stylingTip: 'Less is more — let the velvet texture do the work. Apply a deep matte lip and pull hair into a low bun with the silk ribbon for timeless glamour.',
+    colors: ['#000000', '#1C1C1C', '#FFFFFF'],
+  },
+  {
+    id: 'dn-006',
+    title: 'Casual Date Look with Denim and Henley',
+    category: 'Date Night',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?date,romantic,casual,denim&sig=7006',
+    items: [
+      { name: 'Maroon Henley T-Shirt', type: 'Top', price: 700, color: 'Maroon' },
+      { name: 'Blue Slim-Fit Jeans', type: 'Bottom', price: 1200, color: 'Medium Blue' },
+      { name: 'Grey Zip Hoodie', type: 'Outerwear', price: 1000, color: 'Grey' },
+    ],
+    accessories: [
+      { name: 'Leather Strap Watch', price: 900 },
+      { name: 'Cotton Handkerchief', price: 150 },
+    ],
+    shoes: { name: 'White Canvas Sneakers', price: 1000 },
+    totalPrice: 4950,
+    budgetTier: 'budget',
+    events: ['date-night', 'casual', 'travel'],
+    aesthetic: 'Streetwear',
+    stylingTip: 'The henley buttons at the chest add subtle texture. Wear the hoodie unzipped and pushed-up at the sleeves for a relaxed coffee-date vibe.',
+    colors: ['#800020', '#4682B4', '#808080'],
+  },
+  {
+    id: 'dn-007',
+    title: 'Sage Green Co-ord Set for Evening',
+    category: 'Date Night',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?date,romantic,evening,sage&sig=7007',
+    items: [
+      { name: 'Sage Green Crop Blazer', type: 'Outerwear', price: 3200, color: 'Sage Green' },
+      { name: 'Matching High-Waist Trousers', type: 'Bottom', price: 2400, color: 'Sage Green' },
+      { name: 'White Lace Bralette', type: 'Innerwear', price: 800, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Gold Chain Link Necklace', price: 1200 },
+      { name: 'Mini Shoulder Bag', price: 1500 },
+    ],
+    shoes: { name: 'Nude Strappy Heeled Sandals', price: 2200 },
+    totalPrice: 11300,
+    budgetTier: 'mid-range',
+    events: ['date-night', 'party', 'brunch'],
+    aesthetic: 'Clean Girl',
+    stylingTip: 'Wear the blazer open to flash the lace bralette — confident and chic. Slick back your hair with a middle part for the ultimate clean-girl date look.',
+    colors: ['#9CAF88', '#FFFFFF', '#D2B48C'],
+  },
+  {
+    id: 'dn-008',
+    title: 'Classic Black Shirt with Wine Trousers',
+    category: 'Date Night',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?date,romantic,evening,black&sig=7008',
+    items: [
+      { name: 'Black Mandarin-Collar Shirt', type: 'Top', price: 2200, color: 'Black' },
+      { name: 'Wine Tapered Trousers', type: 'Bottom', price: 2800, color: 'Wine' },
+    ],
+    accessories: [
+      { name: 'Silver Cuff Bracelet', price: 1500 },
+      { name: 'Pocket Cologne Atomiser', price: 800 },
+      { name: 'Money Clip Wallet', price: 1200 },
+    ],
+    shoes: { name: 'Black Monk Strap Shoes', price: 3500 },
+    totalPrice: 12000,
+    budgetTier: 'mid-range',
+    events: ['date-night', 'party', 'luxury-dinner'],
+    aesthetic: 'Minimal Luxury',
+    stylingTip: 'The mandarin collar eliminates the need for a tie. Tuck the shirt in and let the wine-and-black colour story speak — cologne on pulse points only.',
+    colors: ['#000000', '#722F37', '#C0C0C0'],
+  },
+  {
+    id: 'dn-009',
+    title: 'Champagne Sari Gown for Upscale Date',
+    category: 'Date Night',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?date,romantic,elegant,champagne&sig=7009',
+    items: [
+      { name: 'Champagne Pre-draped Sari Gown', type: 'Top', price: 22000, color: 'Champagne' },
+      { name: 'Crystal Embellished Belt', type: 'Bottom', price: 4500, color: 'Silver' },
+      { name: 'Sheer Organza Cape', type: 'Outerwear', price: 6000, color: 'Champagne' },
+    ],
+    accessories: [
+      { name: 'Swarovski Crystal Studs', price: 5500 },
+      { name: 'Metallic Box Clutch', price: 4200 },
+      { name: 'Diamond-look Tennis Bracelet', price: 8000 },
+    ],
+    shoes: { name: 'Silver Strappy Stiletto Heels', price: 6800 },
+    totalPrice: 57000,
+    budgetTier: 'luxury',
+    events: ['date-night', 'luxury-dinner', 'photoshoot'],
+    aesthetic: 'Minimal Luxury',
+    stylingTip: 'The cape creates a dramatic entrance — let it flow behind you. Opt for a nude lip and dewy skin; the outfit does all the heavy lifting.',
+    colors: ['#F7E7CE', '#C0C0C0', '#FFD700'],
+  },
+  {
+    id: 'dn-010',
+    title: 'Earthy Boho Shirt with Linen Pants Date',
+    category: 'Date Night',
+    gender: 'unisex',
+    imageUrl: 'https://images.unsplash.com/featured/?date,romantic,evening,boho&sig=7010',
+    items: [
+      { name: 'Earth-Tone Block Print Shirt', type: 'Top', price: 1200, color: 'Terracotta' },
+      { name: 'Cream Linen Pants', type: 'Bottom', price: 1400, color: 'Cream' },
+      { name: 'Jute Belt', type: 'Bottom', price: 350, color: 'Natural' },
+    ],
+    accessories: [
+      { name: 'Wooden Bead Bracelet', price: 250 },
+      { name: 'Leather Crossbody Bag', price: 1200 },
+    ],
+    shoes: { name: 'Tan Leather Espadrilles', price: 1400 },
+    totalPrice: 5800,
+    budgetTier: 'mid-range',
+    events: ['date-night', 'brunch', 'casual'],
+    aesthetic: 'Scandinavian Minimal',
+    stylingTip: 'Earth tones work for sunset dates at rooftop cafés. Leave the top two buttons open and cuff the linen pants casually above the ankles.',
+    colors: ['#E2725B', '#FFFDD0', '#D2B48C'],
+  },
+
+  // ==========================================================================
+  // CATEGORY 8: Brunch & Weekend (bw-001 → bw-010, sigs 8001–8010)
+  // ==========================================================================
+  {
+    id: 'bw-001',
+    title: 'Linen Shirt Dress with Straw Accessories',
+    category: 'Brunch & Weekend',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?brunch,summer,linen,dress&sig=8001',
+    items: [
+      { name: 'Beige Linen Shirt Dress', type: 'Top', price: 2200, color: 'Beige' },
+      { name: 'Woven Rope Belt', type: 'Bottom', price: 400, color: 'Natural' },
+    ],
+    accessories: [
+      { name: 'Straw Sun Hat', price: 600 },
+      { name: 'Straw Tote Bag', price: 900 },
+      { name: 'Tortoiseshell Sunglasses', price: 700 },
+    ],
+    shoes: { name: 'Tan Leather Slide Sandals', price: 1200 },
+    totalPrice: 6000,
+    budgetTier: 'mid-range',
+    events: ['brunch', 'casual', 'travel'],
+    aesthetic: 'Clean Girl',
+    stylingTip: 'Belt the dress at the waist for a defined silhouette. This entire look screams "Sunday farmer\'s market followed by mimosas." Add SPF lip balm.',
+    colors: ['#F5F5DC', '#D2B48C', '#8B4513'],
+  },
+  {
+    id: 'bw-002',
+    title: 'Chambray Shirt with White Shorts',
+    category: 'Brunch & Weekend',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?brunch,summer,chambray,casual&sig=8002',
+    items: [
+      { name: 'Chambray Button-Down Shirt', type: 'Top', price: 1400, color: 'Light Blue' },
+      { name: 'White Cotton Shorts', type: 'Bottom', price: 900, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Woven Leather Bracelet', price: 350 },
+      { name: 'Wayfarer Sunglasses', price: 800 },
+    ],
+    shoes: { name: 'White Canvas Slip-ons', price: 1000 },
+    totalPrice: 4450,
+    budgetTier: 'budget',
+    events: ['brunch', 'casual', 'travel'],
+    aesthetic: 'Scandinavian Minimal',
+    stylingTip: 'Roll the chambray sleeves past the elbows and leave the last two buttons undone for a breezy brunch-at-the-beach vibe.',
+    colors: ['#ADD8E6', '#FFFFFF', '#8B4513'],
+  },
+  {
+    id: 'bw-003',
+    title: 'Pastel Midi Skirt with Knit Top',
+    category: 'Brunch & Weekend',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?brunch,summer,pastel,knit&sig=8003',
+    items: [
+      { name: 'Lavender Knit Crop Top', type: 'Top', price: 1100, color: 'Lavender' },
+      { name: 'Pleated Midi Skirt', type: 'Bottom', price: 1800, color: 'Cream' },
+      { name: 'Light Cardigan', type: 'Outerwear', price: 1200, color: 'Lilac' },
+    ],
+    accessories: [
+      { name: 'Pearl Drop Earrings', price: 600 },
+      { name: 'Wicker Basket Bag', price: 800 },
+    ],
+    shoes: { name: 'White Leather Sandals', price: 1200 },
+    totalPrice: 6700,
+    budgetTier: 'mid-range',
+    events: ['brunch', 'casual', 'date-night'],
+    aesthetic: 'Soft Girl',
+    stylingTip: 'Tie the cardigan around your shoulders for a preppy touch. Loose waves and a lavender-tinted lip gloss complete the dreamy brunch aesthetic.',
+    colors: ['#E6E6FA', '#FFFDD0', '#C8A2C8'],
+  },
+  {
+    id: 'bw-004',
+    title: 'Striped T-Shirt with Linen Trousers',
+    category: 'Brunch & Weekend',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?brunch,summer,linen,stripes&sig=8004',
+    items: [
+      { name: 'Navy Breton Striped Tee', type: 'Top', price: 800, color: 'Navy & White Stripe' },
+      { name: 'Cream Linen Trousers', type: 'Bottom', price: 1600, color: 'Cream' },
+    ],
+    accessories: [
+      { name: 'Canvas Watch', price: 700 },
+      { name: 'Cotton Tote Bag', price: 400 },
+    ],
+    shoes: { name: 'Navy Blue Espadrilles', price: 1100 },
+    totalPrice: 4600,
+    budgetTier: 'budget',
+    events: ['brunch', 'casual', 'travel'],
+    aesthetic: 'Scandinavian Minimal',
+    stylingTip: 'Tuck the Breton tee into the linen trousers for a Riviera-inspired weekend look. Cuff the trousers above the espadrilles for a continental vibe.',
+    colors: ['#000080', '#FFFFFF', '#FFFDD0'],
+  },
+  {
+    id: 'bw-005',
+    title: 'Boho Maxi Dress with Fringe Bag',
+    category: 'Brunch & Weekend',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?brunch,summer,boho,maxi&sig=8005',
+    items: [
+      { name: 'Floral Boho Maxi Dress', type: 'Top', price: 2800, color: 'Earthy Floral' },
+      { name: 'Crochet Vest', type: 'Outerwear', price: 1200, color: 'Cream' },
+    ],
+    accessories: [
+      { name: 'Fringe Crossbody Bag', price: 1100 },
+      { name: 'Layered Bohemian Necklaces', price: 800 },
+      { name: 'Feather Earrings', price: 400 },
+    ],
+    shoes: { name: 'Tan Gladiator Sandals', price: 1500 },
+    totalPrice: 7800,
+    budgetTier: 'mid-range',
+    events: ['brunch', 'casual', 'festival'],
+    aesthetic: 'Pinterest Core',
+    stylingTip: 'Layer the crochet vest open for textural depth. Loose beach waves and a headband or bandana elevate the bohemian storytelling.',
+    colors: ['#8B4513', '#FFFDD0', '#CD853F'],
+  },
+  {
+    id: 'bw-006',
+    title: 'Mint Polo with Pleated Shorts',
+    category: 'Brunch & Weekend',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?brunch,summer,polo,mint&sig=8006',
+    items: [
+      { name: 'Mint Green Piqué Polo', type: 'Top', price: 1200, color: 'Mint Green' },
+      { name: 'White Pleated Shorts', type: 'Bottom', price: 1000, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Woven Leather Belt', price: 600 },
+      { name: 'Clubmaster Sunglasses', price: 900 },
+    ],
+    shoes: { name: 'White Leather Sneakers', price: 2000 },
+    totalPrice: 5700,
+    budgetTier: 'mid-range',
+    events: ['brunch', 'casual', 'travel'],
+    aesthetic: 'Old Money',
+    stylingTip: 'Pop the polo collar for that prep-school energy. This is the "brunch at a five-star hotel pool" look — add a blazer to go straight to lunch.',
+    colors: ['#98FF98', '#FFFFFF', '#8B4513'],
+  },
+  {
+    id: 'bw-007',
+    title: 'Denim Overall Dress with Gingham Tee',
+    category: 'Brunch & Weekend',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?brunch,summer,overall,gingham&sig=8007',
+    items: [
+      { name: 'Denim Overall Dress', type: 'Top', price: 2000, color: 'Light Wash Denim' },
+      { name: 'Red Gingham Puff-Sleeve Tee', type: 'Innerwear', price: 700, color: 'Red Gingham' },
+    ],
+    accessories: [
+      { name: 'Canvas Bucket Hat', price: 400 },
+      { name: 'Enamel Flower Brooch', price: 250 },
+      { name: 'Mini Straw Crossbody', price: 600 },
+    ],
+    shoes: { name: 'Red Canvas Sneakers', price: 1000 },
+    totalPrice: 4950,
+    budgetTier: 'budget',
+    events: ['brunch', 'casual', 'travel'],
+    aesthetic: 'Pinterest Core',
+    stylingTip: 'Pin the flower brooch on the overall strap for a cottage-core accent. This outfit is made for sunshine, picnics, and golden-hour selfies.',
+    colors: ['#ADD8E6', '#FF0000', '#FFFFFF'],
+  },
+  {
+    id: 'bw-008',
+    title: 'Linen Co-ord Set in Oatmeal',
+    category: 'Brunch & Weekend',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?brunch,summer,linen,coord&sig=8008',
+    items: [
+      { name: 'Oatmeal Linen Camp Shirt', type: 'Top', price: 1800, color: 'Oatmeal' },
+      { name: 'Matching Linen Drawstring Pants', type: 'Bottom', price: 1500, color: 'Oatmeal' },
+      { name: 'White Linen Undershirt', type: 'Innerwear', price: 400, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Rope Bracelet', price: 300 },
+      { name: 'Round Metal Sunglasses', price: 800 },
+    ],
+    shoes: { name: 'Tan Suede Loafers', price: 2200 },
+    totalPrice: 7000,
+    budgetTier: 'mid-range',
+    events: ['brunch', 'casual', 'travel'],
+    aesthetic: 'Scandinavian Minimal',
+    stylingTip: 'The co-ord set is the laziest way to look put-together. Wear the camp shirt fully open over the undershirt for a Maldives-resort energy.',
+    colors: ['#C2B280', '#FFFFFF', '#D2B48C'],
+  },
+  {
+    id: 'bw-009',
+    title: 'Embroidered White Dress for Garden Brunch',
+    category: 'Brunch & Weekend',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?brunch,summer,white,embroidered&sig=8009',
+    items: [
+      { name: 'White Embroidered Cotton Dress', type: 'Top', price: 12000, color: 'White' },
+      { name: 'Silk Slip Lining', type: 'Innerwear', price: 2200, color: 'Nude' },
+    ],
+    accessories: [
+      { name: 'Fresh Water Pearl Earrings', price: 3500 },
+      { name: 'Raffia Clutch', price: 2800 },
+      { name: 'Gold Bangle Bracelet', price: 2200 },
+    ],
+    shoes: { name: 'Nude Leather Wedges', price: 3800 },
+    totalPrice: 26500,
+    budgetTier: 'premium',
+    events: ['brunch', 'photoshoot', 'casual'],
+    aesthetic: 'Quiet Luxury',
+    stylingTip: 'This is a "quiet luxury" brunch statement. No logos, no loud patterns — just beautiful fabric and craftsmanship. Pair with natural makeup and loose waves.',
+    colors: ['#FFFFFF', '#F5DEB3', '#FFD700'],
+  },
+  {
+    id: 'bw-010',
+    title: 'Tie-Dye Kaftan with Shorts Poolside Set',
+    category: 'Brunch & Weekend',
+    gender: 'unisex',
+    imageUrl: 'https://images.unsplash.com/featured/?brunch,summer,tiedye,kaftan&sig=8010',
+    items: [
+      { name: 'Tie-Dye Cotton Kaftan', type: 'Top', price: 900, color: 'Blue Tie-Dye' },
+      { name: 'Black Jersey Shorts', type: 'Bottom', price: 500, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Shell Anklet', price: 200 },
+      { name: 'Waterproof Tote', price: 600 },
+    ],
+    shoes: { name: 'Rubber Flip-Flops', price: 300 },
+    totalPrice: 2500,
+    budgetTier: 'budget',
+    events: ['brunch', 'casual', 'travel'],
+    aesthetic: 'Streetwear',
+    stylingTip: 'The kaftan doubles as a pool cover-up. Throw it on over swimwear for a Goa brunch or Bali poolside with zero effort.',
+    colors: ['#4169E1', '#000000', '#87CEEB'],
+  },
+
+  // ==========================================================================
+  // CATEGORY 9: Korean & Minimal (km-001 → km-010, sigs 9001–9010)
+  // ==========================================================================
+  {
+    id: 'km-001',
+    title: 'Oversized Cream Blazer with Wide-Leg Pants',
+    category: 'Korean & Minimal',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?korean,minimal,aesthetic,blazer&sig=9001',
+    items: [
+      { name: 'Oversized Cream Blazer', type: 'Outerwear', price: 4500, color: 'Cream' },
+      { name: 'Black Ribbed Turtleneck', type: 'Top', price: 1200, color: 'Black' },
+      { name: 'Cream Wide-Leg Trousers', type: 'Bottom', price: 2200, color: 'Cream' },
+    ],
+    accessories: [
+      { name: 'Minimalist Silver Hoops', price: 800 },
+      { name: 'Leather Bucket Bag', price: 2800 },
+    ],
+    shoes: { name: 'White Chunky Loafers', price: 2500 },
+    totalPrice: 14000,
+    budgetTier: 'mid-range',
+    events: ['office', 'casual', 'brunch'],
+    aesthetic: 'Korean Casual',
+    stylingTip: 'Push the blazer sleeves to three-quarter length to show the turtleneck cuffs. Korean minimal is all about oversized silhouettes with clean lines.',
+    colors: ['#FFFDD0', '#000000', '#FFFFFF'],
+  },
+  {
+    id: 'km-002',
+    title: 'Monochrome Grey Layered Set',
+    category: 'Korean & Minimal',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?korean,minimal,aesthetic,grey&sig=9002',
+    items: [
+      { name: 'Charcoal Oversized Tee', type: 'Top', price: 800, color: 'Charcoal' },
+      { name: 'Light Grey Pleated Trousers', type: 'Bottom', price: 2000, color: 'Light Grey' },
+      { name: 'Dark Grey Cardigan', type: 'Outerwear', price: 2200, color: 'Dark Grey' },
+    ],
+    accessories: [
+      { name: 'Minimal Silver Ring', price: 500 },
+      { name: 'Grey Canvas Tote', price: 800 },
+    ],
+    shoes: { name: 'White Leather Sneakers', price: 2200 },
+    totalPrice: 8500,
+    budgetTier: 'mid-range',
+    events: ['casual', 'office', 'travel'],
+    aesthetic: 'Korean Casual',
+    stylingTip: 'Layer in graduated grey tones — darkest on top, lightest on bottom. This tonal dressing is a K-fashion signature that looks effortlessly cool.',
+    colors: ['#36454F', '#D3D3D3', '#696969'],
+  },
+  {
+    id: 'km-003',
+    title: 'White Cropped Cardigan with Pleated Skirt',
+    category: 'Korean & Minimal',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?korean,minimal,aesthetic,cardigan&sig=9003',
+    items: [
+      { name: 'White Cropped Knit Cardigan', type: 'Top', price: 1500, color: 'White' },
+      { name: 'Black Pleated Mini Skirt', type: 'Bottom', price: 1200, color: 'Black' },
+      { name: 'White Cotton Tank', type: 'Innerwear', price: 400, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Dainty Chain Necklace', price: 500 },
+      { name: 'Mini Leather Shoulder Bag', price: 1800 },
+    ],
+    shoes: { name: 'Black Mary Jane Platforms', price: 2200 },
+    totalPrice: 7600,
+    budgetTier: 'mid-range',
+    events: ['casual', 'college-fest', 'date-night'],
+    aesthetic: 'Korean Casual',
+    stylingTip: 'Button only the top button of the cardigan for the K-drama protagonist effect. Add sheer tights if weather permits for a Seoul street style look.',
+    colors: ['#FFFFFF', '#000000', '#F5F5F5'],
+  },
+  {
+    id: 'km-004',
+    title: 'Beige Trench Coat with All-Black Base',
+    category: 'Korean & Minimal',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?korean,minimal,aesthetic,trench&sig=9004',
+    items: [
+      { name: 'Beige Cotton Trench Coat', type: 'Outerwear', price: 5500, color: 'Beige' },
+      { name: 'Black Mock-Neck Top', type: 'Top', price: 1200, color: 'Black' },
+      { name: 'Black Tapered Pants', type: 'Bottom', price: 1800, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Silver Chain Bracelet', price: 700 },
+      { name: 'Black Crossbody Bag', price: 1500 },
+    ],
+    shoes: { name: 'Black Leather Derby Shoes', price: 2800 },
+    totalPrice: 13500,
+    budgetTier: 'mid-range',
+    events: ['casual', 'office', 'date-night'],
+    aesthetic: 'Korean Casual',
+    stylingTip: 'Leave the trench coat belt untied and let it hang for that windswept K-drama lead energy. All-black underneath makes the beige trench pop.',
+    colors: ['#F5F5DC', '#000000', '#1C1C1C'],
+  },
+  {
+    id: 'km-005',
+    title: 'Pastel Lavender Knit Set',
+    category: 'Korean & Minimal',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?korean,minimal,aesthetic,lavender&sig=9005',
+    items: [
+      { name: 'Lavender Knit Polo Vest', type: 'Top', price: 1800, color: 'Lavender' },
+      { name: 'Matching Knit Wide-Leg Pants', type: 'Bottom', price: 2200, color: 'Lavender' },
+      { name: 'White Collared Shirt (Under-layer)', type: 'Innerwear', price: 1200, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Acrylic Hair Clips Set', price: 300 },
+      { name: 'Canvas Shoulder Bag', price: 900 },
+    ],
+    shoes: { name: 'White Platform Sneakers', price: 1800 },
+    totalPrice: 8200,
+    budgetTier: 'mid-range',
+    events: ['casual', 'college-fest', 'brunch'],
+    aesthetic: 'Korean Casual',
+    stylingTip: 'Layer the white shirt collar visible above the knit vest for a preppy K-fashion look. Add a touch of lavender eyeshadow to match.',
+    colors: ['#E6E6FA', '#FFFFFF', '#D8BFD8'],
+  },
+  {
+    id: 'km-006',
+    title: 'Minimalist Black Jumpsuit',
+    category: 'Korean & Minimal',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?korean,minimal,aesthetic,jumpsuit&sig=9006',
+    items: [
+      { name: 'Black Relaxed-Fit Jumpsuit', type: 'Top', price: 3200, color: 'Black' },
+      { name: 'White Leather Belt', type: 'Bottom', price: 800, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Geometric Silver Earrings', price: 600 },
+      { name: 'Structured White Clutch', price: 1500 },
+      { name: 'Silver Minimalist Watch', price: 2200 },
+    ],
+    shoes: { name: 'White Block-Heel Mules', price: 1800 },
+    totalPrice: 10100,
+    budgetTier: 'mid-range',
+    events: ['casual', 'office', 'date-night'],
+    aesthetic: 'Monochrome Minimal',
+    stylingTip: 'The white belt creates a waist definition on the relaxed jumpsuit. This monochrome contrast is peak Korean architectural fashion.',
+    colors: ['#000000', '#FFFFFF', '#C0C0C0'],
+  },
+  {
+    id: 'km-007',
+    title: 'Sage Oversized Shirt with Bermuda Shorts',
+    category: 'Korean & Minimal',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?korean,minimal,fashion,sage&sig=9007',
+    items: [
+      { name: 'Sage Green Oversized Cotton Shirt', type: 'Top', price: 1400, color: 'Sage Green' },
+      { name: 'Cream Bermuda Shorts', type: 'Bottom', price: 1100, color: 'Cream' },
+      { name: 'White Ribbed Tank', type: 'Innerwear', price: 350, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Thin Silver Necklace', price: 450 },
+      { name: 'Eco-Friendly Canvas Tote', price: 500 },
+    ],
+    shoes: { name: 'Off-White Birkenstock-Style Sandals', price: 1600 },
+    totalPrice: 5400,
+    budgetTier: 'mid-range',
+    events: ['casual', 'brunch', 'travel'],
+    aesthetic: 'Korean Casual',
+    stylingTip: 'Wear the shirt open with sleeves rolled. Korean summer style is about loose, breathable layers — never fitted. Add a tousled, effortless hairstyle.',
+    colors: ['#9CAF88', '#FFFDD0', '#FFFFFF'],
+  },
+  {
+    id: 'km-008',
+    title: 'Budget Monochrome White Korean Set',
+    category: 'Korean & Minimal',
+    gender: 'unisex',
+    imageUrl: 'https://images.unsplash.com/featured/?korean,minimal,aesthetic,white&sig=9008',
+    items: [
+      { name: 'White Oversized Cotton Tee', type: 'Top', price: 500, color: 'White' },
+      { name: 'White Wide-Leg Pants', type: 'Bottom', price: 900, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Simple Silver Stud Earrings', price: 200 },
+      { name: 'White Canvas Tote', price: 350 },
+    ],
+    shoes: { name: 'White Mesh Sneakers', price: 1200 },
+    totalPrice: 3150,
+    budgetTier: 'budget',
+    events: ['casual', 'travel', 'college-fest'],
+    aesthetic: 'Monochrome Minimal',
+    stylingTip: 'All-white is surprisingly easy to pull off when textures differ. The cotton tee against the flowy pants creates visual dimension on a tiny budget.',
+    colors: ['#FFFFFF', '#F5F5F5', '#FAFAFA'],
+  },
+  {
+    id: 'km-009',
+    title: 'Structured Black Coat with Cream Knits',
+    category: 'Korean & Minimal',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?korean,minimal,aesthetic,coat&sig=9009',
+    items: [
+      { name: 'Black Wool-Blend Overcoat', type: 'Outerwear', price: 8500, color: 'Black' },
+      { name: 'Cream Cashmere-Blend Sweater', type: 'Top', price: 4200, color: 'Cream' },
+      { name: 'Black Tailored Trousers', type: 'Bottom', price: 2800, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Leather Gloves', price: 1500 },
+      { name: 'Cashmere Scarf', price: 2800 },
+    ],
+    shoes: { name: 'Black Chelsea Boots', price: 4200 },
+    totalPrice: 24000,
+    budgetTier: 'premium',
+    events: ['formal', 'date-night', 'office'],
+    aesthetic: 'Korean Casual',
+    stylingTip: 'This winter K-fashion look is about sharp shoulders and soft knits. Drape the scarf once around the neck, letting both ends fall forward symmetrically.',
+    colors: ['#000000', '#FFFDD0', '#1C1C1C'],
+  },
+  {
+    id: 'km-010',
+    title: 'Dusty Rose Oversized Hoodie Dress',
+    category: 'Korean & Minimal',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?korean,minimal,aesthetic,hoodie&sig=9010',
+    items: [
+      { name: 'Dusty Rose Oversized Hoodie Dress', type: 'Top', price: 1800, color: 'Dusty Rose' },
+      { name: 'White Cycling Shorts', type: 'Bottom', price: 500, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Heart-Shaped Sunglasses', price: 350 },
+      { name: 'Mini Crossbody Phone Bag', price: 700 },
+    ],
+    shoes: { name: 'Chunky White Dad Sneakers', price: 2200 },
+    totalPrice: 5550,
+    budgetTier: 'mid-range',
+    events: ['casual', 'college-fest', 'travel'],
+    aesthetic: 'Korean Casual',
+    stylingTip: 'The hoodie dress hits mid-thigh — no need for a full bottom layer. Pull the hood halfway and scrunch the sleeves for that adorable "oppa" K-fashion energy.',
+    colors: ['#DCAE96', '#FFFFFF', '#F4C2C2'],
+  },
+
+  // ==========================================================================
+  // CATEGORY 10: Luxury Editorial (le-001 → le-010, sigs 10001–10010)
+  // ==========================================================================
+  {
+    id: 'le-001',
+    title: 'Noir Tailored Power Suit Editorial',
+    category: 'Luxury Editorial',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?luxury,editorial,runway,noir&sig=10001',
+    items: [
+      { name: 'Italian Wool Double-Breasted Blazer', type: 'Outerwear', price: 28000, color: 'Jet Black' },
+      { name: 'High-Waist Tailored Trousers', type: 'Bottom', price: 12000, color: 'Jet Black' },
+      { name: 'Silk Charmeuse Camisole', type: 'Top', price: 6500, color: 'Ivory' },
+    ],
+    accessories: [
+      { name: '18K Gold-Plated Chain Necklace', price: 8500 },
+      { name: 'Leather Structured Tote (Italian)', price: 12000 },
+      { name: 'Gold Signet Ring', price: 4500 },
+    ],
+    shoes: { name: 'Black Patent Leather Stilettos', price: 9500 },
+    totalPrice: 81000,
+    budgetTier: 'luxury',
+    events: ['photoshoot', 'luxury-dinner', 'formal'],
+    aesthetic: 'Futuristic Editorial',
+    stylingTip: 'Button only the top button of the blazer for sharp lapel lines. Slick hair into a severe low ponytail — this is editorial power at its finest.',
+    colors: ['#000000', '#FFFFF0', '#FFD700'],
+  },
+  {
+    id: 'le-002',
+    title: 'Ivory Deconstructed Trench Editorial',
+    category: 'Luxury Editorial',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?luxury,editorial,runway,trench&sig=10002',
+    items: [
+      { name: 'Deconstructed Ivory Trench Coat', type: 'Outerwear', price: 35000, color: 'Ivory' },
+      { name: 'Black Merino Wool Turtleneck', type: 'Top', price: 8000, color: 'Black' },
+      { name: 'Tailored Ivory Trousers', type: 'Bottom', price: 9500, color: 'Ivory' },
+    ],
+    accessories: [
+      { name: 'Leather Portfolio Bag', price: 15000 },
+      { name: 'Silver Geometric Cufflinks', price: 3500 },
+    ],
+    shoes: { name: 'White Leather Chelsea Boots', price: 12000 },
+    totalPrice: 83000,
+    budgetTier: 'luxury',
+    events: ['photoshoot', 'luxury-dinner', 'formal'],
+    aesthetic: 'Futuristic Editorial',
+    stylingTip: 'The deconstructed trench is the hero — wear it draped asymmetrically. Minimal grooming with a clean shave and structured eyebrows for editorial impact.',
+    colors: ['#FFFFF0', '#000000', '#C0C0C0'],
+  },
+  {
+    id: 'le-003',
+    title: 'Crimson Sculptural Gown with Cape',
+    category: 'Luxury Editorial',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?luxury,editorial,runway,gown&sig=10003',
+    items: [
+      { name: 'Crimson Sculptural Column Gown', type: 'Top', price: 45000, color: 'Crimson' },
+      { name: 'Matching Flowing Cape', type: 'Outerwear', price: 18000, color: 'Crimson' },
+    ],
+    accessories: [
+      { name: 'Ruby & Gold Statement Earrings', price: 12000 },
+      { name: 'Crystal Minaudière Clutch', price: 8500 },
+      { name: 'Gold Cuff Bracelet', price: 6000 },
+    ],
+    shoes: { name: 'Red Satin Platform Pumps', price: 8500 },
+    totalPrice: 98000,
+    budgetTier: 'luxury',
+    events: ['photoshoot', 'luxury-dinner', 'formal'],
+    aesthetic: 'Futuristic Editorial',
+    stylingTip: 'The cape is designed to trail — have someone hold it for photos, then pin it at the shoulder for walking. Deep red lip with matte finish is non-negotiable.',
+    colors: ['#DC143C', '#FFD700', '#8B0000'],
+  },
+  {
+    id: 'le-004',
+    title: 'All-White Linen Luxury Resort Set',
+    category: 'Luxury Editorial',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?luxury,editorial,runway,white&sig=10004',
+    items: [
+      { name: 'Italian Linen Blazer', type: 'Outerwear', price: 18000, color: 'Bright White' },
+      { name: 'White Linen Shirt', type: 'Top', price: 6500, color: 'White' },
+      { name: 'White Linen Trousers', type: 'Bottom', price: 7500, color: 'White' },
+    ],
+    accessories: [
+      { name: 'Gold Aviator Sunglasses', price: 5500 },
+      { name: 'Leather Strap Luxury Watch', price: 18000 },
+    ],
+    shoes: { name: 'White Italian Leather Loafers', price: 9500 },
+    totalPrice: 65000,
+    budgetTier: 'luxury',
+    events: ['photoshoot', 'luxury-dinner', 'travel'],
+    aesthetic: 'Quiet Luxury',
+    stylingTip: 'All-white demands impeccable fabric quality — the linen should drape, not crease. Skip the belt; the trousers should fit perfectly at the waist.',
+    colors: ['#FFFFFF', '#F5F5F5', '#FFD700'],
+  },
+  {
+    id: 'le-005',
+    title: 'Metallic Silver Futuristic Jumpsuit',
+    category: 'Luxury Editorial',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?luxury,editorial,runway,metallic&sig=10005',
+    items: [
+      { name: 'Silver Metallic Jumpsuit', type: 'Top', price: 22000, color: 'Silver' },
+      { name: 'Geometric Cut-Out Belt', type: 'Bottom', price: 5500, color: 'Chrome' },
+    ],
+    accessories: [
+      { name: 'Chrome Angular Earrings', price: 4200 },
+      { name: 'Mirrored Clutch', price: 6000 },
+      { name: 'Silver Arm Cuff', price: 3800 },
+    ],
+    shoes: { name: 'Metallic Pointed-Toe Boots', price: 8500 },
+    totalPrice: 50000,
+    budgetTier: 'luxury',
+    events: ['photoshoot', 'party', 'concert'],
+    aesthetic: 'Cyber Minimal',
+    stylingTip: 'Slick hair back with wet-look gel and apply chrome highlighter on cheekbones and collar. This is runway-to-reality futurism.',
+    colors: ['#C0C0C0', '#808080', '#E8E8E8'],
+  },
+  {
+    id: 'le-006',
+    title: 'Emerald Velvet Dinner Jacket Editorial',
+    category: 'Luxury Editorial',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?luxury,editorial,runway,velvet&sig=10006',
+    items: [
+      { name: 'Emerald Velvet Dinner Jacket', type: 'Outerwear', price: 22000, color: 'Emerald Green' },
+      { name: 'Black Silk Dress Shirt', type: 'Top', price: 7500, color: 'Black' },
+      { name: 'Black Tuxedo Trousers', type: 'Bottom', price: 6500, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Emerald Cufflinks', price: 4500 },
+      { name: 'Black Silk Bow Tie', price: 2200 },
+      { name: 'Gold Lapel Pin', price: 1800 },
+    ],
+    shoes: { name: 'Black Velvet Dress Loafers', price: 7500 },
+    totalPrice: 52000,
+    budgetTier: 'luxury',
+    events: ['photoshoot', 'luxury-dinner', 'party'],
+    aesthetic: 'Minimal Luxury',
+    stylingTip: 'The emerald jacket IS the outfit — everything else stays black. Hair combed back, clean shave, and a confident stride complete this editorial moment.',
+    colors: ['#50C878', '#000000', '#FFD700'],
+  },
+  {
+    id: 'le-007',
+    title: 'Draped Champagne Goddess Gown',
+    category: 'Luxury Editorial',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?luxury,editorial,runway,champagne&sig=10007',
+    items: [
+      { name: 'Champagne Draped Silk Gown', type: 'Top', price: 32000, color: 'Champagne' },
+      { name: 'Crystal Embellished Waist Piece', type: 'Bottom', price: 8500, color: 'Silver & Gold' },
+      { name: 'Sheer Chiffon Stole', type: 'Dupatta', price: 4500, color: 'Champagne' },
+    ],
+    accessories: [
+      { name: 'Art Deco Diamond Necklace (CZ)', price: 15000 },
+      { name: 'Crystal Chandelier Earrings', price: 6500 },
+      { name: 'Satin Box Clutch', price: 5200 },
+    ],
+    shoes: { name: 'Gold Strappy Stiletto Heels', price: 7800 },
+    totalPrice: 79500,
+    budgetTier: 'luxury',
+    events: ['photoshoot', 'luxury-dinner', 'wedding'],
+    aesthetic: 'Minimal Luxury',
+    stylingTip: 'The Grecian draping demands minimal jewellery — let the necklace frame the décolletage and nothing more. Hollywood waves swept to one side for Old Hollywood glamour.',
+    colors: ['#F7E7CE', '#FFD700', '#C0C0C0'],
+  },
+  {
+    id: 'le-008',
+    title: 'Monochrome Tan Suede Editorial Look',
+    category: 'Luxury Editorial',
+    gender: 'male',
+    imageUrl: 'https://images.unsplash.com/featured/?luxury,editorial,runway,suede&sig=10008',
+    items: [
+      { name: 'Tan Suede Overshirt', type: 'Outerwear', price: 15000, color: 'Tan' },
+      { name: 'Cream Silk Tee', type: 'Top', price: 4500, color: 'Cream' },
+      { name: 'Tan Suede Trousers', type: 'Bottom', price: 12000, color: 'Tan' },
+    ],
+    accessories: [
+      { name: 'Gold Chain Link Bracelet', price: 5500 },
+      { name: 'Leather Messenger Bag', price: 8000 },
+    ],
+    shoes: { name: 'Tan Suede Chelsea Boots', price: 8500 },
+    totalPrice: 53500,
+    budgetTier: 'luxury',
+    events: ['photoshoot', 'luxury-dinner', 'formal'],
+    aesthetic: 'Quiet Luxury',
+    stylingTip: 'Monochrome suede is a textural masterclass. Ensure the cream tee breaks the tan-on-tan with a subtle contrast. Hair tousled, attitude unbothered.',
+    colors: ['#D2B48C', '#FFFDD0', '#C19A6B'],
+  },
+  {
+    id: 'le-009',
+    title: 'Avant-Garde Black Asymmetric Set',
+    category: 'Luxury Editorial',
+    gender: 'unisex',
+    imageUrl: 'https://images.unsplash.com/featured/?luxury,editorial,runway,avantgarde&sig=10009',
+    items: [
+      { name: 'Asymmetric Draped Top', type: 'Top', price: 12000, color: 'Black' },
+      { name: 'Wide-Leg Architectural Trousers', type: 'Bottom', price: 9500, color: 'Black' },
+      { name: 'Structured Harness Vest', type: 'Outerwear', price: 7500, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Matte Black Geometric Earring', price: 2800 },
+      { name: 'Leather Utility Bag', price: 6500 },
+    ],
+    shoes: { name: 'Chunky Platform Boots', price: 6200 },
+    totalPrice: 44500,
+    budgetTier: 'premium',
+    events: ['photoshoot', 'concert', 'party'],
+    aesthetic: 'Futuristic Editorial',
+    stylingTip: 'This architectural ensemble is gender-fluid fashion at its peak. The harness vest adds structure — adjust the straps to sit perfectly on your frame.',
+    colors: ['#000000', '#1C1C1C', '#2C2C2C'],
+  },
+  {
+    id: 'le-010',
+    title: 'Electric Blue Statement Coat Editorial',
+    category: 'Luxury Editorial',
+    gender: 'female',
+    imageUrl: 'https://images.unsplash.com/featured/?luxury,editorial,runway,blue&sig=10010',
+    items: [
+      { name: 'Electric Blue Oversized Wool Coat', type: 'Outerwear', price: 25000, color: 'Electric Blue' },
+      { name: 'Black Cashmere Turtleneck', type: 'Top', price: 8500, color: 'Black' },
+      { name: 'Black Leather Slim Trousers', type: 'Bottom', price: 12000, color: 'Black' },
+    ],
+    accessories: [
+      { name: 'Sapphire Statement Ring', price: 6500 },
+      { name: 'Structured Black Leather Bag', price: 9500 },
+      { name: 'Silver Geometric Earrings', price: 3200 },
+    ],
+    shoes: { name: 'Black Pointed-Toe Ankle Boots', price: 7800 },
+    totalPrice: 72500,
+    budgetTier: 'luxury',
+    events: ['photoshoot', 'luxury-dinner', 'formal'],
+    aesthetic: 'Futuristic Editorial',
+    stylingTip: 'The electric blue coat against an all-black base is a high-fashion colour-blocking technique. Let the coat hang open; never belt a statement coat.',
+    colors: ['#007FFF', '#000000', '#C0C0C0'],
+  },
 ];
+
+// ============================================================================
+// Utility Functions
+// ============================================================================
 
 export function getCuratedOutfits(): CuratedOutfit[] {
   return CURATED_OUTFITS;
