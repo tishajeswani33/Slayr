@@ -1,6 +1,8 @@
 import { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { apiRequest } from '../services/api';
+import { getLocalStylistConsultation } from '../services/localStylist';
+import { searchDataset } from '../utils/datasetGenerator';
 
 interface AIStylistScreenProps {
   onClose: () => void;
@@ -40,6 +42,13 @@ interface StylingReport {
   matchScore: number;
 }
 
+const PRESET_CHIPS = [
+  { text: 'Coordinate an Indo-Western traditional look for a Sangeet', icon: '🥻' },
+  { text: 'Build a capsule wardrobe with minimal pieces', icon: '👔' },
+  { text: 'Outfit ideas for a summer brunch event', icon: '🥞' },
+  { text: 'Explain Quiet Luxury aesthetic features', icon: '💼' }
+];
+
 export default function AIStylistScreen({ onClose }: AIStylistScreenProps) {
   const [activeTab, setActiveTab] = useState<'chat' | 'consult'>('consult');
   
@@ -57,7 +66,18 @@ export default function AIStylistScreen({ onClose }: AIStylistScreenProps) {
 
   // Chat States (Fallback tab)
   const [chatInput, setChatInput] = useState('');
-  const [chatMessages, setChatMessages] = useState<Array<{ role: 'ai' | 'user'; text: string }>>([
+  const [isTyping, setIsTyping] = useState(false);
+  const [chatMessages, setChatMessages] = useState<Array<{
+    role: 'ai' | 'user';
+    text: string;
+    outfits?: Array<{
+      id: string;
+      title: string;
+      imageUrl: string;
+      aesthetic: string;
+      popularityScore: number;
+    }>;
+  }>>([
     { role: 'ai', text: "Hi! Ask me anything about Gen Z style aesthetics, matching coordinates, or capsule wardrobes." }
   ]);
 
@@ -113,25 +133,52 @@ export default function AIStylistScreen({ onClose }: AIStylistScreenProps) {
 
       setReport(res.consultation);
     } catch (err: any) {
-      setErrorMsg(err.message || 'Consultation failed. Make sure the database seeder has run.');
+      console.warn('⚠️ Backend offline. Falling back to Slayr local 100K fashion database...');
+      try {
+        const localReport = getLocalStylistConsultation(imageBase64, eventType, budgetTier, additionalNotes);
+        setReport(localReport);
+        setErrorMsg('Note: Running on local 100K fashion database (offline fallback mode)');
+        setTimeout(() => setErrorMsg(null), 5000);
+      } catch (localErr) {
+        setErrorMsg(err.message || 'Consultation failed.');
+      }
     } finally {
       setIsConsulting(false);
     }
   };
 
-  const sendChatMessage = () => {
-    if (!chatInput.trim()) return;
-    setChatMessages((prev) => [...prev, { role: 'user', text: chatInput }]);
-    const currentInput = chatInput;
-    setChatInput('');
+  const sendChatMessage = (inputText?: string) => {
+    const input = inputText || chatInput;
+    if (!input.trim()) return;
+    
+    setChatMessages((prev) => [...prev, { role: 'user', text: input }]);
+    if (!inputText) setChatInput('');
+    setIsTyping(true);
     
     setTimeout(() => {
-      let reply = "Based on Slayr's 100K+ fashion index, I'd suggest pairing broad neutral trousers with structured outerwear layer overlays.";
-      if (currentInput.toLowerCase().includes('party')) reply = "For a party layout: target Y2K or Streetwear mesh layers with platform chunky sneakers.";
-      if (currentInput.toLowerCase().includes('wedding')) reply = "For a wedding layout: target Old Money double-breasted linen suits or Coquette tiers.";
+      const results = searchDataset(input, 4);
+      let reply = `Based on Slayr's 100K+ fashion index, here are some curated fits matching "${input}":`;
       
-      setChatMessages((prev) => [...prev, { role: 'ai', text: reply }]);
-    }, 800);
+      if (results.length === 0) {
+        reply = "I searched Slayr's 100K+ fashion index but couldn't find exact matches. Try queries like 'minimal', 'streetwear', 'y2k', 'clean girl' or 'old money'.";
+      }
+
+      setChatMessages((prev) => [
+        ...prev,
+        {
+          role: 'ai',
+          text: reply,
+          outfits: results.map(r => ({
+            id: r.id,
+            title: r.title,
+            imageUrl: r.imageUrl,
+            aesthetic: r.aesthetic,
+            popularityScore: r.popularityScore
+          }))
+        }
+      ]);
+      setIsTyping(false);
+    }, 1200);
   };
 
   return (
@@ -355,10 +402,18 @@ export default function AIStylistScreen({ onClose }: AIStylistScreenProps) {
                       </div>
                       <div className="p-8 flex flex-col justify-between space-y-6">
                         <div>
-                          <div className="inline-block bg-white text-black px-3 py-1 rounded-full text-[10px] uppercase tracking-wider mb-3">
-                            {report.primaryMatch.aesthetic}
+                          <div className="flex items-center gap-2 mb-3">
+                            <div className="inline-block bg-white text-black px-3 py-1 rounded-full text-[10px] uppercase tracking-wider">
+                              {report.primaryMatch.aesthetic}
+                            </div>
+                            <div className="inline-block bg-purple-500/20 text-purple-400 border border-purple-500/30 px-3 py-1 rounded-full text-[9px] font-mono tracking-wide uppercase">
+                              ⚡ Coordinates-Match
+                            </div>
                           </div>
                           <h2 className="text-2xl text-white font-light tracking-tight mb-2">The Primary Consultation Fit</h2>
+                          <div className="mb-4 p-3 bg-purple-950/20 border border-purple-500/10 rounded-2xl text-[10px] leading-relaxed text-purple-400 font-mono">
+                            ⚡ Coordinated Ensembles Match (Solving catalog fragmentation: Top + Bottom + Layering + Footwear + Accessories matched in a single cohesive proposal)
+                          </div>
                           <p className="text-sm leading-relaxed text-neutral-500 mb-6">{report.primaryMatch.vibe}</p>
                           
                           <div className="space-y-4">
@@ -420,35 +475,80 @@ export default function AIStylistScreen({ onClose }: AIStylistScreenProps) {
               exit={{ opacity: 0, y: -15 }}
               className="space-y-6 min-h-[500px] flex flex-col justify-between"
             >
-              <div className="space-y-4 flex-1">
+              <div className="space-y-6 flex-1 overflow-y-auto max-h-[60vh] pr-2">
                 {chatMessages.map((msg, i) => (
-                  <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+                  <div key={i} className={`flex flex-col ${msg.role === 'user' ? 'items-end' : 'items-start'}`}>
                     <div
-                      className={`max-w-md px-6 py-4 rounded-3xl text-sm ${
+                      className={`max-w-md px-6 py-4 rounded-3xl text-sm leading-relaxed ${
                         msg.role === 'user'
-                          ? 'bg-white text-black'
-                          : 'bg-neutral-950 border border-neutral-900 text-neutral-300'
+                          ? 'bg-white text-black font-light'
+                          : 'bg-neutral-950 border border-neutral-900 text-neutral-300 font-light'
                       }`}
                     >
                       {msg.text}
                     </div>
+                    {msg.outfits && msg.outfits.length > 0 && (
+                      <div className="flex gap-4 overflow-x-auto max-w-lg scrollbar-hide py-4 -mx-2 px-2">
+                        {msg.outfits.map((fit) => (
+                          <div
+                            key={fit.id}
+                            className="bg-neutral-950 border border-neutral-900 rounded-3xl overflow-hidden min-w-[160px] max-w-[160px] flex-shrink-0 group hover:border-neutral-700 transition-colors shadow-lg shadow-black/40"
+                          >
+                            <div className="h-32 overflow-hidden relative">
+                              <img src={fit.imageUrl} alt={fit.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                              <span className="absolute bottom-2 left-2 px-2 py-0.5 bg-black/60 backdrop-blur-md rounded-full text-[8px] text-white tracking-widest font-mono uppercase">
+                                {fit.aesthetic}
+                              </span>
+                            </div>
+                            <div className="p-3 text-[10px]">
+                              <p className="text-white truncate font-light mb-0.5">{fit.title}</p>
+                              <p className="text-neutral-500 font-light">{fit.popularityScore}% style match</p>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 ))}
+                
+                {isTyping && (
+                  <div className="flex justify-start items-center gap-3 text-xs text-neutral-500 font-light font-mono bg-neutral-950/60 border border-neutral-900 rounded-2xl px-5 py-4 max-w-md animate-pulse">
+                    <span className="w-2 h-2 rounded-full bg-purple-500 animate-ping" />
+                    <span>Slayr AI Stylist is parsing 100K+ fashion index...</span>
+                  </div>
+                )}
+
+                {chatMessages.length === 1 && !isTyping && (
+                  <div className="grid grid-cols-2 gap-4 mt-6">
+                    {PRESET_CHIPS.map((chip, index) => (
+                      <button
+                        key={index}
+                        onClick={() => sendChatMessage(chip.text)}
+                        className="bg-neutral-950/50 border border-neutral-900 rounded-2xl p-4 text-left hover:border-neutral-700 transition-colors group cursor-pointer text-xs"
+                      >
+                        <span className="text-xl block mb-2 group-hover:scale-110 transition-transform">{chip.icon}</span>
+                        <p className="text-white font-light line-clamp-2">{chip.text}</p>
+                      </button>
+                    ))}
+                  </div>
+                )}
               </div>
 
               {/* Chat Input */}
               <div className="flex gap-3 border-t border-neutral-900 pt-6">
                 <input
                   type="text"
-                  placeholder="Ask the stylist anything about color гармонии..."
+                  placeholder="Ask anything about aesthetics, wardrobes, tones..."
                   value={chatInput}
+                  disabled={isTyping}
                   onChange={(e) => setChatInput(e.target.value)}
                   onKeyPress={(e) => e.key === 'Enter' && sendChatMessage()}
-                  className="flex-1 bg-neutral-900 border border-neutral-850 px-6 py-3 rounded-full text-white placeholder-neutral-650 outline-none text-sm font-light"
+                  className="flex-1 bg-neutral-900 border border-neutral-850 px-6 py-3.5 rounded-full text-white placeholder-neutral-600 outline-none text-sm font-light focus:border-neutral-750 transition-colors"
                 />
                 <button
-                  onClick={sendChatMessage}
-                  className="bg-white text-black px-8 py-3 rounded-full text-xs font-light"
+                  onClick={() => sendChatMessage()}
+                  disabled={isTyping}
+                  className="bg-white text-black hover:bg-neutral-200 disabled:opacity-50 transition-colors px-8 py-3.5 rounded-full text-xs font-light"
                 >
                   Send
                 </button>

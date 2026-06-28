@@ -11,6 +11,18 @@ const __dirname = path.dirname(__filename);
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), viteSingleFile()],
+  server: {
+    port: 8080,
+    strictPort: true,
+    host: true,
+    watch: {
+      ignored: ['**/android/**']
+    }
+  },
+  optimizeDeps: {
+    entries: ['index.html', 'src/**/*.{ts,tsx,js,jsx}'],
+    exclude: ['@capacitor/android']
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),

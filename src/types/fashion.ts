@@ -17,7 +17,11 @@ export type AestheticStyle =
   | 'Quiet Luxury'
   | 'Pinterest Core'
   | 'TikTok Viral'
-  | 'Monochrome Minimal';
+  | 'Monochrome Minimal'
+  | 'Indian Traditional'
+  | 'Party Wear'
+  | 'Indian Festive'
+  | 'Sangeet Wear';
 
 export type Season = 'spring' | 'summer' | 'fall' | 'winter' | 'all-season';
 
@@ -50,7 +54,9 @@ export type EventType =
   | 'luxury-dinner'
   | 'airport'
   | 'club'
-  | 'office';
+  | 'office'
+  | 'sangeet'
+  | 'mehendi';
 
 export type BudgetTier =
   | 'budget'

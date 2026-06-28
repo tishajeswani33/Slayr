@@ -1,4 +1,5 @@
 import { AestheticStyle, Gender, Season, ExtendedFashionOutfit, FashionMood, BudgetTier, EventType } from '../types/fashion';
+import { getAestheticImage } from '../utils/imageUrls';
 
 // ─── Female Aesthetic Category Templates ────────────────────────────
 
@@ -18,6 +19,54 @@ interface CategoryTemplate {
 }
 
 const FEMALE_CATEGORIES: CategoryTemplate[] = [
+  {
+    aesthetic: 'Indian Traditional',
+    slug: 'indian-traditional-female',
+    items: [
+      'Banarasi Silk Saree', 'Georgette Lehenga Choli', 'Anarkali flared suit',
+      'Mirror-work Sharara set', 'Lucknowi Chikankari Kurti with Palazzo', 'Indo-Western draped gown',
+      'Bandhani printed Kurti', 'Organza Saree with designer blouse', 'Patiala Salwar Kameez',
+    ],
+    accessories: [
+      'Kundan Jhumka earrings', 'Embroidered Potli bag', 'Gold metallic bangles',
+      'Silver Payal anklets', 'Stone studded Maang Tikka', 'Designer leather Juttis',
+    ],
+    colors: ['#800020', '#FF4500', '#FFD700', '#008080', '#C71585', '#E6E6FA'],
+    vibes: ['Royal-Ethnic', 'Boho-Traditional', 'Graceful', 'Indo-Western-Fusion', 'Vibrant'],
+    trends: ['modern-saree-drapes', 'lehenga-co-ords', 'potli-bags-chic', 'chikankari-palazzo'],
+    moods: ['sophisticated', 'romantic', 'dreamy', 'powerful', 'confident'],
+    budgets: ['budget', 'mid-range', 'premium', 'luxury'],
+    events: ['wedding', 'formal', 'brunch', 'festival', 'college-fest', 'party'],
+    creators: ['@sabyasachiofficial', '@manishmalhotra05', '@anitadongre'],
+    titlePrefixes: [
+      'Royal Banarasi Grace', 'Mirror-Work Sharara Glow', 'Embroidered Lehenga Set',
+      'Chikankari Palazzo Harmony', 'Jaipur Block Print Silhouette', 'Indo-Western Fusion Drape',
+    ],
+  },
+  {
+    aesthetic: 'Party Wear',
+    slug: 'party-wear-female',
+    items: [
+      'Sequinned bodycon mini dress', 'Satin cowl-neck slip dress', 'Metallic halter top & leather trousers',
+      'Velvet wrap blazer dress', 'Mesh corset top with satin cargo pants', 'Sparkly glitter crop top set',
+      'Off-shoulder satin gown', 'Rhinestone fringe cocktail dress', 'Sheer mesh long-sleeve bodysuit',
+    ],
+    accessories: [
+      'Rhinestone encrusted clutch', 'Strappy metallic stiletto heels', 'Silver crystal statement earrings',
+      'Rhinestone choker necklace', 'Glittering hair pins', 'Patent leather platform boots',
+    ],
+    colors: ['#D4AF37', '#E5E4E2', '#FF69B4', '#1A1A1A', '#4B0082', '#FF1493'],
+    vibes: ['Glamorous', 'Sparkly', 'Bold-Clubwear', 'Sleek-Midnight', 'High-Drama'],
+    trends: ['sequin-dresses', 'corset-layering', 'metallic-shimmer', 'rhinestone-accessories'],
+    moods: ['confident', 'playful', 'powerful', 'romantic', 'edgy'],
+    budgets: ['budget', 'mid-range', 'premium', 'luxury'],
+    events: ['party', 'club', 'concert', 'festival', 'luxury-dinner'],
+    creators: ['@balmain', '@muglerofficial', '@alexanderwangny'],
+    titlePrefixes: [
+      'Sparkling Night Out Ensemble', 'Satin Slip Glamour Set', 'Sequin Bodycon Silhouette',
+      'Corset Cargo Night Coordinates', 'Glitter Metallic Statement', 'Midnight Cocktail Luxe',
+    ],
+  },
   {
     aesthetic: 'Clean Girl',
     slug: 'clean-girl',
@@ -461,7 +510,7 @@ export function generateFemaleDataset(count: number = 50000): ExtendedFashionOut
         cat.aesthetic.toLowerCase().replace(/ /g, '-'),
       ],
       recommendationWeight: Math.round(seededRandom(seed + 16) * 100) / 100,
-      imageUrl: `https://images.unsplash.com/photo-${1500000000000 + (i % 5000)}?w=800&q=80`,
+      imageUrl: getAestheticImage(cat.aesthetic, gender, i),
       trendVelocity,
       engagementScore,
       saveRate,

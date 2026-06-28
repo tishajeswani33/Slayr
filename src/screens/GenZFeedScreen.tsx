@@ -1,6 +1,6 @@
 import { useState, useMemo, useCallback } from 'react';
 import { motion } from 'framer-motion';
-import { generateMassiveGenZDataset } from '../data/genzFashionDataset';
+import { getFullDataset } from '../utils/datasetGenerator';
 
 interface GenZFeedScreenProps {
   onClose: () => void;
@@ -15,7 +15,7 @@ export default function GenZFeedScreen({ onClose }: GenZFeedScreenProps) {
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
   const [showSort, setShowSort] = useState(false);
 
-  const dataset = useMemo(() => generateMassiveGenZDataset(10000), []);
+  const dataset = useMemo(() => getFullDataset(10000) as any[], []);
 
   const filterOptions = ['All', 'Minimal Luxury', 'Streetwear', 'Clean Girl', 'Coquette', 'Korean Casual'];
 

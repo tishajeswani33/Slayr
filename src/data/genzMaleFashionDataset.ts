@@ -1,4 +1,5 @@
 import { AestheticStyle, Gender, Season, ExtendedFashionOutfit, FashionMood, BudgetTier, EventType } from '../types/fashion';
+import { getAestheticImage } from '../utils/imageUrls';
 
 // ─── Male Aesthetic Category Templates ──────────────────────────────
 
@@ -18,6 +19,54 @@ interface CategoryTemplate {
 }
 
 const MALE_CATEGORIES: CategoryTemplate[] = [
+  {
+    aesthetic: 'Indian Traditional',
+    slug: 'indian-traditional',
+    items: [
+      'Lucknowi Chikankari Kurta', 'Pleated silk Dhoti pants', 'Embroidered velvet Sherwani',
+      'Assam Silk Kurta Pajama', 'Structured Jodhpuri Bandhgala coat', 'Designer Nehru jacket vest',
+      'Raw silk kurta pyjama set', 'Khadi short Kurta', 'Indo-Western draped cowl kurta',
+    ],
+    accessories: [
+      'Leather ethnic Juttis', 'Handcrafted Kolhapuri sandals', 'Silk embroidered pocket square',
+      'Gold Kada bracelet', 'Royal organza Dupatta', 'Designer brooch pin',
+    ],
+    colors: ['#FFE4C4', '#800020', '#FFD700', '#008080', '#FFFFFF', '#000080'],
+    vibes: ['Royal-Festive', 'Traditional-Coordinated', 'Indo-Western', 'Classic-Ethnic', 'Bespoke'],
+    trends: ['modern-ethnic-co-ord', 'royal-festive-layers', 'chikankari-revival', 'indo-western-drapes'],
+    moods: ['sophisticated', 'confident', 'dreamy', 'powerful', 'serene'],
+    budgets: ['budget', 'mid-range', 'premium', 'luxury'],
+    events: ['wedding', 'formal', 'brunch', 'festival', 'college-fest', 'party'],
+    creators: ['@sabyasachiofficial', '@manishmalhotra05', '@kunalkrawalofficial'],
+    titlePrefixes: [
+      'Royal Bandhgala Layer', 'Chikankari Coordinates Set', 'Embroidered Sherwani Ensemble',
+      'Jaipur Block Print Fest Fit', 'Modern Indo-Western Blend', 'Varanasi Brocade Statement',
+    ],
+  },
+  {
+    aesthetic: 'Party Wear',
+    slug: 'party-wear-male',
+    items: [
+      'Sequinned black bomber jacket', 'Satin slim-fit button down', 'Velvet double-breasted blazer',
+      'Metallic thread crewneck', 'Slim-fit leather trousers', 'Glossy patent leather pants',
+      'Deconstructed asymmetrical blazer', 'Silk-blend camp collar shirt', 'Embellished tuxedo jacket',
+    ],
+    accessories: [
+      'Patent leather Chelsea boots', 'Sterling silver neck chain', 'Designer chronograph watch',
+      'Polished leather zip boots', 'Suede single-monk strap shoes', 'Chrome buckle belt',
+    ],
+    colors: ['#0A0A0A', '#C0C0C0', '#004B49', '#4A0E17', '#1F305E', '#FFFFFF'],
+    vibes: ['Club-Chic', 'Sleek-Glow', 'Bold-Nightlife', 'High-Glamour', 'Futuristic-Midnight'],
+    trends: ['party-blazers', 'metallic-glow-wear', 'sequin-embellishments', 'leather-separates'],
+    moods: ['confident', 'powerful', 'edgy', 'playful', 'mysterious'],
+    budgets: ['budget', 'mid-range', 'premium', 'luxury'],
+    events: ['party', 'club', 'concert', 'festival', 'luxury-dinner'],
+    creators: ['@balmain', '@ysl.archive', '@hypebeast.style'],
+    titlePrefixes: [
+      'Midnight Club Silhouette', 'Velvet Lounge Coordinate', 'Glittering Sequin Statement',
+      'Sleek Satin Night Set', 'Tuxedo Disruption Look', 'High-Octane Party Layer',
+    ],
+  },
   {
     aesthetic: 'Streetwear',
     slug: 'oversized-streetwear',
@@ -422,7 +471,7 @@ export function generateMaleDataset(count: number = 50000): ExtendedFashionOutfi
         cat.aesthetic.toLowerCase().replace(/ /g, '-'),
       ],
       recommendationWeight: Math.round(seededRandom(seed + 16) * 100) / 100,
-      imageUrl: `https://images.unsplash.com/photo-${1500000000000 + (i % 5000)}?w=800&q=80`,
+      imageUrl: getAestheticImage(cat.aesthetic, gender, i),
       trendVelocity,
       engagementScore,
       saveRate,

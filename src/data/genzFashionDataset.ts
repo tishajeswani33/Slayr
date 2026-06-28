@@ -1,4 +1,5 @@
 import { FashionOutfit, AestheticStyle, Gender, Season } from '../types/fashion';
+import { getAestheticImage } from '../utils/imageUrls';
 
 // Gen Z Trend Tags
 // const GEN_Z_TRENDS = [
@@ -131,7 +132,7 @@ function createGenZOutfit(
       aesthetic.toLowerCase().replace(' ', '-'),
     ],
     recommendationWeight: Math.random(),
-    imageUrl: `https://images.unsplash.com/photo-${1490481651871 + (id % 1000)}?w=800`,
+    imageUrl: getAestheticImage(aesthetic, gender, id),
   };
 }
 

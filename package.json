@@ -6,12 +6,20 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "app:init": "cap init slayr app.slayr.fashion --web-dir=dist",
+    "app:add-android": "cap add android",
+    "app:sync": "npm run build && cap sync",
+    "app:open-android": "cap open android"
   },
   "dependencies": {
+    "@capacitor/android": "^8.4.1",
+    "@capacitor/cli": "^8.4.1",
+    "@capacitor/core": "^8.4.1",
     "@faker-js/faker": "^10.4.0",
     "@google/generative-ai": "^0.24.1",
     "@hookform/resolvers": "^5.4.0",
+    "@supabase/supabase-js": "^2.108.2",
     "@types/react-router-dom": "^5.3.3",
     "clsx": "2.1.1",
     "firebase": "^12.14.0",

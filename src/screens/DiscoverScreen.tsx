@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { generateMassiveGenZDataset, getTrendingOutfits, getViralGenZOutfits } from '../data/genzFashionDataset';
+import { getTrendingOutfits, getViralGenZOutfits } from '../data/genzFashionDataset';
+import { getFullDataset } from '../utils/datasetGenerator';
 import FeedHeroCard from '../components/FeedHeroCard';
 import RecommendationCarousel from '../components/RecommendationCarousel';
 
@@ -14,9 +15,9 @@ export default function DiscoverScreen({ onClose }: DiscoverScreenProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [visibleCount, setVisibleCount] = useState(30);
 
-  const massiveDataset = useMemo(() => generateMassiveGenZDataset(100000), []);
-  const trendingOutfits = useMemo(() => getTrendingOutfits(massiveDataset, 50), [massiveDataset]);
-  const viralOutfits = useMemo(() => getViralGenZOutfits(massiveDataset, 30), [massiveDataset]);
+  const massiveDataset = useMemo(() => getFullDataset(100000), []);
+  const trendingOutfits = useMemo(() => getTrendingOutfits(massiveDataset as any, 50), [massiveDataset]);
+  const viralOutfits = useMemo(() => getViralGenZOutfits(massiveDataset as any, 30), [massiveDataset]);
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 800);

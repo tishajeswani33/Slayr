@@ -5,6 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="AI-powered outfit analysis and fashion insights" />
     <title>slayr - AI Fashion Analysis</title>
+    <script>
+      window.onerror = function(message, source, lineno, colno, error) {
+        var errorDiv = document.createElement('div');
+        errorDiv.style.position = 'fixed';
+        errorDiv.style.top = '0';
+        errorDiv.style.left = '0';
+        errorDiv.style.width = '100vw';
+        errorDiv.style.height = '100vh';
+        errorDiv.style.backgroundColor = '#000000';
+        errorDiv.style.color = '#ff5c5c';
+        errorDiv.style.padding = '40px';
+        errorDiv.style.boxSizing = 'border-box';
+        errorDiv.style.fontFamily = 'system-ui, -apple-system, sans-serif';
+        errorDiv.style.zIndex = '999999';
+        errorDiv.style.overflow = 'auto';
+        
+        errorDiv.innerHTML = '<div style="max-w: 600px; margin: 40px auto; background-color: #0d0d0d; border: 1px solid #222222; border-radius: 24px; padding: 32px; box-shadow: 0 20px 40px rgba(0,0,0,0.8);">' +
+          '<h1 style="color:#ffffff; font-size:24px; font-weight:300; letter-spacing:0.05em; text-transform:uppercase; margin-bottom:16px;">⚠️ Startup Crash</h1>' +
+          '<p style="color:#777777; font-size:14px; font-weight:300; line-height:1.6; margin-bottom:24px;">A global script loader exception was caught by window.onerror. Here is the debug dump:</p>' +
+          '<pre style="background-color:#050505; border:1px solid #1a1a1a; padding:16px; border-radius:12px; text-align:left; color:#ff6b6b; font-size:12px; font-family:Consolas, Monaco, monospace; line-height:1.5; margin:0; white-space:pre-wrap; word-break:break-all;">' +
+          (error && error.stack ? error.stack : message + '\\nSource: ' + source + '\\nLine: ' + lineno + '\\nCol: ' + colno) +
+          '</pre>' +
+          '</div>';
+        
+        if (document.body) {
+          document.body.appendChild(errorDiv);
+        } else {
+          window.addEventListener('DOMContentLoaded', function() {
+            document.body.appendChild(errorDiv);
+          });
+        }
+        return false;
+      };
+    </script>
   </head>
   <body>
     <div id="root"></div>

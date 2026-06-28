@@ -15,12 +15,14 @@ import TrendRadarScreen from './screens/TrendRadarScreen';
 import GenZFeedScreen from './screens/GenZFeedScreen';
 import StyleDNAReportScreen from './screens/StyleDNAReportScreen';
 import TrendingCreatorsScreen from './screens/TrendingCreatorsScreen';
+import ShopScreen from './screens/ShopScreen';
+import ChatbotScreen from './screens/ChatbotScreen';
 import { useOutfitStore } from './store/useOutfitStore';
 import { useAuthStore } from './store/useAuthStore';
 import { Moodboard } from './types/moodboard';
 import { LoginFormData } from './validation/authSchemas';
 
-type Screen = 'feed' | 'explore' | 'upload' | 'analyzing' | 'result' | 'moodboard' | 'saved' | 'profile' | 'ai-stylist' | 'discover' | 'trend-radar' | 'genz-feed' | 'style-dna' | 'trending-creators';
+type Screen = 'feed' | 'explore' | 'upload' | 'analyzing' | 'result' | 'moodboard' | 'saved' | 'profile' | 'ai-stylist' | 'discover' | 'trend-radar' | 'genz-feed' | 'style-dna' | 'trending-creators' | 'shop' | 'chatbot';
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<Screen>('feed');
@@ -64,6 +66,11 @@ export default function App() {
     return <LoginScreen onLogin={handleLogin} onSignupClick={() => {}} />;
   }
 
+  // Screens that should show the floating chatbot FAB
+  const showChatbotFab = ['feed', 'explore', 'shop', 'discover', 'genz-feed'].includes(currentScreen);
+  // Screens that show bottom nav
+  const showBottomNav = ['feed', 'explore', 'shop'].includes(currentScreen);
+
   return (
     <div className="relative">
       <AnimatePresence mode="wait">
@@ -100,6 +107,16 @@ export default function App() {
         )}
         {currentScreen === 'trending-creators' && (
           <TrendingCreatorsScreen key="trending-creators" onClose={() => setCurrentScreen('feed')} />
+        )}
+        {currentScreen === 'shop' && (
+          <ShopScreen
+            key="shop"
+            onClose={() => setCurrentScreen('feed')}
+            onChatbotClick={() => setCurrentScreen('chatbot')}
+          />
+        )}
+        {currentScreen === 'chatbot' && (
+          <ChatbotScreen key="chatbot" onClose={() => setCurrentScreen('feed')} />
         )}
         {currentScreen === 'explore' && (
           <ExploreScreen
@@ -138,16 +155,33 @@ export default function App() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => setCurrentScreen('upload')}
-          className="fixed bottom-8 right-8 w-16 h-16 bg-white text-black rounded-full shadow-2xl flex items-center justify-center z-40 hover:shadow-white/20 transition-shadow"
+          className="fixed bottom-24 right-8 w-14 h-14 bg-white text-black rounded-full shadow-2xl flex items-center justify-center z-40 hover:shadow-white/20 transition-shadow"
         >
-          <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
           </svg>
         </motion.button>
       )}
 
+      {/* Floating Chatbot FAB */}
+      {showChatbotFab && (
+        <motion.button
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          onClick={() => setCurrentScreen('chatbot')}
+          className="fixed bottom-24 left-6 w-14 h-14 bg-gradient-to-br from-violet-600 to-fuchsia-600 text-white rounded-full shadow-2xl shadow-violet-500/20 flex items-center justify-center z-40 hover:shadow-violet-500/30 transition-shadow"
+          title="AI Budget Stylist"
+        >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+          </svg>
+        </motion.button>
+      )}
+
       {/* Bottom Navigation */}
-      {(currentScreen === 'feed' || currentScreen === 'explore') && (
+      {showBottomNav && (
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -176,7 +210,17 @@ export default function App() {
               </svg>
               <span className="text-xs font-light">Explore</span>
             </button>
-            <div className="w-16" /> {/* Spacer for FAB */}
+            <button
+              onClick={() => setCurrentScreen('shop')}
+              className={`flex flex-col items-center gap-1 transition-colors ${
+                currentScreen === 'shop' ? 'text-white' : 'text-neutral-500'
+              }`}
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+              </svg>
+              <span className="text-xs font-light">Shop</span>
+            </button>
             <button
               onClick={() => setCurrentScreen('saved')}
               className="flex flex-col items-center gap-1 text-neutral-500 hover:text-white transition-colors"

@@ -3,6 +3,8 @@ import { persist } from 'zustand/middleware';
 import { loginSchema, signupSchema } from '../validation/authSchemas';
 import { apiRequest } from '../services/api';
 import { auth } from '../config/firebase';
+import { supabase } from '../config/supabase';
+import { sendSMS } from '../services/smsService';
 import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
@@ -25,8 +27,12 @@ interface AuthStore {
   user: UserProfile | null;
   error: string | null;
   isLoading: boolean;
+  otpCode: string | null;
+  phoneNumber: string | null;
   login: (email: string, password: string) => Promise<boolean>;
   signup: (email: string, password: string, displayName: string) => Promise<boolean>;
+  sendSmsOtp: (phone: string) => Promise<string>;
+  verifySmsOtp: (code: string) => Promise<boolean>;
   logout: () => void;
   fetchProfile: () => Promise<void>;
 }
@@ -44,6 +50,8 @@ export const useAuthStore = create<AuthStore>()(
       user: null,
       error: null,
       isLoading: false,
+      otpCode: null,
+      phoneNumber: null,
 
       login: async (email, password) => {
         set({ isLoading: true, error: null });
@@ -54,8 +62,17 @@ export const useAuthStore = create<AuthStore>()(
             throw new Error(parsed.error.issues[0].message);
           }
 
+          // 1. Authenticate with Supabase (mock/live)
+          const { data: sbData } = await supabase.auth.signInWithPassword({
+            email,
+            password
+          });
+          if (sbData?.user) {
+            console.log('Supabase: authenticated user', sbData.user.email);
+          }
+
+          // 2. Fallback to Firebase/Node API
           if (isMockFirebase) {
-            // Local dev mode fallback (0 config needed)
             const res = await apiRequest<{ token: string; user: UserProfile }>(
               '/api/auth/login',
               'POST',
@@ -70,11 +87,9 @@ export const useAuthStore = create<AuthStore>()(
             });
             return true;
           } else {
-            // Live Firebase Auth pipeline
             const userCredential = await signInWithEmailAndPassword(auth, email, password);
             const firebaseIdToken = await userCredential.user.getIdToken(true);
 
-            // Sync user to PostgreSQL database on-the-fly via backend API
             const res = await apiRequest<{ token: string; user: UserProfile }>(
               '/api/auth/firebase-login',
               'POST',
@@ -83,7 +98,7 @@ export const useAuthStore = create<AuthStore>()(
 
             set({
               isAuthenticated: true,
-              token: res.token, // Store Firebase ID Token in state (picked up by apiRequest)
+              token: res.token,
               user: res.user,
               isLoading: false,
             });
@@ -93,7 +108,6 @@ export const useAuthStore = create<AuthStore>()(
           console.error('Login error:', err);
           let errorMessage = err.message || 'An error occurred during sign in';
           if (err.code) {
-            // Handle Firebase error codes gracefully
             switch (err.code) {
               case 'auth/user-not-found':
               case 'auth/wrong-password':
@@ -118,8 +132,25 @@ export const useAuthStore = create<AuthStore>()(
             throw new Error(parsed.error.issues[0].message);
           }
 
+          // 1. Register with Supabase (mock/live)
+          const { data: sbData } = await supabase.auth.signUp({
+            email,
+            password,
+            options: {
+              data: { displayName }
+            }
+          });
+          if (sbData?.user) {
+            await supabase.from('profiles').upsert({
+              id: sbData.user.id,
+              email,
+              displayName,
+              dominantAesthetic: 'Minimal Luxury'
+            });
+          }
+
+          // 2. Fallback to Firebase/Node API
           if (isMockFirebase) {
-            // Local dev mode fallback
             const res = await apiRequest<{ token: string; user: UserProfile }>(
               '/api/auth/signup',
               'POST',
@@ -134,15 +165,10 @@ export const useAuthStore = create<AuthStore>()(
             });
             return true;
           } else {
-            // Live Firebase Auth pipeline
             const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-            
-            // Set displayName in Firebase Auth Profile
             await updateProfile(userCredential.user, { displayName });
-            
             const firebaseIdToken = await userCredential.user.getIdToken(true);
 
-            // Synchronize with PostgreSQL database on the fly
             const res = await apiRequest<{ token: string; user: UserProfile }>(
               '/api/auth/firebase-login',
               'POST',
@@ -175,6 +201,46 @@ export const useAuthStore = create<AuthStore>()(
         }
       },
 
+      sendSmsOtp: async (phone: string) => {
+        set({ isLoading: true, error: null });
+        
+        // Generate 6 digit code
+        const code = Math.floor(100000 + Math.random() * 900000).toString();
+        set({ otpCode: code, phoneNumber: phone });
+        
+        // Send SMS via Twilio REST gateway
+        const message = `[Slayr Security]: Your login verification code is ${code}. Match coordinates in 12ms.`;
+        await sendSmsOtpHelper(phone, message);
+        
+        set({ isLoading: false });
+        return code;
+      },
+
+      verifySmsOtp: async (code: string) => {
+        set({ isLoading: true, error: null });
+        await new Promise(r => setTimeout(r, 800));
+        const activeCode = get().otpCode;
+        if (code === activeCode) {
+          set({
+            isAuthenticated: true,
+            token: 'mock-supabase-token-otp',
+            user: {
+              id: 'usr-otp-seed',
+              email: 'genz-investor@slayr.app',
+              displayName: 'Gen Z Guest',
+              dominantAesthetic: 'Minimal Luxury',
+              bio: 'Pitching Slayr to VC funds'
+            },
+            isLoading: false,
+            error: null
+          });
+          return true;
+        } else {
+          set({ error: 'Invalid SMS OTP verification code.', isLoading: false });
+          return false;
+        }
+      },
+
       logout: () => {
         if (!isMockFirebase) {
           signOut(auth).catch((err) => console.warn('Firebase signout warning:', err));
@@ -184,6 +250,8 @@ export const useAuthStore = create<AuthStore>()(
           token: null,
           user: null,
           error: null,
+          otpCode: null,
+          phoneNumber: null,
         });
       },
 
@@ -209,3 +277,12 @@ export const useAuthStore = create<AuthStore>()(
     }
   )
 );
+
+// Wrapper to prevent blocking execution on REST requests
+async function sendSmsOtpHelper(phone: string, message: string) {
+  try {
+    await sendSMS(phone, message);
+  } catch (err) {
+    console.error('Twilio SMS dispatch failed async:', err);
+  }
+}
