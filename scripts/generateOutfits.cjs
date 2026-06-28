@@ -6,11 +6,11 @@ const categories = [
   { name: 'Sangeet & Mehendi', keywords: 'sangeet,mehendi,sharara,ethnic', events: ['sangeet', 'mehendi'], aesthetic: 'Sangeet Wear' },
   { name: 'Festive & Diwali', keywords: 'festive,diwali,silk,kurta', events: ['festival', 'party'], aesthetic: 'Indian Festive' },
   { name: 'Party & Clubwear', keywords: 'party,club,sequin,nightlife', events: ['party', 'club', 'concert'], aesthetic: 'Party Wear' },
-  { name: 'Office & Corporate', keywords: 'office,corporate,formal,suit', events: ['office', 'work'], aesthetic: 'Scandinavian Minimal' },
+  { name: 'Office & Corporate', keywords: 'office,corporate,formal,suit', events: ['office', 'work'], aesthetic: 'Minimal Corporate' },
   { name: 'College & Casual', keywords: 'casual,streetwear,denim,sneaker', events: ['casual', 'college-fest'], aesthetic: 'Streetwear' },
   { name: 'Date Night', keywords: 'date,romantic,evening,elegant', events: ['date-night', 'luxury-dinner'], aesthetic: 'Minimal Luxury' },
   { name: 'Brunch & Weekend', keywords: 'brunch,summer,linen,casual,chic', events: ['brunch', 'travel'], aesthetic: 'Clean Girl' },
-  { name: 'Korean & Minimal', keywords: 'korean,minimal,aesthetic,fashion', events: ['casual', 'date-night'], aesthetic: 'Korean Casual' },
+  { name: 'Indo-Western Fusion', keywords: 'indo,western,fusion,kurti', events: ['casual', 'date-night'], aesthetic: 'Indo-Western' },
   { name: 'Luxury Editorial', keywords: 'luxury,editorial,runway,fashion', events: ['photoshoot', 'luxury-dinner'], aesthetic: 'Futuristic Editorial' }
 ];
 
@@ -72,7 +72,7 @@ categories.forEach((cat, catIndex) => {
       title: `${cat.name} Look ${i + 1}`,
       category: cat.name,
       gender: gender,
-      imageUrl: `https://loremflickr.com/600/800/fashion,${imageKeyword}?random=${idCounter}`,
+      imageUrl: `https://loremflickr.com/600/800/indian,fashion,${imageKeyword}?random=${idCounter}`,
       items: [
         { name: 'Primary Top/Dress', type: 'Top', price: item1Price, color: 'Primary Color' },
         { name: 'Matching Bottom', type: 'Bottom', price: item2Price, color: 'Secondary Color' }
