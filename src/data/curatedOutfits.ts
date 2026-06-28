@@ -21,36 +21,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Traditional Wedding Look 1",
     "category": "Traditional Wedding",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,traditional?random=2",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 450,
+        "price": 400,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 500,
+        "price": 250,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 100
+        "price": 50
       },
       {
         "name": "Secondary Accessory",
-        "price": 0
+        "price": 100
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 200
+      "price": 850
     },
-    "totalPrice": 1250,
+    "totalPrice": 1650,
     "budgetTier": "budget",
     "events": [
       "wedding",
@@ -69,25 +69,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Traditional Wedding Look 2",
     "category": "Traditional Wedding",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,traditional?random=3",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 350,
+        "price": 450,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 650,
+        "price": 200,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 100
+        "price": 50
       },
       {
         "name": "Secondary Accessory",
@@ -96,9 +96,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 650
+      "price": 600
     },
-    "totalPrice": 1750,
+    "totalPrice": 1300,
     "budgetTier": "budget",
     "events": [
       "wedding",
@@ -117,12 +117,12 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Traditional Wedding Look 3",
     "category": "Traditional Wedding",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a30ac09a7b66?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,traditional?random=4",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 400,
+        "price": 550,
         "color": "Primary Color"
       },
       {
@@ -135,11 +135,11 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 200
+        "price": 100
       },
       {
         "name": "Secondary Accessory",
-        "price": 50
+        "price": 0
       }
     ],
     "shoes": {
@@ -165,36 +165,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Traditional Wedding Look 4",
     "category": "Traditional Wedding",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9e2?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,traditional?random=5",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1150,
+        "price": 850,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1300,
+        "price": 1050,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 350
+        "price": 150
       },
       {
         "name": "Secondary Accessory",
-        "price": 150
+        "price": 250
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1650
+      "price": 800
     },
-    "totalPrice": 4600,
+    "totalPrice": 3100,
     "budgetTier": "mid-range",
     "events": [
       "wedding",
@@ -213,12 +213,12 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Traditional Wedding Look 5",
     "category": "Traditional Wedding",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0b1e4cbe5e7e?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,traditional?random=6",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1200,
+        "price": 850,
         "color": "Primary Color"
       },
       {
@@ -231,18 +231,18 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 450
+        "price": 250
       },
       {
         "name": "Secondary Accessory",
-        "price": 100
+        "price": 150
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1150
+      "price": 2150
     },
-    "totalPrice": 4200,
+    "totalPrice": 4700,
     "budgetTier": "mid-range",
     "events": [
       "wedding",
@@ -261,36 +261,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Traditional Wedding Look 6",
     "category": "Traditional Wedding",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1550614000-4b95dd5e9854?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,traditional?random=7",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1450,
+        "price": 1050,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 800,
+        "price": 1450,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 300
+        "price": 500
       },
       {
         "name": "Secondary Accessory",
-        "price": 50
+        "price": 250
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1600
+      "price": 2150
     },
-    "totalPrice": 4200,
+    "totalPrice": 5400,
     "budgetTier": "mid-range",
     "events": [
       "wedding",
@@ -309,36 +309,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Traditional Wedding Look 7",
     "category": "Traditional Wedding",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,traditional?random=8",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2550,
+        "price": 2850,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2100,
+        "price": 2900,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1250
+        "price": 1350
       },
       {
         "name": "Secondary Accessory",
-        "price": 300
+        "price": 600
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 4150
+      "price": 1800
     },
-    "totalPrice": 10350,
+    "totalPrice": 9500,
     "budgetTier": "premium",
     "events": [
       "wedding",
@@ -357,36 +357,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Traditional Wedding Look 8",
     "category": "Traditional Wedding",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,traditional?random=9",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3850,
+        "price": 2300,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 3400,
+        "price": 3800,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 600
+        "price": 1500
       },
       {
         "name": "Secondary Accessory",
-        "price": 700
+        "price": 550
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2400
+      "price": 5550
     },
-    "totalPrice": 10950,
+    "totalPrice": 13700,
     "budgetTier": "premium",
     "events": [
       "wedding",
@@ -405,36 +405,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Traditional Wedding Look 9",
     "category": "Traditional Wedding",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,traditional?random=10",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3600,
+        "price": 3150,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2250,
+        "price": 2100,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1050
+        "price": 950
       },
       {
         "name": "Secondary Accessory",
-        "price": 400
+        "price": 450
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2850
+      "price": 2350
     },
-    "totalPrice": 10150,
+    "totalPrice": 9000,
     "budgetTier": "premium",
     "events": [
       "wedding",
@@ -453,36 +453,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Traditional Wedding Look 10",
     "category": "Traditional Wedding",
     "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,traditional?random=11",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 5200,
+        "price": 6800,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 8800,
+        "price": 9800,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1800
+        "price": 1250
       },
       {
         "name": "Secondary Accessory",
-        "price": 1450
+        "price": 1550
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 11450
+      "price": 4150
     },
-    "totalPrice": 28700,
+    "totalPrice": 23550,
     "budgetTier": "luxury",
     "events": [
       "wedding",
@@ -501,18 +501,18 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Sangeet & Mehendi Look 1",
     "category": "Sangeet & Mehendi",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,sangeet?random=12",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 500,
+        "price": 550,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 500,
+        "price": 450,
         "color": "Secondary Color"
       }
     ],
@@ -523,14 +523,14 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       },
       {
         "name": "Secondary Accessory",
-        "price": 50
+        "price": 0
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 700
+      "price": 400
     },
-    "totalPrice": 1800,
+    "totalPrice": 1450,
     "budgetTier": "budget",
     "events": [
       "sangeet",
@@ -549,18 +549,18 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Sangeet & Mehendi Look 2",
     "category": "Sangeet & Mehendi",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,sangeet?random=13",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 250,
+        "price": 300,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 450,
+        "price": 300,
         "color": "Secondary Color"
       }
     ],
@@ -576,9 +576,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 350
+      "price": 650
     },
-    "totalPrice": 1150,
+    "totalPrice": 1350,
     "budgetTier": "budget",
     "events": [
       "sangeet",
@@ -597,7 +597,7 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Sangeet & Mehendi Look 3",
     "category": "Sangeet & Mehendi",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1502716115624-b58610eb67cd?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,sangeet?random=14",
     "items": [
       {
         "name": "Primary Top/Dress",
@@ -608,25 +608,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 250,
+        "price": 350,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 150
+        "price": 100
       },
       {
         "name": "Secondary Accessory",
-        "price": 100
+        "price": 50
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 550
+      "price": 200
     },
-    "totalPrice": 1450,
+    "totalPrice": 1100,
     "budgetTier": "budget",
     "events": [
       "sangeet",
@@ -645,7 +645,7 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Sangeet & Mehendi Look 4",
     "category": "Sangeet & Mehendi",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,sangeet?random=15",
     "items": [
       {
         "name": "Primary Top/Dress",
@@ -656,14 +656,14 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1150,
+        "price": 750,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 350
+        "price": 400
       },
       {
         "name": "Secondary Accessory",
@@ -672,9 +672,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 950
+      "price": 650
     },
-    "totalPrice": 3450,
+    "totalPrice": 2800,
     "budgetTier": "mid-range",
     "events": [
       "sangeet",
@@ -693,25 +693,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Sangeet & Mehendi Look 5",
     "category": "Sangeet & Mehendi",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1554412933-414cd7d15243?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,sangeet?random=16",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 950,
+        "price": 1150,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 950,
+        "price": 1300,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 550
+        "price": 400
       },
       {
         "name": "Secondary Accessory",
@@ -720,9 +720,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2150
+      "price": 800
     },
-    "totalPrice": 4650,
+    "totalPrice": 3700,
     "budgetTier": "mid-range",
     "events": [
       "sangeet",
@@ -741,36 +741,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Sangeet & Mehendi Look 6",
     "category": "Sangeet & Mehendi",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1475179427670-043e0617300c?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,sangeet?random=17",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1200,
+        "price": 1000,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1450,
+        "price": 800,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 500
+        "price": 400
       },
       {
         "name": "Secondary Accessory",
-        "price": 50
+        "price": 250
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1500
+      "price": 700
     },
-    "totalPrice": 4700,
+    "totalPrice": 3150,
     "budgetTier": "mid-range",
     "events": [
       "sangeet",
@@ -789,36 +789,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Sangeet & Mehendi Look 7",
     "category": "Sangeet & Mehendi",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1488161628813-0af8e0c81216?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,sangeet?random=18",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2500,
+        "price": 3100,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 3300,
+        "price": 4000,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 400
+        "price": 1050
       },
       {
         "name": "Secondary Accessory",
-        "price": 300
+        "price": 700
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2500
+      "price": 3550
     },
-    "totalPrice": 9000,
+    "totalPrice": 12400,
     "budgetTier": "premium",
     "events": [
       "sangeet",
@@ -837,36 +837,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Sangeet & Mehendi Look 8",
     "category": "Sangeet & Mehendi",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,sangeet?random=19",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2950,
+        "price": 2800,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 3450,
+        "price": 2050,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1050
+        "price": 1000
       },
       {
         "name": "Secondary Accessory",
-        "price": 200
+        "price": 600
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2750
+      "price": 3850
     },
-    "totalPrice": 10400,
+    "totalPrice": 10300,
     "budgetTier": "premium",
     "events": [
       "sangeet",
@@ -885,25 +885,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Sangeet & Mehendi Look 9",
     "category": "Sangeet & Mehendi",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,sangeet?random=20",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2900,
+        "price": 3400,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 4350,
+        "price": 4050,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 450
+        "price": 700
       },
       {
         "name": "Secondary Accessory",
@@ -912,9 +912,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 3000
+      "price": 3050
     },
-    "totalPrice": 11350,
+    "totalPrice": 11850,
     "budgetTier": "premium",
     "events": [
       "sangeet",
@@ -933,36 +933,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Sangeet & Mehendi Look 10",
     "category": "Sangeet & Mehendi",
     "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/photo-1508427953056-b4e50d75b341?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,sangeet?random=21",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 7000,
+        "price": 8800,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 8100,
+        "price": 6350,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 3100
+        "price": 2550
       },
       {
         "name": "Secondary Accessory",
-        "price": 1650
+        "price": 1900
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 7500
+      "price": 5200
     },
-    "totalPrice": 27350,
+    "totalPrice": 24800,
     "budgetTier": "luxury",
     "events": [
       "sangeet",
@@ -981,36 +981,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Festive & Diwali Look 1",
     "category": "Festive & Diwali",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,festive?random=22",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 400,
+        "price": 350,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 450,
+        "price": 300,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 100
+        "price": 50
       },
       {
         "name": "Secondary Accessory",
-        "price": 50
+        "price": 100
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 450
+      "price": 550
     },
-    "totalPrice": 1450,
+    "totalPrice": 1350,
     "budgetTier": "budget",
     "events": [
       "festival",
@@ -1029,12 +1029,12 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Festive & Diwali Look 2",
     "category": "Festive & Diwali",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,festive?random=23",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 450,
+        "price": 300,
         "color": "Primary Color"
       },
       {
@@ -1047,18 +1047,18 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 100
+        "price": 50
       },
       {
         "name": "Secondary Accessory",
-        "price": 50
+        "price": 0
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 450
+      "price": 650
     },
-    "totalPrice": 1400,
+    "totalPrice": 1350,
     "budgetTier": "budget",
     "events": [
       "festival",
@@ -1077,25 +1077,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Festive & Diwali Look 3",
     "category": "Festive & Diwali",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a30ac09a7b66?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,festive?random=24",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 350,
+        "price": 550,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 300,
+        "price": 600,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 200
+        "price": 150
       },
       {
         "name": "Secondary Accessory",
@@ -1104,9 +1104,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 650
+      "price": 850
     },
-    "totalPrice": 1550,
+    "totalPrice": 2200,
     "budgetTier": "budget",
     "events": [
       "festival",
@@ -1125,36 +1125,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Festive & Diwali Look 4",
     "category": "Festive & Diwali",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9e2?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,festive?random=25",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 850,
+        "price": 900,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1050,
+        "price": 1150,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 550
+        "price": 150
       },
       {
         "name": "Secondary Accessory",
-        "price": 150
+        "price": 250
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2150
+      "price": 1100
     },
-    "totalPrice": 4750,
+    "totalPrice": 3550,
     "budgetTier": "mid-range",
     "events": [
       "festival",
@@ -1173,36 +1173,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Festive & Diwali Look 5",
     "category": "Festive & Diwali",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0b1e4cbe5e7e?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,festive?random=26",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1350,
+        "price": 1050,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 850,
+        "price": 750,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 150
+        "price": 350
       },
       {
         "name": "Secondary Accessory",
-        "price": 150
+        "price": 100
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1650
+      "price": 1050
     },
-    "totalPrice": 4150,
+    "totalPrice": 3300,
     "budgetTier": "mid-range",
     "events": [
       "festival",
@@ -1221,7 +1221,7 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Festive & Diwali Look 6",
     "category": "Festive & Diwali",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1550614000-4b95dd5e9854?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,festive?random=27",
     "items": [
       {
         "name": "Primary Top/Dress",
@@ -1232,25 +1232,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1150,
+        "price": 1100,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 400
+        "price": 550
       },
       {
         "name": "Secondary Accessory",
-        "price": 250
+        "price": 150
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1200
+      "price": 1650
     },
-    "totalPrice": 4000,
+    "totalPrice": 4450,
     "budgetTier": "mid-range",
     "events": [
       "festival",
@@ -1269,37 +1269,37 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Festive & Diwali Look 7",
     "category": "Festive & Diwali",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,festive?random=28",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3400,
+        "price": 2300,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 4150,
+        "price": 3850,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1400
+        "price": 1150
       },
       {
         "name": "Secondary Accessory",
-        "price": 650
+        "price": 250
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 5500
+      "price": 4650
     },
-    "totalPrice": 15100,
-    "budgetTier": "luxury",
+    "totalPrice": 12200,
+    "budgetTier": "premium",
     "events": [
       "festival",
       "party"
@@ -1317,36 +1317,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Festive & Diwali Look 8",
     "category": "Festive & Diwali",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,festive?random=29",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2350,
+        "price": 2450,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2850,
+        "price": 3350,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 500
+        "price": 600
       },
       {
         "name": "Secondary Accessory",
-        "price": 350
+        "price": 250
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2650
+      "price": 3000
     },
-    "totalPrice": 8700,
+    "totalPrice": 9650,
     "budgetTier": "premium",
     "events": [
       "festival",
@@ -1365,36 +1365,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Festive & Diwali Look 9",
     "category": "Festive & Diwali",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,festive?random=30",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3900,
+        "price": 2300,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 4100,
+        "price": 2600,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1550
+        "price": 1200
       },
       {
         "name": "Secondary Accessory",
-        "price": 400
+        "price": 500
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2350
+      "price": 3800
     },
-    "totalPrice": 12300,
+    "totalPrice": 10400,
     "budgetTier": "premium",
     "events": [
       "festival",
@@ -1413,36 +1413,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Festive & Diwali Look 10",
     "category": "Festive & Diwali",
     "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,festive?random=31",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 7150,
+        "price": 7100,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 9350,
+        "price": 6200,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 3200
+        "price": 3000
       },
       {
         "name": "Secondary Accessory",
-        "price": 1550
+        "price": 1000
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 5200
+      "price": 8100
     },
-    "totalPrice": 26450,
+    "totalPrice": 25400,
     "budgetTier": "luxury",
     "events": [
       "festival",
@@ -1461,36 +1461,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Party & Clubwear Look 1",
     "category": "Party & Clubwear",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,party?random=32",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 350,
+        "price": 400,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 350,
+        "price": 250,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 50
+        "price": 100
       },
       {
         "name": "Secondary Accessory",
-        "price": 50
+        "price": 100
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 200
+      "price": 250
     },
-    "totalPrice": 1000,
+    "totalPrice": 1100,
     "budgetTier": "budget",
     "events": [
       "party",
@@ -1510,18 +1510,18 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Party & Clubwear Look 2",
     "category": "Party & Clubwear",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,party?random=33",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 500,
+        "price": 450,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 600,
+        "price": 450,
         "color": "Secondary Color"
       }
     ],
@@ -1532,14 +1532,14 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       },
       {
         "name": "Secondary Accessory",
-        "price": 100
+        "price": 50
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 300
+      "price": 750
     },
-    "totalPrice": 1600,
+    "totalPrice": 1800,
     "budgetTier": "budget",
     "events": [
       "party",
@@ -1559,7 +1559,7 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Party & Clubwear Look 3",
     "category": "Party & Clubwear",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1502716115624-b58610eb67cd?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,party?random=34",
     "items": [
       {
         "name": "Primary Top/Dress",
@@ -1570,7 +1570,7 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 400,
+        "price": 350,
         "color": "Secondary Color"
       }
     ],
@@ -1581,14 +1581,14 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       },
       {
         "name": "Secondary Accessory",
-        "price": 50
+        "price": 0
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 200
+      "price": 800
     },
-    "totalPrice": 1200,
+    "totalPrice": 1700,
     "budgetTier": "budget",
     "events": [
       "party",
@@ -1608,36 +1608,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Party & Clubwear Look 4",
     "category": "Party & Clubwear",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,party?random=35",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1200,
+        "price": 1450,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1400,
+        "price": 1200,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 500
+        "price": 400
       },
       {
         "name": "Secondary Accessory",
-        "price": 150
+        "price": 200
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2200
+      "price": 1900
     },
-    "totalPrice": 5450,
+    "totalPrice": 5150,
     "budgetTier": "mid-range",
     "events": [
       "party",
@@ -1657,36 +1657,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Party & Clubwear Look 5",
     "category": "Party & Clubwear",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1554412933-414cd7d15243?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,party?random=36",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1400,
+        "price": 900,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 950,
+        "price": 1600,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 450
+        "price": 550
       },
       {
         "name": "Secondary Accessory",
-        "price": 150
+        "price": 100
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1400
+      "price": 1450
     },
-    "totalPrice": 4350,
+    "totalPrice": 4600,
     "budgetTier": "mid-range",
     "events": [
       "party",
@@ -1706,18 +1706,18 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Party & Clubwear Look 6",
     "category": "Party & Clubwear",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1475179427670-043e0617300c?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,party?random=37",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1000,
+        "price": 1400,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1350,
+        "price": 1250,
         "color": "Secondary Color"
       }
     ],
@@ -1728,14 +1728,14 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       },
       {
         "name": "Secondary Accessory",
-        "price": 200
+        "price": 250
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2000
+      "price": 850
     },
-    "totalPrice": 5100,
+    "totalPrice": 4300,
     "budgetTier": "mid-range",
     "events": [
       "party",
@@ -1755,7 +1755,7 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Party & Clubwear Look 7",
     "category": "Party & Clubwear",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1488161628813-0af8e0c81216?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,party?random=38",
     "items": [
       {
         "name": "Primary Top/Dress",
@@ -1766,25 +1766,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2000,
+        "price": 3500,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 550
+        "price": 450
       },
       {
         "name": "Secondary Accessory",
-        "price": 600
+        "price": 450
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 5150
+      "price": 4150
     },
-    "totalPrice": 11600,
+    "totalPrice": 11850,
     "budgetTier": "premium",
     "events": [
       "party",
@@ -1804,37 +1804,37 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Party & Clubwear Look 8",
     "category": "Party & Clubwear",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,party?random=39",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2450,
+        "price": 3600,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 4100,
+        "price": 4050,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1050
+        "price": 1500
       },
       {
         "name": "Secondary Accessory",
-        "price": 300
+        "price": 450
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 4250
+      "price": 5500
     },
-    "totalPrice": 12150,
-    "budgetTier": "premium",
+    "totalPrice": 15100,
+    "budgetTier": "luxury",
     "events": [
       "party",
       "club",
@@ -1853,36 +1853,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Party & Clubwear Look 9",
     "category": "Party & Clubwear",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,party?random=40",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2050,
+        "price": 2150,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2400,
+        "price": 2000,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 950
+        "price": 650
       },
       {
         "name": "Secondary Accessory",
-        "price": 550
+        "price": 750
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 3900
+      "price": 5400
     },
-    "totalPrice": 9850,
+    "totalPrice": 10950,
     "budgetTier": "premium",
     "events": [
       "party",
@@ -1902,36 +1902,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Party & Clubwear Look 10",
     "category": "Party & Clubwear",
     "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/photo-1508427953056-b4e50d75b341?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,party?random=41",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 8350,
+        "price": 5200,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 4850,
+        "price": 5600,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1150
+        "price": 1950
       },
       {
         "name": "Secondary Accessory",
-        "price": 1000
+        "price": 1850
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 8600
+      "price": 7350
     },
-    "totalPrice": 23950,
+    "totalPrice": 21950,
     "budgetTier": "luxury",
     "events": [
       "party",
@@ -1951,36 +1951,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Office & Corporate Look 1",
     "category": "Office & Corporate",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,office?random=42",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 300,
+        "price": 400,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 550,
+        "price": 350,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 100
+        "price": 50
       },
       {
         "name": "Secondary Accessory",
-        "price": 50
+        "price": 100
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 250
+      "price": 550
     },
-    "totalPrice": 1250,
+    "totalPrice": 1450,
     "budgetTier": "budget",
     "events": [
       "office",
@@ -1999,12 +1999,12 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Office & Corporate Look 2",
     "category": "Office & Corporate",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,office?random=43",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 400,
+        "price": 500,
         "color": "Primary Color"
       },
       {
@@ -2017,18 +2017,18 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 150
+        "price": 50
       },
       {
         "name": "Secondary Accessory",
-        "price": 0
+        "price": 50
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 200
+      "price": 500
     },
-    "totalPrice": 1200,
+    "totalPrice": 1550,
     "budgetTier": "budget",
     "events": [
       "office",
@@ -2047,7 +2047,7 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Office & Corporate Look 3",
     "category": "Office & Corporate",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a30ac09a7b66?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,office?random=44",
     "items": [
       {
         "name": "Primary Top/Dress",
@@ -2058,14 +2058,14 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 600,
+        "price": 350,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 150
+        "price": 100
       },
       {
         "name": "Secondary Accessory",
@@ -2074,9 +2074,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 400
+      "price": 750
     },
-    "totalPrice": 1600,
+    "totalPrice": 1650,
     "budgetTier": "budget",
     "events": [
       "office",
@@ -2095,25 +2095,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Office & Corporate Look 4",
     "category": "Office & Corporate",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9e2?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,office?random=45",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1300,
+        "price": 1150,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1400,
+        "price": 750,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 150
+        "price": 550
       },
       {
         "name": "Secondary Accessory",
@@ -2122,9 +2122,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1200
+      "price": 1100
     },
-    "totalPrice": 4200,
+    "totalPrice": 3700,
     "budgetTier": "mid-range",
     "events": [
       "office",
@@ -2143,12 +2143,12 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Office & Corporate Look 5",
     "category": "Office & Corporate",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0b1e4cbe5e7e?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,office?random=46",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 900,
+        "price": 800,
         "color": "Primary Color"
       },
       {
@@ -2161,59 +2161,11 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 350
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 50
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 700
-    },
-    "totalPrice": 3600,
-    "budgetTier": "mid-range",
-    "events": [
-      "office",
-      "work"
-    ],
-    "aesthetic": "Scandinavian Minimal",
-    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-46",
-    "title": "Office & Corporate Look 6",
-    "category": "Office & Corporate",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1550614000-4b95dd5e9854?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1100,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 350
-      },
-      {
-        "name": "Secondary Accessory",
         "price": 250
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 150
       }
     ],
     "shoes": {
@@ -2235,40 +2187,88 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ]
   },
   {
-    "id": "curated-47",
-    "title": "Office & Corporate Look 7",
+    "id": "curated-46",
+    "title": "Office & Corporate Look 6",
     "category": "Office & Corporate",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&q=80",
+    "gender": "female",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,office?random=47",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3650,
+        "price": 1300,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 3800,
+        "price": 1000,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1100
+        "price": 450
       },
       {
         "name": "Secondary Accessory",
-        "price": 650
+        "price": 200
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 4050
+      "price": 1450
     },
-    "totalPrice": 13250,
+    "totalPrice": 4400,
+    "budgetTier": "mid-range",
+    "events": [
+      "office",
+      "work"
+    ],
+    "aesthetic": "Scandinavian Minimal",
+    "stylingTip": "Style this Scandinavian Minimal look with confidence for your next office event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-47",
+    "title": "Office & Corporate Look 7",
+    "category": "Office & Corporate",
+    "gender": "male",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,office?random=48",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 2950,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 3750,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 450
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 750
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 1900
+    },
+    "totalPrice": 9800,
     "budgetTier": "premium",
     "events": [
       "office",
@@ -2287,36 +2287,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Office & Corporate Look 8",
     "category": "Office & Corporate",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,office?random=49",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3500,
+        "price": 2000,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2800,
+        "price": 2250,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 850
+        "price": 750
       },
       {
         "name": "Secondary Accessory",
-        "price": 600
+        "price": 750
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 5400
+      "price": 3850
     },
-    "totalPrice": 13150,
+    "totalPrice": 9600,
     "budgetTier": "premium",
     "events": [
       "office",
@@ -2335,36 +2335,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Office & Corporate Look 9",
     "category": "Office & Corporate",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,office?random=50",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2650,
+        "price": 3500,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2350,
+        "price": 2950,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 950
+        "price": 1550
       },
       {
         "name": "Secondary Accessory",
-        "price": 250
+        "price": 600
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2300
+      "price": 4200
     },
-    "totalPrice": 8500,
+    "totalPrice": 12800,
     "budgetTier": "premium",
     "events": [
       "office",
@@ -2383,25 +2383,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Office & Corporate Look 10",
     "category": "Office & Corporate",
     "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,office?random=51",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 7050,
+        "price": 7700,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 10950,
+        "price": 8000,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1050
+        "price": 2550
       },
       {
         "name": "Secondary Accessory",
@@ -2410,9 +2410,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 9450
+      "price": 10000
     },
-    "totalPrice": 29150,
+    "totalPrice": 28900,
     "budgetTier": "luxury",
     "events": [
       "office",
@@ -2431,36 +2431,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "College & Casual Look 1",
     "category": "College & Casual",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,college?random=52",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 450,
+        "price": 300,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 300,
+        "price": 450,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 150
+        "price": 100
       },
       {
         "name": "Secondary Accessory",
-        "price": 0
+        "price": 50
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 850
+      "price": 550
     },
-    "totalPrice": 1750,
+    "totalPrice": 1450,
     "budgetTier": "budget",
     "events": [
       "casual",
@@ -2479,36 +2479,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "College & Casual Look 2",
     "category": "College & Casual",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,college?random=53",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 400,
+        "price": 500,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 350,
+        "price": 450,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 200
+        "price": 150
       },
       {
         "name": "Secondary Accessory",
-        "price": 0
+        "price": 100
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 300
+      "price": 700
     },
-    "totalPrice": 1250,
+    "totalPrice": 1900,
     "budgetTier": "budget",
     "events": [
       "casual",
@@ -2527,36 +2527,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "College & Casual Look 3",
     "category": "College & Casual",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1502716115624-b58610eb67cd?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,college?random=54",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 500,
+        "price": 300,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 500,
+        "price": 600,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 200
+        "price": 150
       },
       {
         "name": "Secondary Accessory",
-        "price": 100
+        "price": 0
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 800
+      "price": 850
     },
-    "totalPrice": 2100,
+    "totalPrice": 1900,
     "budgetTier": "budget",
     "events": [
       "casual",
@@ -2575,36 +2575,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "College & Casual Look 4",
     "category": "College & Casual",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,college?random=55",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 900,
+        "price": 800,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1600,
+        "price": 850,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 400
+        "price": 450
       },
       {
         "name": "Secondary Accessory",
-        "price": 200
+        "price": 250
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1250
+      "price": 1100
     },
-    "totalPrice": 4350,
+    "totalPrice": 3450,
     "budgetTier": "mid-range",
     "events": [
       "casual",
@@ -2623,25 +2623,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "College & Casual Look 5",
     "category": "College & Casual",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1554412933-414cd7d15243?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,college?random=56",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1400,
+        "price": 1100,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1600,
+        "price": 1000,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 300
+        "price": 200
       },
       {
         "name": "Secondary Accessory",
@@ -2650,7 +2650,7 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 850
+      "price": 1850
     },
     "totalPrice": 4250,
     "budgetTier": "mid-range",
@@ -2671,36 +2671,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "College & Casual Look 6",
     "category": "College & Casual",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1475179427670-043e0617300c?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,college?random=57",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 800,
+        "price": 1250,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 700,
+        "price": 1400,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 250
+        "price": 200
       },
       {
         "name": "Secondary Accessory",
-        "price": 100
+        "price": 250
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 900
+      "price": 2000
     },
-    "totalPrice": 2750,
+    "totalPrice": 5100,
     "budgetTier": "mid-range",
     "events": [
       "casual",
@@ -2719,25 +2719,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "College & Casual Look 7",
     "category": "College & Casual",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1488161628813-0af8e0c81216?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,college?random=58",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2250,
+        "price": 3000,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2650,
+        "price": 2350,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 500
+        "price": 1250
       },
       {
         "name": "Secondary Accessory",
@@ -2746,9 +2746,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 4850
+      "price": 1650
     },
-    "totalPrice": 10950,
+    "totalPrice": 8950,
     "budgetTier": "premium",
     "events": [
       "casual",
@@ -2767,36 +2767,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "College & Casual Look 8",
     "category": "College & Casual",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,college?random=59",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2900,
+        "price": 2850,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 4150,
+        "price": 2900,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1500
+        "price": 1150
       },
       {
         "name": "Secondary Accessory",
-        "price": 250
+        "price": 650
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 4950
+      "price": 4800
     },
-    "totalPrice": 13750,
+    "totalPrice": 12350,
     "budgetTier": "premium",
     "events": [
       "casual",
@@ -2815,36 +2815,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "College & Casual Look 9",
     "category": "College & Casual",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,college?random=60",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3350,
+        "price": 2050,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 3350,
+        "price": 3500,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 550
+        "price": 1050
       },
       {
         "name": "Secondary Accessory",
-        "price": 650
+        "price": 750
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 5900
+      "price": 4200
     },
-    "totalPrice": 13800,
+    "totalPrice": 11550,
     "budgetTier": "premium",
     "events": [
       "casual",
@@ -2863,36 +2863,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "College & Casual Look 10",
     "category": "College & Casual",
     "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/photo-1508427953056-b4e50d75b341?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,college?random=61",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 8900,
+        "price": 6200,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 6950,
+        "price": 10650,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 2850
+        "price": 3700
       },
       {
         "name": "Secondary Accessory",
-        "price": 1200
+        "price": 900
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 14000
+      "price": 12250
     },
-    "totalPrice": 33900,
+    "totalPrice": 33700,
     "budgetTier": "luxury",
     "events": [
       "casual",
@@ -2911,18 +2911,18 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Date Night Look 1",
     "category": "Date Night",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,date?random=62",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 450,
+        "price": 300,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 300,
+        "price": 500,
         "color": "Secondary Color"
       }
     ],
@@ -2933,14 +2933,14 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       },
       {
         "name": "Secondary Accessory",
-        "price": 50
+        "price": 100
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 250
+      "price": 650
     },
-    "totalPrice": 1200,
+    "totalPrice": 1700,
     "budgetTier": "budget",
     "events": [
       "date-night",
@@ -2959,439 +2959,7 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Date Night Look 2",
     "category": "Date Night",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 450,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 200,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 50
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 450
-    },
-    "totalPrice": 1250,
-    "budgetTier": "budget",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-63",
-    "title": "Date Night Look 3",
-    "category": "Date Night",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a30ac09a7b66?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 400,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 300,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 50
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 600
-    },
-    "totalPrice": 1450,
-    "budgetTier": "budget",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-64",
-    "title": "Date Night Look 4",
-    "category": "Date Night",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9e2?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1250,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1250,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 500
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 650
-    },
-    "totalPrice": 3750,
-    "budgetTier": "mid-range",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-65",
-    "title": "Date Night Look 5",
-    "category": "Date Night",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0b1e4cbe5e7e?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 1050,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1250,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 200
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 2100
-    },
-    "totalPrice": 4700,
-    "budgetTier": "mid-range",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-66",
-    "title": "Date Night Look 6",
-    "category": "Date Night",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1550614000-4b95dd5e9854?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 950,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 900,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 450
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 1400
-    },
-    "totalPrice": 3900,
-    "budgetTier": "mid-range",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-67",
-    "title": "Date Night Look 7",
-    "category": "Date Night",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 3000,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2750,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1250
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 200
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 3050
-    },
-    "totalPrice": 10250,
-    "budgetTier": "premium",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-68",
-    "title": "Date Night Look 8",
-    "category": "Date Night",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2300,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2800,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 550
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 500
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 4550
-    },
-    "totalPrice": 10700,
-    "budgetTier": "premium",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-69",
-    "title": "Date Night Look 9",
-    "category": "Date Night",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 2600,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 2100,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1250
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 250
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 2300
-    },
-    "totalPrice": 8500,
-    "budgetTier": "premium",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-70",
-    "title": "Date Night Look 10",
-    "category": "Date Night",
-    "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 8900,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 9900,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 1000
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 1450
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 11250
-    },
-    "totalPrice": 32500,
-    "budgetTier": "luxury",
-    "events": [
-      "date-night",
-      "luxury-dinner"
-    ],
-    "aesthetic": "Minimal Luxury",
-    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-71",
-    "title": "Brunch & Weekend Look 1",
-    "category": "Brunch & Weekend",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,date?random=63",
     "items": [
       {
         "name": "Primary Top/Dress",
@@ -3413,69 +2981,21 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       },
       {
         "name": "Secondary Accessory",
-        "price": 100
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 650
-    },
-    "totalPrice": 1700,
-    "budgetTier": "budget",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-72",
-    "title": "Brunch & Weekend Look 2",
-    "category": "Brunch & Weekend",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 500,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 200
-      },
-      {
-        "name": "Secondary Accessory",
         "price": 50
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 450
+      "price": 350
     },
-    "totalPrice": 1700,
+    "totalPrice": 1350,
     "budgetTier": "budget",
     "events": [
-      "brunch",
-      "travel"
+      "date-night",
+      "luxury-dinner"
     ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
+    "aesthetic": "Minimal Luxury",
+    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
     "colors": [
       "#000000",
       "#FFFFFF",
@@ -3483,95 +3003,47 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ]
   },
   {
-    "id": "curated-73",
-    "title": "Brunch & Weekend Look 3",
-    "category": "Brunch & Weekend",
+    "id": "curated-63",
+    "title": "Date Night Look 3",
+    "category": "Date Night",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1502716115624-b58610eb67cd?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,date?random=64",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 400,
+        "price": 450,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 550,
+        "price": 350,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 100
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 50
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 300
-    },
-    "totalPrice": 1400,
-    "budgetTier": "budget",
-    "events": [
-      "brunch",
-      "travel"
-    ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-74",
-    "title": "Brunch & Weekend Look 4",
-    "category": "Brunch & Weekend",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 850,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 1200,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 450
-      },
-      {
-        "name": "Secondary Accessory",
         "price": 150
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 50
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1500
+      "price": 800
     },
-    "totalPrice": 4150,
-    "budgetTier": "mid-range",
+    "totalPrice": 1800,
+    "budgetTier": "budget",
     "events": [
-      "brunch",
-      "travel"
+      "date-night",
+      "luxury-dinner"
     ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
+    "aesthetic": "Minimal Luxury",
+    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
     "colors": [
       "#000000",
       "#FFFFFF",
@@ -3579,47 +3051,47 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ]
   },
   {
-    "id": "curated-75",
-    "title": "Brunch & Weekend Look 5",
-    "category": "Brunch & Weekend",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1554412933-414cd7d15243?w=600&q=80",
+    "id": "curated-64",
+    "title": "Date Night Look 4",
+    "category": "Date Night",
+    "gender": "female",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,date?random=65",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1000,
+        "price": 1400,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1550,
+        "price": 950,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 300
+        "price": 550
       },
       {
         "name": "Secondary Accessory",
-        "price": 250
+        "price": 100
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1800
+      "price": 1700
     },
-    "totalPrice": 4900,
+    "totalPrice": 4700,
     "budgetTier": "mid-range",
     "events": [
-      "brunch",
-      "travel"
+      "date-night",
+      "luxury-dinner"
     ],
-    "aesthetic": "Clean Girl",
-    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
+    "aesthetic": "Minimal Luxury",
+    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
     "colors": [
       "#000000",
       "#FFFFFF",
@@ -3627,16 +3099,16 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ]
   },
   {
-    "id": "curated-76",
-    "title": "Brunch & Weekend Look 6",
-    "category": "Brunch & Weekend",
-    "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1475179427670-043e0617300c?w=600&q=80",
+    "id": "curated-65",
+    "title": "Date Night Look 5",
+    "category": "Date Night",
+    "gender": "male",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,date?random=66",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 950,
+        "price": 800,
         "color": "Primary Color"
       },
       {
@@ -3658,9 +3130,537 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1250
+      "price": 850
     },
-    "totalPrice": 4000,
+    "totalPrice": 3450,
+    "budgetTier": "mid-range",
+    "events": [
+      "date-night",
+      "luxury-dinner"
+    ],
+    "aesthetic": "Minimal Luxury",
+    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-66",
+    "title": "Date Night Look 6",
+    "category": "Date Night",
+    "gender": "female",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,date?random=67",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 950,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 750,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 550
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 250
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 2000
+    },
+    "totalPrice": 4500,
+    "budgetTier": "mid-range",
+    "events": [
+      "date-night",
+      "luxury-dinner"
+    ],
+    "aesthetic": "Minimal Luxury",
+    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-67",
+    "title": "Date Night Look 7",
+    "category": "Date Night",
+    "gender": "male",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,date?random=68",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 2800,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 2250,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 1500
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 350
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 4850
+    },
+    "totalPrice": 11750,
+    "budgetTier": "premium",
+    "events": [
+      "date-night",
+      "luxury-dinner"
+    ],
+    "aesthetic": "Minimal Luxury",
+    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-68",
+    "title": "Date Night Look 8",
+    "category": "Date Night",
+    "gender": "female",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,date?random=69",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 3050,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 3600,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 600
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 400
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 5700
+    },
+    "totalPrice": 13350,
+    "budgetTier": "premium",
+    "events": [
+      "date-night",
+      "luxury-dinner"
+    ],
+    "aesthetic": "Minimal Luxury",
+    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-69",
+    "title": "Date Night Look 9",
+    "category": "Date Night",
+    "gender": "male",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,date?random=70",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 2950,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 2650,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 1050
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 750
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 2900
+    },
+    "totalPrice": 10300,
+    "budgetTier": "premium",
+    "events": [
+      "date-night",
+      "luxury-dinner"
+    ],
+    "aesthetic": "Minimal Luxury",
+    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-70",
+    "title": "Date Night Look 10",
+    "category": "Date Night",
+    "gender": "unisex",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,date?random=71",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 6450,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 7600,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 1600
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 1050
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 9950
+    },
+    "totalPrice": 26650,
+    "budgetTier": "luxury",
+    "events": [
+      "date-night",
+      "luxury-dinner"
+    ],
+    "aesthetic": "Minimal Luxury",
+    "stylingTip": "Style this Minimal Luxury look with confidence for your next date-night event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-71",
+    "title": "Brunch & Weekend Look 1",
+    "category": "Brunch & Weekend",
+    "gender": "male",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,brunch?random=72",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 450,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 500,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 100
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 0
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 300
+    },
+    "totalPrice": 1350,
+    "budgetTier": "budget",
+    "events": [
+      "brunch",
+      "travel"
+    ],
+    "aesthetic": "Clean Girl",
+    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-72",
+    "title": "Brunch & Weekend Look 2",
+    "category": "Brunch & Weekend",
+    "gender": "female",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,brunch?random=73",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 250,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 600,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 150
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 50
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 350
+    },
+    "totalPrice": 1400,
+    "budgetTier": "budget",
+    "events": [
+      "brunch",
+      "travel"
+    ],
+    "aesthetic": "Clean Girl",
+    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-73",
+    "title": "Brunch & Weekend Look 3",
+    "category": "Brunch & Weekend",
+    "gender": "male",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,brunch?random=74",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 400,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 550,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 50
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 50
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 600
+    },
+    "totalPrice": 1650,
+    "budgetTier": "budget",
+    "events": [
+      "brunch",
+      "travel"
+    ],
+    "aesthetic": "Clean Girl",
+    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-74",
+    "title": "Brunch & Weekend Look 4",
+    "category": "Brunch & Weekend",
+    "gender": "female",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,brunch?random=75",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 900,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 1150,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 450
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 200
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 1350
+    },
+    "totalPrice": 4050,
+    "budgetTier": "mid-range",
+    "events": [
+      "brunch",
+      "travel"
+    ],
+    "aesthetic": "Clean Girl",
+    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-75",
+    "title": "Brunch & Weekend Look 5",
+    "category": "Brunch & Weekend",
+    "gender": "male",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,brunch?random=76",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 900,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 1500,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 250
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 200
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 950
+    },
+    "totalPrice": 3800,
+    "budgetTier": "mid-range",
+    "events": [
+      "brunch",
+      "travel"
+    ],
+    "aesthetic": "Clean Girl",
+    "stylingTip": "Style this Clean Girl look with confidence for your next brunch event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-76",
+    "title": "Brunch & Weekend Look 6",
+    "category": "Brunch & Weekend",
+    "gender": "female",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,brunch?random=77",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 1300,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 700,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 450
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 150
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 1300
+    },
+    "totalPrice": 3900,
     "budgetTier": "mid-range",
     "events": [
       "brunch",
@@ -3679,36 +3679,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Brunch & Weekend Look 7",
     "category": "Brunch & Weekend",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1488161628813-0af8e0c81216?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,brunch?random=78",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3800,
+        "price": 3000,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2350,
+        "price": 3900,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 700
+        "price": 400
       },
       {
         "name": "Secondary Accessory",
-        "price": 400
+        "price": 200
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2050
+      "price": 2850
     },
-    "totalPrice": 9300,
+    "totalPrice": 10350,
     "budgetTier": "premium",
     "events": [
       "brunch",
@@ -3727,36 +3727,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Brunch & Weekend Look 8",
     "category": "Brunch & Weekend",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,brunch?random=79",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3400,
+        "price": 2200,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2350,
+        "price": 3250,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 450
+        "price": 1200
       },
       {
         "name": "Secondary Accessory",
-        "price": 700
+        "price": 650
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1650
+      "price": 2350
     },
-    "totalPrice": 8550,
+    "totalPrice": 9650,
     "budgetTier": "premium",
     "events": [
       "brunch",
@@ -3775,36 +3775,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Brunch & Weekend Look 9",
     "category": "Brunch & Weekend",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,brunch?random=80",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2350,
+        "price": 2450,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 4000,
+        "price": 1850,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 700
+        "price": 850
       },
       {
         "name": "Secondary Accessory",
-        "price": 350
+        "price": 650
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 4550
+      "price": 4700
     },
-    "totalPrice": 11950,
+    "totalPrice": 10500,
     "budgetTier": "premium",
     "events": [
       "brunch",
@@ -3823,36 +3823,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Brunch & Weekend Look 10",
     "category": "Brunch & Weekend",
     "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/photo-1508427953056-b4e50d75b341?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,brunch?random=81",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 7600,
+        "price": 6900,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 4650,
+        "price": 9000,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1600
+        "price": 1450
       },
       {
         "name": "Secondary Accessory",
-        "price": 600
+        "price": 1300
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 14150
+      "price": 13950
     },
-    "totalPrice": 28600,
+    "totalPrice": 32600,
     "budgetTier": "luxury",
     "events": [
       "brunch",
@@ -3871,25 +3871,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Korean & Minimal Look 1",
     "category": "Korean & Minimal",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,korean?random=82",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 450,
+        "price": 550,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 250,
+        "price": 400,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 50
+        "price": 150
       },
       {
         "name": "Secondary Accessory",
@@ -3898,9 +3898,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 350
+      "price": 550
     },
-    "totalPrice": 1150,
+    "totalPrice": 1700,
     "budgetTier": "budget",
     "events": [
       "casual",
@@ -3919,55 +3919,7 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Korean & Minimal Look 2",
     "category": "Korean & Minimal",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
-    "items": [
-      {
-        "name": "Primary Top/Dress",
-        "type": "Top",
-        "price": 500,
-        "color": "Primary Color"
-      },
-      {
-        "name": "Matching Bottom",
-        "type": "Bottom",
-        "price": 550,
-        "color": "Secondary Color"
-      }
-    ],
-    "accessories": [
-      {
-        "name": "Statement Piece",
-        "price": 150
-      },
-      {
-        "name": "Secondary Accessory",
-        "price": 0
-      }
-    ],
-    "shoes": {
-      "name": "Signature Footwear",
-      "price": 300
-    },
-    "totalPrice": 1500,
-    "budgetTier": "budget",
-    "events": [
-      "casual",
-      "date-night"
-    ],
-    "aesthetic": "Korean Casual",
-    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
-    "colors": [
-      "#000000",
-      "#FFFFFF",
-      "#888888"
-    ]
-  },
-  {
-    "id": "curated-83",
-    "title": "Korean & Minimal Look 3",
-    "category": "Korean & Minimal",
-    "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a30ac09a7b66?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,korean?random=83",
     "items": [
       {
         "name": "Primary Top/Dress",
@@ -3989,14 +3941,62 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       },
       {
         "name": "Secondary Accessory",
-        "price": 0
+        "price": 50
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 750
+      "price": 500
     },
-    "totalPrice": 2050,
+    "totalPrice": 1850,
+    "budgetTier": "budget",
+    "events": [
+      "casual",
+      "date-night"
+    ],
+    "aesthetic": "Korean Casual",
+    "stylingTip": "Style this Korean Casual look with confidence for your next casual event.",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#888888"
+    ]
+  },
+  {
+    "id": "curated-83",
+    "title": "Korean & Minimal Look 3",
+    "category": "Korean & Minimal",
+    "gender": "male",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,korean?random=84",
+    "items": [
+      {
+        "name": "Primary Top/Dress",
+        "type": "Top",
+        "price": 450,
+        "color": "Primary Color"
+      },
+      {
+        "name": "Matching Bottom",
+        "type": "Bottom",
+        "price": 250,
+        "color": "Secondary Color"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Statement Piece",
+        "price": 150
+      },
+      {
+        "name": "Secondary Accessory",
+        "price": 100
+      }
+    ],
+    "shoes": {
+      "name": "Signature Footwear",
+      "price": 250
+    },
+    "totalPrice": 1200,
     "budgetTier": "budget",
     "events": [
       "casual",
@@ -4015,36 +4015,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Korean & Minimal Look 4",
     "category": "Korean & Minimal",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9e2?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,korean?random=85",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1100,
+        "price": 1350,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1200,
+        "price": 700,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 400
+        "price": 450
       },
       {
         "name": "Secondary Accessory",
-        "price": 250
+        "price": 100
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1400
+      "price": 600
     },
-    "totalPrice": 4350,
+    "totalPrice": 3200,
     "budgetTier": "mid-range",
     "events": [
       "casual",
@@ -4063,36 +4063,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Korean & Minimal Look 5",
     "category": "Korean & Minimal",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0b1e4cbe5e7e?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,korean?random=86",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1000,
+        "price": 900,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1550,
+        "price": 1350,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 500
+        "price": 200
       },
       {
         "name": "Secondary Accessory",
-        "price": 200
+        "price": 250
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1850
+      "price": 950
     },
-    "totalPrice": 5100,
+    "totalPrice": 3650,
     "budgetTier": "mid-range",
     "events": [
       "casual",
@@ -4111,36 +4111,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Korean & Minimal Look 6",
     "category": "Korean & Minimal",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1550614000-4b95dd5e9854?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,korean?random=87",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 850,
+        "price": 800,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1400,
+        "price": 1050,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 500
+        "price": 250
       },
       {
         "name": "Secondary Accessory",
-        "price": 100
+        "price": 150
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1750
+      "price": 1200
     },
-    "totalPrice": 4600,
+    "totalPrice": 3450,
     "budgetTier": "mid-range",
     "events": [
       "casual",
@@ -4159,25 +4159,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Korean & Minimal Look 7",
     "category": "Korean & Minimal",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,korean?random=88",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3600,
+        "price": 3950,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2100,
+        "price": 1800,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1150
+        "price": 550
       },
       {
         "name": "Secondary Accessory",
@@ -4186,9 +4186,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 4600
+      "price": 4350
     },
-    "totalPrice": 11650,
+    "totalPrice": 10850,
     "budgetTier": "premium",
     "events": [
       "casual",
@@ -4207,36 +4207,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Korean & Minimal Look 8",
     "category": "Korean & Minimal",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,korean?random=89",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2600,
+        "price": 2000,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 3900,
+        "price": 2450,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 950
+        "price": 1350
       },
       {
         "name": "Secondary Accessory",
-        "price": 400
+        "price": 750
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 4950
+      "price": 5350
     },
-    "totalPrice": 12800,
+    "totalPrice": 11900,
     "budgetTier": "premium",
     "events": [
       "casual",
@@ -4255,36 +4255,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Korean & Minimal Look 9",
     "category": "Korean & Minimal",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,korean?random=90",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2600,
+        "price": 3700,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 2350,
+        "price": 2000,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 500
+        "price": 1150
       },
       {
         "name": "Secondary Accessory",
-        "price": 200
+        "price": 700
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 5950
+      "price": 3950
     },
-    "totalPrice": 11600,
+    "totalPrice": 11500,
     "budgetTier": "premium",
     "events": [
       "casual",
@@ -4303,36 +4303,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Korean & Minimal Look 10",
     "category": "Korean & Minimal",
     "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,korean?random=91",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 7800,
+        "price": 9600,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 10750,
+        "price": 8950,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1150
+        "price": 3450
       },
       {
         "name": "Secondary Accessory",
-        "price": 1700
+        "price": 1350
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 11750
+      "price": 12650
     },
-    "totalPrice": 33150,
+    "totalPrice": 36000,
     "budgetTier": "luxury",
     "events": [
       "casual",
@@ -4351,18 +4351,18 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Luxury Editorial Look 1",
     "category": "Luxury Editorial",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,luxury?random=92",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 550,
+        "price": 350,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 350,
+        "price": 600,
         "color": "Secondary Color"
       }
     ],
@@ -4373,14 +4373,14 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       },
       {
         "name": "Secondary Accessory",
-        "price": 0
+        "price": 100
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 350
+      "price": 450
     },
-    "totalPrice": 1350,
+    "totalPrice": 1600,
     "budgetTier": "budget",
     "events": [
       "photoshoot",
@@ -4399,18 +4399,18 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Luxury Editorial Look 2",
     "category": "Luxury Editorial",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,luxury?random=93",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 350,
+        "price": 500,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 250,
+        "price": 450,
         "color": "Secondary Color"
       }
     ],
@@ -4421,14 +4421,14 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       },
       {
         "name": "Secondary Accessory",
-        "price": 0
+        "price": 50
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 450
+      "price": 300
     },
-    "totalPrice": 1100,
+    "totalPrice": 1350,
     "budgetTier": "budget",
     "events": [
       "photoshoot",
@@ -4447,18 +4447,18 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Luxury Editorial Look 3",
     "category": "Luxury Editorial",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1502716115624-b58610eb67cd?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,luxury?random=94",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 550,
+        "price": 250,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 450,
+        "price": 400,
         "color": "Secondary Color"
       }
     ],
@@ -4469,14 +4469,14 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
       },
       {
         "name": "Secondary Accessory",
-        "price": 0
+        "price": 50
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
       "price": 600
     },
-    "totalPrice": 1650,
+    "totalPrice": 1350,
     "budgetTier": "budget",
     "events": [
       "photoshoot",
@@ -4495,25 +4495,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Luxury Editorial Look 4",
     "category": "Luxury Editorial",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,luxury?random=95",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1100,
+        "price": 950,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1450,
+        "price": 1400,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 550
+        "price": 450
       },
       {
         "name": "Secondary Accessory",
@@ -4522,9 +4522,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 2000
+      "price": 700
     },
-    "totalPrice": 5250,
+    "totalPrice": 3650,
     "budgetTier": "mid-range",
     "events": [
       "photoshoot",
@@ -4543,36 +4543,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Luxury Editorial Look 5",
     "category": "Luxury Editorial",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1554412933-414cd7d15243?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,luxury?random=96",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1050,
+        "price": 900,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 1500,
+        "price": 1550,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 400
+        "price": 250
       },
       {
         "name": "Secondary Accessory",
-        "price": 200
+        "price": 250
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 900
+      "price": 1850
     },
-    "totalPrice": 4050,
+    "totalPrice": 4800,
     "budgetTier": "mid-range",
     "events": [
       "photoshoot",
@@ -4591,36 +4591,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Luxury Editorial Look 6",
     "category": "Luxury Editorial",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1475179427670-043e0617300c?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,luxury?random=97",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 1050,
+        "price": 950,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 950,
+        "price": 1150,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 450
+        "price": 200
       },
       {
         "name": "Secondary Accessory",
-        "price": 100
+        "price": 150
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 1200
+      "price": 1700
     },
-    "totalPrice": 3750,
+    "totalPrice": 4150,
     "budgetTier": "mid-range",
     "events": [
       "photoshoot",
@@ -4639,36 +4639,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Luxury Editorial Look 7",
     "category": "Luxury Editorial",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1488161628813-0af8e0c81216?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,luxury?random=98",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 2150,
+        "price": 3500,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 3850,
+        "price": 2450,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1100
+        "price": 1450
       },
       {
         "name": "Secondary Accessory",
-        "price": 600
+        "price": 300
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 4200
+      "price": 5000
     },
-    "totalPrice": 11900,
+    "totalPrice": 12700,
     "budgetTier": "premium",
     "events": [
       "photoshoot",
@@ -4687,36 +4687,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Luxury Editorial Look 8",
     "category": "Luxury Editorial",
     "gender": "female",
-    "imageUrl": "https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,luxury?random=99",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3500,
+        "price": 2350,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 3000,
+        "price": 3950,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1250
+        "price": 500
       },
       {
         "name": "Secondary Accessory",
-        "price": 250
+        "price": 300
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 4000
+      "price": 5750
     },
-    "totalPrice": 12000,
+    "totalPrice": 12850,
     "budgetTier": "premium",
     "events": [
       "photoshoot",
@@ -4735,25 +4735,25 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Luxury Editorial Look 9",
     "category": "Luxury Editorial",
     "gender": "male",
-    "imageUrl": "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,luxury?random=100",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 3350,
+        "price": 3150,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 4350,
+        "price": 3250,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1150
+        "price": 1450
       },
       {
         "name": "Secondary Accessory",
@@ -4762,9 +4762,9 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 4450
+      "price": 2100
     },
-    "totalPrice": 13650,
+    "totalPrice": 10300,
     "budgetTier": "premium",
     "events": [
       "photoshoot",
@@ -4783,36 +4783,36 @@ export const CURATED_OUTFITS: CuratedOutfit[] = [
     "title": "Luxury Editorial Look 10",
     "category": "Luxury Editorial",
     "gender": "unisex",
-    "imageUrl": "https://images.unsplash.com/photo-1508427953056-b4e50d75b341?w=600&q=80",
+    "imageUrl": "https://loremflickr.com/600/800/fashion,luxury?random=101",
     "items": [
       {
         "name": "Primary Top/Dress",
         "type": "Top",
-        "price": 5100,
+        "price": 8000,
         "color": "Primary Color"
       },
       {
         "name": "Matching Bottom",
         "type": "Bottom",
-        "price": 7750,
+        "price": 8600,
         "color": "Secondary Color"
       }
     ],
     "accessories": [
       {
         "name": "Statement Piece",
-        "price": 1650
+        "price": 3900
       },
       {
         "name": "Secondary Accessory",
-        "price": 1950
+        "price": 1150
       }
     ],
     "shoes": {
       "name": "Signature Footwear",
-      "price": 6100
+      "price": 13550
     },
-    "totalPrice": 22550,
+    "totalPrice": 35200,
     "budgetTier": "luxury",
     "events": [
       "photoshoot",

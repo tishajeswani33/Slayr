@@ -64,15 +64,15 @@ categories.forEach((cat, catIndex) => {
 
     const total = item1Price + item2Price + acc1Price + acc2Price + shoePrice;
     
-    // Select a pseudo-random image from the valid list
-    const imageId = validImageIds[(catIndex * 10 + i) % validImageIds.length];
+    // Generate a unique fashion image using loremflickr
+    const imageKeyword = encodeURIComponent(cat.name.split(' ')[0].toLowerCase());
 
     outfits.push({
       id: `curated-${idCounter++}`,
       title: `${cat.name} Look ${i + 1}`,
       category: cat.name,
       gender: gender,
-      imageUrl: `https://images.unsplash.com/photo-${imageId}?w=600&q=80`,
+      imageUrl: `https://loremflickr.com/600/800/fashion,${imageKeyword}?random=${idCounter}`,
       items: [
         { name: 'Primary Top/Dress', type: 'Top', price: item1Price, color: 'Primary Color' },
         { name: 'Matching Bottom', type: 'Bottom', price: item2Price, color: 'Secondary Color' }
