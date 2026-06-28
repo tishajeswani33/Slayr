@@ -14,54 +14,65 @@ const categories = [
   { name: 'Luxury Editorial', keywords: 'luxury,editorial,runway,fashion', events: ['photoshoot', 'luxury-dinner'], aesthetic: 'Futuristic Editorial' }
 ];
 
+const validImageIds = [
+  "1490481651871-ab68de25d43d", "1515886657613-9f3515b0c78f", "1529139574466-a30ac09a7b66",
+  "1485230895905-ec40ba36b9e2", "1509631179647-0b1e4cbe5e7e", "1550614000-4b95dd5e9854",
+  "1483985988355-763728e1935b", "1496747611176-843222e1e57c", "1445205170230-053b83016050",
+  "1512436991641-6745cdb1723f", "1532453288672-3a27e9be9efd", "1503342394128-c104d54dba01",
+  "1502716115624-b58610eb67cd", "1487222477894-8943e31ef7b2", "1554412933-414cd7d15243",
+  "1475179427670-043e0617300c", "1488161628813-0af8e0c81216", "1492707892479-7bc8d5a4ee93",
+  "1500917293891-ef795e70e1f6", "1508427953056-b4e50d75b341"
+];
+
 const outfits = [];
-let sigCounter = 1000;
 let idCounter = 1;
 
 function getBudgetTier(total) {
-  if (total < 5000) return 'budget';
-  if (total <= 15000) return 'mid-range';
-  if (total <= 50000) return 'premium';
+  if (total < 2500) return 'budget';
+  if (total <= 6000) return 'mid-range';
+  if (total <= 15000) return 'premium';
   return 'luxury';
 }
 
 function randomPrice(min, max) {
-  return Math.floor((Math.random() * (max - min) + min) / 100) * 100;
+  return Math.floor((Math.random() * (max - min) + min) / 50) * 50; // Round to nearest 50
 }
 
 categories.forEach((cat, catIndex) => {
   for (let i = 0; i < 10; i++) {
-    sigCounter++;
     const isMale = i % 2 === 0;
     const gender = i === 9 ? 'unisex' : (isMale ? 'male' : 'female');
     
-    // Vary budget tier by index to ensure diversity
-    let minTopPrice = 1000;
-    let maxTopPrice = 3000;
+    // Vary budget tier by index to ensure diversity, with much lower realistic prices
+    let minTopPrice = 300;
+    let maxTopPrice = 800;
     if (i < 3) {
-      minTopPrice = 500; maxTopPrice = 1500; // budget
+      minTopPrice = 250; maxTopPrice = 600; // budget (Total < 2000)
     } else if (i < 6) {
-      minTopPrice = 2000; maxTopPrice = 5000; // mid-range
+      minTopPrice = 800; maxTopPrice = 1500; // mid-range (Total < 5000)
     } else if (i < 9) {
-      minTopPrice = 6000; maxTopPrice = 15000; // premium
+      minTopPrice = 2000; maxTopPrice = 4000; // premium (Total < 12000)
     } else {
-      minTopPrice = 20000; maxTopPrice = 50000; // luxury
+      minTopPrice = 5000; maxTopPrice = 10000; // luxury
     }
 
     const item1Price = randomPrice(minTopPrice, maxTopPrice);
-    const item2Price = randomPrice(minTopPrice * 0.8, maxTopPrice * 0.8);
-    const acc1Price = randomPrice(minTopPrice * 0.3, maxTopPrice * 0.3);
-    const acc2Price = randomPrice(minTopPrice * 0.2, maxTopPrice * 0.2);
-    const shoePrice = randomPrice(minTopPrice * 0.8, maxTopPrice * 1.2);
+    const item2Price = randomPrice(minTopPrice * 0.9, maxTopPrice * 1.1);
+    const acc1Price = randomPrice(minTopPrice * 0.2, maxTopPrice * 0.4);
+    const acc2Price = randomPrice(minTopPrice * 0.1, maxTopPrice * 0.2);
+    const shoePrice = randomPrice(minTopPrice * 0.8, maxTopPrice * 1.5);
 
     const total = item1Price + item2Price + acc1Price + acc2Price + shoePrice;
+    
+    // Select a pseudo-random image from the valid list
+    const imageId = validImageIds[(catIndex * 10 + i) % validImageIds.length];
 
     outfits.push({
       id: `curated-${idCounter++}`,
       title: `${cat.name} Look ${i + 1}`,
       category: cat.name,
       gender: gender,
-      imageUrl: `https://images.unsplash.com/featured/?${cat.keywords}&sig=${sigCounter}`,
+      imageUrl: `https://images.unsplash.com/photo-${imageId}?w=600&q=80`,
       items: [
         { name: 'Primary Top/Dress', type: 'Top', price: item1Price, color: 'Primary Color' },
         { name: 'Matching Bottom', type: 'Bottom', price: item2Price, color: 'Secondary Color' }
