@@ -53,8 +53,13 @@ Return ONLY valid JSON (no markdown, no explanation) with this exact structure:
 }
 
 RULES:
-- Score: 1-100 based on cohesion, fit, color harmony, and trend alignment
-- Aesthetic: Choose from: Streetwear, Old Money, Clean Girl, Y2K, Dark Academia, Minimal Luxury, Techwear, Vintage, Scandinavian Minimal, Korean Casual
+- Score: Compute a real, precise score from 1 to 100 based strictly on this rubric (do NOT just return 85 or repeat the example score):
+  1. Color Harmony (Max 25): Cohesive palette, analogous/complementary balance, focal contrast.
+  2. Fit & Proportions (Max 25): Tailoring, silhouette structure, layering proportions.
+  3. Cohesion & Styling (Max 25): Fabric texture compatibility, accessory choice alignment.
+  4. Trend & Context Relevance (Max 25): Current style relevancy for Gen Z aesthetics.
+  Ensure the final returned score is the sum of these four categories and reflects the actual outfit details.
+- Aesthetic: Choose from: Streetwear, Old Money, Clean Girl, Y2K, Dark Academia, Minimal Luxury, Techwear, Vintage, Scandinavian Minimal, Korean Casual, Quiet Luxury, Pinterest Core, TikTok Viral, Monochrome Minimal, Indian Ethnic, Desi Core, Indo-Western
 - Vibe: One concise sentence describing the overall feeling
 - Clothing Items: List 2-5 visible pieces
 - Color Palette: 2-4 dominant colors with hex codes
