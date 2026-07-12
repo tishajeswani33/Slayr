@@ -1,5 +1,6 @@
-import { apiRequest } from './api';
+import { GeminiAnalysisResult, analyzeOutfitWithGemini } from './gemini';
 import { OutfitAnalysis } from '../types/outfit';
+import { analyzeImageClientSide } from '../utils/imageUtils';
 
 export async function analyzeAndSaveOutfit(
   imageFile: File,
@@ -9,16 +10,13 @@ export async function analyzeAndSaveOutfit(
     // 1. Convert image to base64
     const base64Image = await imageToBase64(imageFile);
 
-    // 2. Query our Express AI Vision backend API
-    const res = await apiRequest<{ outfit: any }>('/api/outfits/analyze', 'POST', {
-      imageBase64: base64Image,
-    });
+    // 2. Query Gemini directly
+    const o: GeminiAnalysisResult = await analyzeOutfitWithGemini(base64Image);
 
-    const o = res.outfit;
     return {
-      id: o.id,
-      userId: o.userId,
-      imageUrl: o.imageUrl,
+      id: 'demo-' + Date.now(),
+      userId: _userId,
+      imageUrl: URL.createObjectURL(imageFile),
       score: o.score,
       aesthetic: o.aesthetic,
       vibe: o.vibe,
@@ -30,7 +28,7 @@ export async function analyzeAndSaveOutfit(
     };
   } catch (error) {
     console.error('❌ Outfit analysis failed, falling back to client-side emulation:', error);
-    return getMockAnalysis(imageFile);
+    return await analyzeImageClientSide(imageFile);
   }
 }
 
@@ -48,23 +46,3 @@ function imageToBase64(file: File): Promise<string> {
   });
 }
 
-function getMockAnalysis(file: File): OutfitAnalysis {
-  return {
-    id: 'demo-' + Date.now(),
-    imageUrl: URL.createObjectURL(file),
-    score: 88,
-    aesthetic: 'Minimal Luxury',
-    vibe: 'Sophisticated minimalist layout with neutral tonal contrast.',
-    clothingItems: [
-      { type: 'Coat', color: 'Camel', description: 'Tailored wool coat' }
-    ],
-    colorPalette: [
-      { hex: '#C9B896', name: 'Camel Beige', dominance: 60 }
-    ],
-    recommendations: [
-      { category: 'Fit', suggestion: 'Contrast high shapes', reasoning: 'Accents broad contrast coordinates' }
-    ],
-    suggestedAccessories: ['Gold watch', 'Black sunglasses'],
-    fashionTags: ['cohesive', 'tonal', 'understated'],
-  };
-}
